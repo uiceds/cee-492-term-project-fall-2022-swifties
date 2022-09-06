@@ -24,8 +24,9 @@ authors:
     affiliations:
       - Illinois Center for Transportation (ICT)
       - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
-        - github: diablara
-    github: fsaudm
+    funders:
+      - Grant XXXXXXXX
+  - github: fsaudm
     name: Farid Saud
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
@@ -34,7 +35,7 @@ authors:
       - Department of Civil Engineering, University of Illinois
     funders:
       - Grant XXXXXXXX
-    github: Johann-Cardenas
+  - github: Johann-Cardenas
     name: Johann J Cardenas Huaman
     orcid: 0000-0002-4695-7639
     twitter: @transporte_pe
