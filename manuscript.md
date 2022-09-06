@@ -8,7 +8,7 @@ lang: en-US
 date-meta: '2022-09-06'
 author-meta:
 - John Doe
-- Jane Roe
+- Renan Santos Maia
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,19 +31,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Renan Santos Maia" />
+  <meta name="citation_author_institution" content="Illinois Center for Transportation (ICT)" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
+  <meta name="citation_author_orcid" content="0000-0002-0877-4006" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/946e904d12c995e469d26f6853bc5b1343672e51/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/946e904d12c995e469d26f6853bc5b1343672e51/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/946e904d12c995e469d26f6853bc5b1343672e51/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/946e904d12c995e469d26f6853bc5b1343672e51/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@946e904](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/946e904d12c995e469d26f6853bc5b1343672e51)
+from [uiceds/cee-492-term-project-fall-2022-swifties@ceb1097](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ceb109700e461de5c08be38c72168e38bb8cecc2)
 on September 6, 2022.
 </em></small>
 
@@ -87,13 +87,13 @@ on September 6, 2022.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**<br>
++ **Renan Santos Maia**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-0877-4006](https://orcid.org/0000-0002-0877-4006)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [renanssmaia](https://github.com/renanssmaia)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
   </small>
 
 
@@ -401,6 +401,8 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 # This is and introduction
 
+
+This is Introduction.
 
 ## References {.page_break_before}
 
