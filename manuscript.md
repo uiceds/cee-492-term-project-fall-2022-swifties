@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: CEE 492 Data Science Project - Swifties
 keywords:
 - markdown
 - publishing
@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2022-09-06'
 author-meta:
-- John Doe
+- Lara Diab
 - Renan Santos Maia
 header-includes: |-
   <!--
@@ -15,10 +15,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="CEE 492 Data Science Project - Swifties" />
+  <meta name="citation_title" content="CEE 492 Data Science Project - Swifties" />
+  <meta property="og:title" content="CEE 492 Data Science Project - Swifties" />
+  <meta property="twitter:title" content="CEE 492 Data Science Project - Swifties" />
   <meta name="dc.date" content="2022-09-06" />
   <meta name="citation_publication_date" content="2022-09-06" />
   <meta name="dc.language" content="en-US" />
@@ -27,8 +27,8 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Lara Diab" />
+  <meta name="citation_author_institution" content="Department of Civil Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Renan Santos Maia" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ceb109700e461de5c08be38c72168e38bb8cecc2/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@ceb1097](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ceb109700e461de5c08be38c72168e38bb8cecc2)
+from [uiceds/cee-492-term-project-fall-2022-swifties@de11b79](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd)
 on September 6, 2022.
 </em></small>
 
@@ -75,15 +75,15 @@ on September 6, 2022.
 
 
 
-+ **John Doe**<br>
++ **Lara Diab**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [diablara](https://github.com/diablara)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
-     Department of Something, University of Whatever
+     Department of Civil Engineering, University of Illinois
      · Funded by Grant XXXXXXXX
   </small>
 
