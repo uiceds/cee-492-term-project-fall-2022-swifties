@@ -9,6 +9,8 @@ date-meta: '2022-09-06'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
+- Farid Saud
+- Johann J Cardenas Huaman
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -35,15 +37,23 @@ header-includes: |-
   <meta name="citation_author_institution" content="Illinois Center for Transportation (ICT)" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="0000-0002-0877-4006" />
+  <meta name="citation_author" content="Farid Saud" />
+  <meta name="citation_author_institution" content="Department of Civil Engineering, University of Illinois" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author" content="Johann J Cardenas Huaman" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign" />
+  <meta name="citation_author_orcid" content="0000-0002-4695-7639" />
+  <meta name="twitter:creator" content="@transporte_pe" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@de11b79](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/de11b79ef63a5251e8a997ea2d1b1634c1d26cbd)
+from [uiceds/cee-492-term-project-fall-2022-swifties@9296da6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/9296da66e218924e2b775d3c092e9003030e8620)
 on September 6, 2022.
 </em></small>
 
@@ -84,7 +94,7 @@ on September 6, 2022.
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
      Department of Civil Engineering, University of Illinois
-     · Funded by Grant XXXXXXXX
+     · Funded by Grant XXX
   </small>
 
 + **Renan Santos Maia**<br>
@@ -94,6 +104,31 @@ on September 6, 2022.
     [renanssmaia](https://github.com/renanssmaia)<br>
   <small>
      Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+     · Funded by Grant XXXXXXXX
+  </small>
+
++ **Farid Saud**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [fsaudm](https://github.com/fsaudm)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [johndoe](https://twitter.com/johndoe)<br>
+  <small>
+     Department of Civil Engineering, University of Illinois
+     · Funded by Grant XXXXXXXX
+  </small>
+
++ **Johann J Cardenas Huaman**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4695-7639](https://orcid.org/0000-0002-4695-7639)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [Johann-Cardenas](https://github.com/Johann-Cardenas)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [transporte_pe](https://twitter.com/transporte_pe)<br>
+  <small>
+     Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign
+     · Funded by Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
   </small>
 
 
