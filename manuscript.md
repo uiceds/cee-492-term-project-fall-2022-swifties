@@ -36,6 +36,7 @@ header-includes: |-
   <meta name="citation_author" content="Renan Santos Maia" />
   <meta name="citation_author_institution" content="Illinois Center for Transportation (ICT)" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
+  <meta name="citation_author_institution" content="Urbana, IL, 61801, USA" />
   <meta name="citation_author_orcid" content="0000-0002-0877-4006" />
   <meta name="citation_author" content="Farid Saud" />
   <meta name="citation_author_institution" content="Department of Civil Engineering, University of Illinois" />
@@ -51,9 +52,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/94ec8dd507c03822d67fe3200c3ad230aba01a58/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/94ec8dd507c03822d67fe3200c3ad230aba01a58/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/94ec8dd507c03822d67fe3200c3ad230aba01a58/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +76,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/94ec8dd507c03822d67fe3200c3ad230aba01a58/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@b9434be](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b9434bedc66bd579426d5200a0e14d04f3691bc2)
+from [uiceds/cee-492-term-project-fall-2022-swifties@94ec8dd](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/94ec8dd507c03822d67fe3200c3ad230aba01a58)
 on September 22, 2022.
 </em></small>
 
@@ -103,7 +104,7 @@ on September 22, 2022.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [renanssmaia](https://github.com/renanssmaia)<br>
   <small>
-     Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+     Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign; Urbana, IL, 61801, USA
      · Funded by Grant XXXXXXXX
   </small>
 
