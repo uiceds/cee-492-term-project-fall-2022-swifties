@@ -9,40 +9,41 @@ authors:
   - github: diablara
     name: Lara Diab
     initials: LD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
+    orcid: 0000-0001-8489-2015
+    LinkedIn: Lara Diab
     email: ldiab2@illinois.edu
     affiliations:
-      - Department of Civil Engineering, University of Illinois
+      - Illinois Center for Transportation (ICT)
+      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
     funders:
-      - Grant XXX
+      - The Grainger College of Engineering
   - github: renanssmaia
     name: Renan Santos Maia
     initials: RSM
     orcid: 0000-0002-0877-4006
+    LinkedIn: Renan Santos Maia
     email: rmaia2@illinois.edu
     affiliations:
       - Illinois Center for Transportation (ICT)
       - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
-      - Urbana, IL, 61801, USA
     funders:
-      - Grant XXXXXXXX
+      - The Grainger College of Engineering
   - github: fsaudm
     name: Farid Saud
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
+    LinkedIn: Farid Saud 
     email: gfs3@illinois.edu
     affiliations:
-      - Department of Civil Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
     funders:
-      - Grant XXXXXXXX
+      - The Grainger College of Engineering
   - github: Johann-Cardenas
     name: Johann J Cardenas Huaman
     orcid: 0000-0002-4695-7639
-    twitter: transporte_pe
+    twitter: transporter_pe
     email: johannc2@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign
-    funders:
       - Illinois Center for Transportation (ICT)
       - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+    funders:
+      - The Grainger College of Engineering
