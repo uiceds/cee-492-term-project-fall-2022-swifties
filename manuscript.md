@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7768d75c5212cb506a39a34ee8a7f384d098efef/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7768d75c5212cb506a39a34ee8a7f384d098efef/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7768d75c5212cb506a39a34ee8a7f384d098efef/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/85eeda479c34972e35d9f4f3ec701c19692111e7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/85eeda479c34972e35d9f4f3ec701c19692111e7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/85eeda479c34972e35d9f4f3ec701c19692111e7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7768d75c5212cb506a39a34ee8a7f384d098efef/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/85eeda479c34972e35d9f4f3ec701c19692111e7/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@7768d75](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7768d75c5212cb506a39a34ee8a7f384d098efef)
+from [uiceds/cee-492-term-project-fall-2022-swifties@85eeda4](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/85eeda479c34972e35d9f4f3ec701c19692111e7)
 on September 22, 2022.
 </em></small>
 
@@ -444,7 +444,16 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
 
 
-# This is and introduction
+## Introduction{.page_break_before}
+
+This is just a test to see if the intro section is updated via VSCode, Save, Commit.
+
+Project selection and introduction
+For this deliverable, teams will choose a project topic and a dataset, and submit a document including:
+
+A title for their project as well as the names of the team members
+A description of the dataset that will be used for the project, including where it will be obtained from (including a link if one exists), how it was generated, what format it is in (e.g., CSV, images, etc), and what it contains (e.g., the names of the columns, their descriptions, and units if it is a CSV file).
+A 1-2 paragraph proposal of what the team plans to do with the dataset and why.
 
 
 ## Introduction
