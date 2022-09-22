@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-06'
+date-meta: '2022-09-22'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492 Data Science Project - Swifties" />
   <meta property="og:title" content="CEE 492 Data Science Project - Swifties" />
   <meta property="twitter:title" content="CEE 492 Data Science Project - Swifties" />
-  <meta name="dc.date" content="2022-09-06" />
-  <meta name="citation_publication_date" content="2022-09-06" />
+  <meta name="dc.date" content="2022-09-22" />
+  <meta name="citation_publication_date" content="2022-09-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9296da66e218924e2b775d3c092e9003030e8620/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b9434bedc66bd579426d5200a0e14d04f3691bc2/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@9296da6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/9296da66e218924e2b775d3c092e9003030e8620)
-on September 6, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@b9434be](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b9434bedc66bd579426d5200a0e14d04f3691bc2)
+on September 22, 2022.
 </em></small>
 
 ## Authors
@@ -438,6 +438,16 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 
 This is Introduction.
+
+This is just a test to see if the intro section is updated via VSCode, Save, Commit.
+
+Project selection and introduction
+For this deliverable, teams will choose a project topic and a dataset, and submit a document including:
+
+A title for their project as well as the names of the team members
+A description of the dataset that will be used for the project, including where it will be obtained from (including a link if one exists), how it was generated, what format it is in (e.g., CSV, images, etc), and what it contains (e.g., the names of the columns, their descriptions, and units if it is a CSV file).
+A 1-2 paragraph proposal of what the team plans to do with the dataset and why.
+
 
 ## References {.page_break_before}
 
