@@ -10,6 +10,10 @@ content/03.Introduction.md:13:IDOT
 content/03.Introduction.md:13:througout
 content/03.Introduction.md:13:usign
 content/03.Introduction.md:20:Unkown
+content/03.Introduction.md:35:dataset
+content/03.Introduction.md:35:IDOT
+content/03.Introduction.md:35:IDOT's
+content/03.Introduction.md:37:idot
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/99.delete-me.md:44:adipiscing

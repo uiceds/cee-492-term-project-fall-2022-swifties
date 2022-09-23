@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@08eb5f2](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634)
+from [uiceds/cee-492-term-project-fall-2022-swifties@5e3184f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5e3184f62360491660ece3ac883080dbdec4d9a9)
 on September 23, 2022.
 </em></small>
 
@@ -144,18 +144,30 @@ The objective of this work is to use the Illinois Department of Transportation (
 ### Description of the Data Set
 
 This is a statewide crash location dataset produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in this dataset, and each of them contains the attributes including:
-1.	Time and date (day, month, year) 
-2.	Coordinates (x,y)
-3.	Type of collision
-4.	A quantitative description of fatalities and injuries
-5.	Crash severity classification based on their impact on traffic 
-6.	The road surface condition (“Dry”, “Wet”, “Snow or slush”, “Ice”, or “Sand/Dirt/Mud”)
-7.	Road defects (“Debris on roadway”, “Rut/Holes”, “Unkown”, or “No defects”)
-8.	Light conditions (rated in a scale from 1 to 9)
-9.	Geometric characteristics of the road section
-10.	Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)
-11.	Possible causes of the accident.
+1. Time and date (day, month, year) 
+2. Coordinates (x,y)
+3. Type of collision
+4. A quantitative description of fatalities and injuries
+5. Crash severity classification based on their impact on traffic 
+6. The road surface condition (“Dry”, “Wet”, “Snow or slush”, “Ice”, or “Sand/Dirt/Mud”)
+7. Road defects (“Debris on roadway”, “Rut/Holes”, “Unkown”, or “No defects”)
+8. Light conditions (rated in a scale from 1 to 9)
+9. Geometric characteristics of the road section
+10. Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)
+11. Possible causes of the accident.
 
+1. Ordered list item
+2. Ordered list item
+    a. Sub-item
+    b. Sub-item
+        i. Sub-sub-item
+3. Ordered list item
+    a. Sub-item
+
+
+The dataset is available in the IDOT's website:
+
+https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05{.center}
 
 ## References {.page_break_before}
 
