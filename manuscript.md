@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a24762da392cc64ac1fa53ffe1009dd9c0d77f69/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a24762da392cc64ac1fa53ffe1009dd9c0d77f69/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a24762da392cc64ac1fa53ffe1009dd9c0d77f69/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a24762da392cc64ac1fa53ffe1009dd9c0d77f69/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@1c7b094](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1c7b094d58cc073653f266c8684ccbc86244a710)
+from [uiceds/cee-492-term-project-fall-2022-swifties@a24762d](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a24762da392cc64ac1fa53ffe1009dd9c0d77f69)
 on September 23, 2022.
 </em></small>
 
@@ -143,7 +143,7 @@ The objective of this work is to use the Illinois Department of Transportation (
 
 ### Description of the Data Set
 
-IDOT has generated datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that including conditions like:
+IDOT has generated datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that include conditions like (among others that are not listed and described because these are not relevant for this study):
 
 1. Time and date (day, month, year)
 2. Coordinates (x,y)
@@ -156,8 +156,6 @@ IDOT has generated datasets with statewide crash locations produced by the Crash
 9. Geometric characteristics of the road section
 10. Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)
 11. Possible causes of the accident.
-
-, among others that might be less relevant for this study. 
 
 The datasets for different years are available for downloan as a .CSV file in the IDOT's website:
 
