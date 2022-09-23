@@ -1,8 +1,10 @@
 adipiscing
 aliqua
 aliquip
+allert
 amet
 anim
+APIs
 aute
 Champaign
 cillum
@@ -10,7 +12,6 @@ commodo
 consectetur
 consequat
 crases
-CSV
 culpa
 cupidatat
 dataset
@@ -48,6 +49,7 @@ nostrud
 nulla
 occaecat
 occurence
+occuring
 officia
 Pandoc’s
 pariatur
@@ -62,11 +64,12 @@ sed
 sint
 sunt
 tempor
-TThe
+througout
 ullamco
+Unkown
 Urbana
+usign
 velit
 veniam
 voluptate
-VSCode
 XXXX

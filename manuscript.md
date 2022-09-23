@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@4a0a225](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/4a0a2259b497ba856bf09bd7eb01485b75c084b8)
+from [uiceds/cee-492-term-project-fall-2022-swifties@08eb5f2](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/08eb5f2b3b8c2f5da7a184fcb0c4fa741444b634)
 on September 23, 2022.
 </em></small>
 
@@ -131,21 +131,41 @@ on September 23, 2022.
 
 ## Abstract {.page_break_before}
 
-
-
-
 ## Introduction{.page_break_before}
 
-This is just a test to see if the intro section is updated via VSCode, Save, Commit.
+Road accidents are responsible for a significant number of injuries reported every year. According to World Health Organization (WHO), approximately 1.3 million people die each year as a result of road traffic crashes (June, 2022). In addition, road traffic crashes cost countries 3% of their gross domestic product (WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
 
-Project selection and introduction
-For this deliverable, teams will choose a project topic and a dataset, and submit a document including:
+The ability of predicting in an accurate way the potential occurence of crases is a valuable contribution for road safety. In an approach vastly used in the literature, crash records' data are used for the development of crash prediction models, so that agencies can allocate investments to priority areas of the roadway network. However, given that the budget for infrastructure improvements is limited, adopting countermeasures for all facilities that crashes are potentially occuring is not financially feasible. Therefore, informing drivers about the potential safety risks is a way to proactively compensate the aforementioned limitations. Moreover, with the development of connected and autonomous vehicles, this information can be provided in a more optimized way, contributing for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely.
 
-A title for their project as well as the names of the team members
-A description of the dataset that will be used for the project, including where it will be obtained from (including a link if one exists), how it was generated, what format it is in (e.g., CSV, images, etc), and what it contains (e.g., the names of the columns, their descriptions, and units if it is a CSV file).
-A 1-2 paragraph proposal of what the team plans to do with the dataset and why.
+### Project Proposal and Objective
+
+The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crashes' data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections.
+
+### Description of the Data Set
+
+This is a statewide crash location dataset produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in this dataset, and each of them contains the attributes including:
+1.	Time and date (day, month, year) 
+2.	Coordinates (x,y)
+3.	Type of collision
+4.	A quantitative description of fatalities and injuries
+5.	Crash severity classification based on their impact on traffic 
+6.	The road surface condition (“Dry”, “Wet”, “Snow or slush”, “Ice”, or “Sand/Dirt/Mud”)
+7.	Road defects (“Debris on roadway”, “Rut/Holes”, “Unkown”, or “No defects”)
+8.	Light conditions (rated in a scale from 1 to 9)
+9.	Geometric characteristics of the road section
+10.	Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)
+11.	Possible causes of the accident.
 
 
+## References {.page_break_before}
+
+<!-- Explicitly insert bibliography here -->
+
+Illinois Department of Transportation | IDOTAdmin
+https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05
+
+
+<div id="refs"></div>
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
@@ -442,20 +462,3 @@ useful for *important information* - [manubot.org](https://manubot.org/)
 <i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
 useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
-
-
-## Introduction{.page_break_before}
-
-TThe ability of predicting in an accurate way the potential occurence of crases is a valuable contribution for road safety. Besides the traditional use of crash records' data, from which crash prediction models can be developed, and investments can be allocated by agencies to priority areas of the roadway network. Moreover, with the development of connected and autonomous vehicles, this information can be used for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely.
-
-The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crash data to provide 
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-
-Illinois Department of Transportation | IDOTAdmin
-https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05
-
-
-<div id="refs"></div>
