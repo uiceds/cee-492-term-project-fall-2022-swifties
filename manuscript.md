@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ea60911963ec244a238111a5716a3ba662f8b82f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ea60911963ec244a238111a5716a3ba662f8b82f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ea60911963ec244a238111a5716a3ba662f8b82f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ea60911963ec244a238111a5716a3ba662f8b82f/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@796e1ac](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/796e1ac2b872c76366c239d12c32462c8910e024)
+from [uiceds/cee-492-term-project-fall-2022-swifties@ea60911](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ea60911963ec244a238111a5716a3ba662f8b82f)
 on September 23, 2022.
 </em></small>
 
@@ -129,9 +129,9 @@ on September 23, 2022.
 
 
 
-## Project selection and ntroduction{.page_break_before}
+## Project selection and Introduction{.page_break_before}
 
-Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (WHO), approximately 1.3 million people die each year as a result of road traffic crashes (as of June, 2022). In addition, road traffic crashes cost countries 3% of their gross domestic product (WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
+Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (WHO), approximately 1.3 million people die each year as a result of road traffic crashes (as of June, 2022). In addition, road traffic crashes cost countries 3% of their gross domestic product (Safarpour et al, 2020; WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
 
 The ability of predicting in an accurate way the potential occurence of crases is a valuable contribution for road safety. In an approach vastly used in the literature, crash records' data are used for the development of crash prediction models, so that agencies can allocate investments to priority areas of the roadway network. However, given that the budget for infrastructure improvements is limited, adopting countermeasures for all facilities that crashes are potentially occuring is not financially feasible. Therefore, informing drivers about the potential safety risks is a way to proactively compensate the aforementioned limitations. Moreover, with the development of connected and autonomous vehicles, this information can be provided in a more optimized way, contributing for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely (Yu et al, 2021).
 
@@ -171,13 +171,11 @@ The datasets for different years are available for downloan as a .CSV file in th
 
 <!-- Explicitly insert bibliography here -->
 
-Batty, S. (n.d.). Illinois Roadway Crash Data. Retrieved September 23, 2022, from https://idot.illinois.gov/transportation-system/safety/Illinois-Roadway-Crash-Data
-
 Illinois Department of Transportation | IDOTAdmin
 https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05
 
-Safarpour, H., Khorasani-Zavareh, D., & Mohammadi, R. (2020). The common road safety approaches: A scoping review and thematic analysis. Chinese Journal of Traumatology, 23(2), 113–121. https://doi.org/10.1016/j.cjtee.2020.02.005
+Safarpour, H., Khorasani-Zavareh, D., & Mohammadi, R. (2020). The common road safety approaches: A scoping review and thematic analysis. Chinese journal of traumatology, 23(02), 113-121. https://doi.org/10.1016/j.cjtee.2020.02.005
 
-World Health Organization. (n.d.). Road traffic injuries. World Health Organization. Retrieved September 23, 2022, from https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries 
+World Health Organization (WHO). (2022). Road traffic injuries World Health Organization Regional Office for the Eastern Mediterranean. Geneva, Switzerland. https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries 
 
-Yu, R., L. Han, and H. Zhang. Trajectory Data Based Freeway High-Risk Events Prediction and Its Influencing Factors Analyses. Accident Analysis and Prevention, Vol. 154, No. March, 2021, p.106085. https://doi.org/10.1016/j.aap.2021.106085.
+Yu, R., Han, L., & Zhang, H. (2021). Trajectory data based freeway high-risk events prediction and its influencing factors analyses. Accident Analysis & Prevention, 154, 106085. https://doi.org/10.1016/j.aap.2021.106085.
