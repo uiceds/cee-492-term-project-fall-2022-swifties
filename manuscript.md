@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4a0a2259b497ba856bf09bd7eb01485b75c084b8/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@1fbb421](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1fbb421715e504d078077dd39ec90cb68f8c37fe)
+from [uiceds/cee-492-term-project-fall-2022-swifties@4a0a225](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/4a0a2259b497ba856bf09bd7eb01485b75c084b8)
 on September 23, 2022.
 </em></small>
 
@@ -446,15 +446,9 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 ## Introduction{.page_break_before}
 
-This is just a test to see if the intro section is updated via VSCode, Save, Commit.
+TThe ability of predicting in an accurate way the potential occurence of crases is a valuable contribution for road safety. Besides the traditional use of crash records' data, from which crash prediction models can be developed, and investments can be allocated by agencies to priority areas of the roadway network. Moreover, with the development of connected and autonomous vehicles, this information can be used for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely.
 
-Project selection and introduction
-For this deliverable, teams will choose a project topic and a dataset, and submit a document including:
-
-A title for their project as well as the names of the team members
-A description of the dataset that will be used for the project, including where it will be obtained from (including a link if one exists), how it was generated, what format it is in (e.g., CSV, images, etc), and what it contains (e.g., the names of the columns, their descriptions, and units if it is a CSV file).
-A 1-2 paragraph proposal of what the team plans to do with the dataset and why.
-
+The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crash data to provide 
 
 ## References {.page_break_before}
 

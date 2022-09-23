@@ -9,6 +9,7 @@ cillum
 commodo
 consectetur
 consequat
+crases
 CSV
 culpa
 cupidatat
@@ -30,6 +31,7 @@ fugiat
 Grainger
 Huaman
 ICT
+IDOT
 IDOTAdmin
 incididunt
 ipsum
@@ -45,6 +47,7 @@ nisi
 nostrud
 nulla
 occaecat
+occurence
 officia
 Pandoc’s
 pariatur
@@ -59,6 +62,7 @@ sed
 sint
 sunt
 tempor
+TThe
 ullamco
 Urbana
 velit
