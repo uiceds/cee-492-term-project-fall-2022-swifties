@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9b36ba8c7dbe74bdb77d78079fcd84cbb7c6eb04/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9b36ba8c7dbe74bdb77d78079fcd84cbb7c6eb04/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9b36ba8c7dbe74bdb77d78079fcd84cbb7c6eb04/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9b36ba8c7dbe74bdb77d78079fcd84cbb7c6eb04/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1fbb421715e504d078077dd39ec90cb68f8c37fe/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@9b36ba8](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/9b36ba8c7dbe74bdb77d78079fcd84cbb7c6eb04)
+from [uiceds/cee-492-term-project-fall-2022-swifties@1fbb421](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1fbb421715e504d078077dd39ec90cb68f8c37fe)
 on September 23, 2022.
 </em></small>
 
@@ -459,4 +459,9 @@ A 1-2 paragraph proposal of what the team plans to do with the dataset and why.
 ## References {.page_break_before}
 
 <!-- Explicitly insert bibliography here -->
+
+Illinois Department of Transportation | IDOTAdmin
+https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05
+
+
 <div id="refs"></div>
