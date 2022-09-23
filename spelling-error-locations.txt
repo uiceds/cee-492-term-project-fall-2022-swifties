@@ -62,9 +62,3 @@ content/03.Introduction.md:9:CSV
 content/03.Introduction.md:9:CSV
 content/03.Introduction.md:9:dataset
 content/03.Introduction.md:10:dataset
-content/03.intro.md:3:VSCode
-content/03.intro.md:6:dataset
-content/03.intro.md:9:CSV
-content/03.intro.md:9:CSV
-content/03.intro.md:9:dataset
-content/03.intro.md:10:dataset
