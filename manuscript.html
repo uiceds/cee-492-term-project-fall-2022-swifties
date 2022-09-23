@@ -10,7 +10,7 @@
   <meta name="author" content="Johann J Cardenas Huaman" />
   <meta name="dcterms.date" content="2022-09-23" />
   <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>CEE 492 Data Science Project - Swifties</title>
+  <title>Crash Risk Prediction Model using Data Science</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -109,10 +109,10 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="CEE 492 Data Science Project - Swifties" />
-  <meta name="citation_title" content="CEE 492 Data Science Project - Swifties" />
-  <meta property="og:title" content="CEE 492 Data Science Project - Swifties" />
-  <meta property="twitter:title" content="CEE 492 Data Science Project - Swifties" />
+  <meta name="dc.title" content="Crash Risk Prediction Model using Data Science" />
+  <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
+  <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
+  <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
   <meta name="dc.date" content="2022-09-23" />
   <meta name="citation_publication_date" content="2022-09-23" />
   <meta name="dc.language" content="en-US" />
@@ -143,9 +143,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -162,13 +162,13 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">CEE 492 Data Science Project - Swifties</h1>
+<h1 class="title">Crash Risk Prediction Model using Data Science</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5e3184f62360491660ece3ac883080dbdec4d9a9">uiceds/cee-492-term-project-fall-2022-swifties@5e3184f</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5711643c0f27aad22e8b2899066564d367327ad5">uiceds/cee-492-term-project-fall-2022-swifties@5711643</a>
 on September 23, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -219,35 +219,23 @@ Illinois Center for Transportation (ICT); Department of Civil and Environmental 
 <h3 id="project-proposal-and-objective">Project Proposal and Objective</h3>
 <p>The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crashes’ data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections.</p>
 <h3 id="description-of-the-data-set">Description of the Data Set</h3>
-<p>This is a statewide crash location dataset produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in this dataset, and each of them contains the attributes including:
-1. Time and date (day, month, year)
-2. Coordinates (x,y)
-3. Type of collision
-4. A quantitative description of fatalities and injuries
-5. Crash severity classification based on their impact on traffic
-6. The road surface condition (“Dry”, “Wet”, “Snow or slush”, “Ice”, or “Sand/Dirt/Mud”)
-7. Road defects (“Debris on roadway”, “Rut/Holes”, “Unkown”, or “No defects”)
-8. Light conditions (rated in a scale from 1 to 9)
-9. Geometric characteristics of the road section
-10. Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)
-11. Possible causes of the accident.</p>
+<p>IDOT has generated datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that including conditions like:</p>
 <ol type="1">
-<li>Ordered list item</li>
-<li>Ordered list item
-<ol type="a">
-<li>Sub-item</li>
-<li>Sub-item
-<ol type="i">
-<li>Sub-sub-item</li>
-</ol></li>
-</ol></li>
-<li>Ordered list item
-<ol type="a">
-<li>Sub-item</li>
-</ol></li>
+<li>Time and date (day, month, year)</li>
+<li>Coordinates (x,y)</li>
+<li>Type of collision</li>
+<li>A quantitative description of fatalities and injuries</li>
+<li>Crash severity classification based on their impact on traffic</li>
+<li>The road surface condition (“Dry”, “Wet”, “Snow or slush”, “Ice”, or “Sand/Dirt/Mud”)</li>
+<li>Road defects (“Debris on roadway”, “Rut/Holes”, “Unkown”, or “No defects”)</li>
+<li>Light conditions (rated in a scale from 1 to 9)</li>
+<li>Geometric characteristics of the road section</li>
+<li>Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)</li>
+<li>Possible causes of the accident.</li>
 </ol>
-<p>The dataset is available in the IDOT’s website:</p>
-<p>https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05{.center}</p>
+<p>, among others that might be less relevant for this study.</p>
+<p>The datasets for different years are available for downloan as a .CSV file in the IDOT’s website:</p>
+<p><span class="center">https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05</span></p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <p>Illinois Department of Transportation | IDOTAdmin
@@ -487,7 +475,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:85817f95-0045-41f4-9a33-ff99a6031425" class="tablenos">
+<div id="tbl:62145ef3-3404-40f5-b925-f83ca5d48d90" class="tablenos">
 <table id="tbl:">
 <caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>

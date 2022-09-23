@@ -1,5 +1,5 @@
 ---
-title: CEE 492 Data Science Project - Swifties
+title: Crash Risk Prediction Model using Data Science
 keywords:
 - markdown
 - publishing
@@ -17,10 +17,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="CEE 492 Data Science Project - Swifties" />
-  <meta name="citation_title" content="CEE 492 Data Science Project - Swifties" />
-  <meta property="og:title" content="CEE 492 Data Science Project - Swifties" />
-  <meta property="twitter:title" content="CEE 492 Data Science Project - Swifties" />
+  <meta name="dc.title" content="Crash Risk Prediction Model using Data Science" />
+  <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
+  <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
+  <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
   <meta name="dc.date" content="2022-09-23" />
   <meta name="citation_publication_date" content="2022-09-23" />
   <meta name="dc.language" content="en-US" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e3184f62360491660ece3ac883080dbdec4d9a9/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@5e3184f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5e3184f62360491660ece3ac883080dbdec4d9a9)
+from [uiceds/cee-492-term-project-fall-2022-swifties@5711643](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5711643c0f27aad22e8b2899066564d367327ad5)
 on September 23, 2022.
 </em></small>
 
@@ -143,8 +143,9 @@ The objective of this work is to use the Illinois Department of Transportation (
 
 ### Description of the Data Set
 
-This is a statewide crash location dataset produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in this dataset, and each of them contains the attributes including:
-1. Time and date (day, month, year) 
+IDOT has generated datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected througout the years usign Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that including conditions like:
+
+1. Time and date (day, month, year)
 2. Coordinates (x,y)
 3. Type of collision
 4. A quantitative description of fatalities and injuries
@@ -156,18 +157,11 @@ This is a statewide crash location dataset produced by the Crash Information Sec
 10. Work Zone (“construction”, “maintenance”, “utility”, “unknown”, or “N/A”)
 11. Possible causes of the accident.
 
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
+, among others that might be less relevant for this study. 
 
+The datasets for different years are available for downloan as a .CSV file in the IDOT's website:
 
-The dataset is available in the IDOT's website:
-
-https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05{.center}
+[https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05]{.center}
 
 ## References {.page_break_before}
 
