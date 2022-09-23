@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5711643c0f27aad22e8b2899066564d367327ad5/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1c7b094d58cc073653f266c8684ccbc86244a710/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@5711643](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5711643c0f27aad22e8b2899066564d367327ad5)
+from [uiceds/cee-492-term-project-fall-2022-swifties@1c7b094](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1c7b094d58cc073653f266c8684ccbc86244a710)
 on September 23, 2022.
 </em></small>
 
@@ -167,9 +167,16 @@ The datasets for different years are available for downloan as a .CSV file in th
 
 <!-- Explicitly insert bibliography here -->
 
+Batty, S. (n.d.). Illinois Roadway Crash Data. Retrieved September 23, 2022, from https://idot.illinois.gov/transportation-system/safety/Illinois-Roadway-Crash-Data
+
 Illinois Department of Transportation | IDOTAdmin
 https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05
 
+Safarpour, H., Khorasani-Zavareh, D., & Mohammadi, R. (2020). The common road safety approaches: A scoping review and thematic analysis. Chinese Journal of Traumatology, 23(2), 113–121. https://doi.org/10.1016/j.cjtee.2020.02.005
+
+World Health Organization. (n.d.). Road traffic injuries. World Health Organization. Retrieved September 23, 2022, from https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries 
+
+Yu, R., L. Han, and H. Zhang. Trajectory Data Based Freeway High-Risk Events Prediction and Its Influencing Factors Analyses. Accident Analysis and Prevention, Vol. 154, No. March, 2021, p.106085. https://doi.org/10.1016/j.aap.2021.106085.
 
 <div id="refs"></div>
 
