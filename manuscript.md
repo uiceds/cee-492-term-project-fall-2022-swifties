@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6eb9b42664077ea11c3d7a78aa0e0e96c2f75dcd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6eb9b42664077ea11c3d7a78aa0e0e96c2f75dcd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6eb9b42664077ea11c3d7a78aa0e0e96c2f75dcd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6eb9b42664077ea11c3d7a78aa0e0e96c2f75dcd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/796e1ac2b872c76366c239d12c32462c8910e024/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@6eb9b42](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/6eb9b42664077ea11c3d7a78aa0e0e96c2f75dcd)
+from [uiceds/cee-492-term-project-fall-2022-swifties@796e1ac](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/796e1ac2b872c76366c239d12c32462c8910e024)
 on September 23, 2022.
 </em></small>
 
@@ -129,15 +129,23 @@ on September 23, 2022.
 
 
 
-## Introduction{.page_break_before}
+## Project selection and ntroduction{.page_break_before}
 
-Road accidents are responsible for a significant number of injuries reported every year. According to World Health Organization (WHO), approximately 1.3 million people die each year as a result of road traffic crashes (June, 2022). In addition, road traffic crashes cost countries 3% of their gross domestic product (WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
+Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (WHO), approximately 1.3 million people die each year as a result of road traffic crashes (as of June, 2022). In addition, road traffic crashes cost countries 3% of their gross domestic product (WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
 
-The ability of predicting in an accurate way the potential occurence of crases is a valuable contribution for road safety. In an approach vastly used in the literature, crash records' data are used for the development of crash prediction models, so that agencies can allocate investments to priority areas of the roadway network. However, given that the budget for infrastructure improvements is limited, adopting countermeasures for all facilities that crashes are potentially occuring is not financially feasible. Therefore, informing drivers about the potential safety risks is a way to proactively compensate the aforementioned limitations. Moreover, with the development of connected and autonomous vehicles, this information can be provided in a more optimized way, contributing for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely.
+The ability of predicting in an accurate way the potential occurence of crases is a valuable contribution for road safety. In an approach vastly used in the literature, crash records' data are used for the development of crash prediction models, so that agencies can allocate investments to priority areas of the roadway network. However, given that the budget for infrastructure improvements is limited, adopting countermeasures for all facilities that crashes are potentially occuring is not financially feasible. Therefore, informing drivers about the potential safety risks is a way to proactively compensate the aforementioned limitations. Moreover, with the development of connected and autonomous vehicles, this information can be provided in a more optimized way, contributing for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely (Yu et al, 2021).
 
-### Project Proposal and Objective
+### Project Objective and Plan Proposal
 
-The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crashes' data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections.
+The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crashes' data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections. 
+
+The plan to be carried out will follow the basic steps described as follows:
+
+1. Read the IDOT's crashes' data CSV files available as an open data source.
+2. Clean the data by deleting unwanted columns, handling missing data, and removing irrelevant observations.
+3. Tidy the data by organizing the variables into columns and the observations into rows.
+4. Analyze and visualize the data by finding correlations both analytically and graphically.
+5. Model a prediction algorithm for crash risk according to categorical variables.
 
 ### Description of the Data Set
 
