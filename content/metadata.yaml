@@ -1,48 +1,26 @@
 ---
-title: "CEE 492 Data Science Project - Swifties"
+title: "Manuscript Title"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: diablara
-    name: Lara Diab
-    initials: LD
+  - github: johndoe
+    name: John Doe
+    initials: JD
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
-    email: ldiab2@illinois.edu
+    email: john.doe@something.com
     affiliations:
-      - Department of Civil Engineering, University of Illinois
-    funders:
-      - Grant XXX
-  - github: renanssmaia
-    name: Renan Santos Maia
-    initials: RSM
-    orcid: 0000-0002-0877-4006
-    email: rmaia2@illinois.edu
-    affiliations:
-      - Illinois Center for Transportation (ICT)
-      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
-      - Urbana, IL, 61801, USA
+      - Department of Something, University of Whatever
     funders:
       - Grant XXXXXXXX
-  - github: fsaudm
-    name: Farid Saud
+  - github: janeroe
+    name: Jane Roe
+    initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: gfs3@illinois.edu
+    email: jane.roe@whatever.edu
     affiliations:
-      - Department of Civil Engineering, University of Illinois
-    funders:
-      - Grant XXXXXXXX
-  - github: Johann-Cardenas
-    name: Johann J Cardenas Huaman
-    orcid: 0000-0002-4695-7639
-    twitter: transporte_pe
-    email: johannc2@illinois.edu
-    affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign
-    funders:
-      - Illinois Center for Transportation (ICT)
-      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
