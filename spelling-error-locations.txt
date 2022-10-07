@@ -1,5 +1,4 @@
 content/03.Introduction.md:3:Safarpour
-content/03.Introduction.md:5:crases
 content/03.Introduction.md:5:occurence
 content/03.Introduction.md:5:occuring
 content/03.Introduction.md:5:Yu
