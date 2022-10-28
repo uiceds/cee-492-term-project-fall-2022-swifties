@@ -21,6 +21,15 @@ content/03.Introduction.md:35:downloan
 content/03.Introduction.md:35:IDOT
 content/03.Introduction.md:35:IDOT's
 content/03.Introduction.md:37:idot
+content/04.Exploratory Data Analysis.md:3:Safarpour
+content/04.Exploratory Data Analysis.md:5:occurence
+content/04.Exploratory Data Analysis.md:5:occuring
+content/04.Exploratory Data Analysis.md:5:Yu
+content/04.Exploratory Data Analysis.md:9:allert
+content/04.Exploratory Data Analysis.md:9:IDOT
+content/04.Exploratory Data Analysis.md:13:CSV
+content/04.Exploratory Data Analysis.md:13:IDOT
+content/04.Exploratory Data Analysis.md:13:IDOT's
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:8:Khorasani
