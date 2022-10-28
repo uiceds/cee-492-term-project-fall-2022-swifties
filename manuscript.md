@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3161974222e37b072d58ed1ac9673b828fb5e7fd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3161974222e37b072d58ed1ac9673b828fb5e7fd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3161974222e37b072d58ed1ac9673b828fb5e7fd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3161974222e37b072d58ed1ac9673b828fb5e7fd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@3161974](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/3161974222e37b072d58ed1ac9673b828fb5e7fd)
+from [uiceds/cee-492-term-project-fall-2022-swifties@427a32b](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/427a32be5622c50d118d32ebf73757e37a872ca4)
 on October 28, 2022.
 </em></small>
 
@@ -169,9 +169,19 @@ The datasets for different years are available for downloan as a .CSV file in th
 
 ## Exploratory Data Analysis {.page_break_before}
 
-Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (WHO), approximately 1.3 million people die each year as a result of road traffic crashes (as of June, 2022). In addition, road traffic crashes cost countries 3% of their gross domestic product (Safarpour et al, 2020; WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
+Extensive data was found, each dataset containing the observations arranged in rows and the independent variables in columns. One of these datasets included up to 85 columns.
+Datasets from 2017,2018,2019 are included in this Exploratory Data Analysis.
 
-The ability of predicting in an accurate way the potential occurence of car crashes is a valuable contribution for road safety. In an approach frequently used in the literature, crash records' data are used for the development of crash prediction models, so that agencies can allocate investments to priority areas of the roadway network. However, given that the budget for infrastructure improvements is limited, adopting countermeasures for all facilities that crashes are potentially occuring is not financially feasible. Therefore, informing drivers about the potential safety risks is a way to proactively compensate the aforementioned limitations. Moreover, with the development of connected and autonomous vehicles, this information can be provided in a more optimized way, contributing for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely (Yu et al, 2021).
+### Reading the Data
+
+To carry out the first step, the datasets were imported to Visual Studio Code using the CSV library. The datasets were merged into a unified file once the total numbers of columns of each of them were matched to an homegeneus number since it was noticeable that the latest dataset included additional independent variables the first two did not include. The three files were merged into a new database after this first sanity check.
+
+### Cleaning Process
+
+It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. Thus, the datasets were visually inspected to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude & longitude, or X & Y coordinates) have not been taken into account. Columns containing codes describing the city, county or ID of the location where the crash took place has also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), traffic structures, etc were also removed. For some other independent variables, information that would have been useful was found to be significantly incomplete such as the number of lanes or type of intersection and therefore it was decided to not include it. Additionaly, independent variables with a high number of labels to describe them such as Railroad Crossing Number were also filtered out since it would not provide handy information for the end-user.
+
+After filtering out the information that will not be utilized for this analysis, the number of independent variables went from 80 to 21.
+
 
 ### Project Objective and Plan Proposal
 

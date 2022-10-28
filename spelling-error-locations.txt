@@ -21,15 +21,21 @@ content/03.Introduction.md:35:downloan
 content/03.Introduction.md:35:IDOT
 content/03.Introduction.md:35:IDOT's
 content/03.Introduction.md:37:idot
-content/04.Exploratory Data Analysis.md:3:Safarpour
-content/04.Exploratory Data Analysis.md:5:occurence
-content/04.Exploratory Data Analysis.md:5:occuring
-content/04.Exploratory Data Analysis.md:5:Yu
-content/04.Exploratory Data Analysis.md:9:allert
-content/04.Exploratory Data Analysis.md:9:IDOT
-content/04.Exploratory Data Analysis.md:13:CSV
-content/04.Exploratory Data Analysis.md:13:IDOT
-content/04.Exploratory Data Analysis.md:13:IDOT's
+content/04.Exploratory Data Analysis.md:3:dataset
+content/04.Exploratory Data Analysis.md:3:datasets
+content/04.Exploratory Data Analysis.md:4:Datasets
+content/04.Exploratory Data Analysis.md:8:CSV
+content/04.Exploratory Data Analysis.md:8:dataset
+content/04.Exploratory Data Analysis.md:8:datasets
+content/04.Exploratory Data Analysis.md:8:datasets
+content/04.Exploratory Data Analysis.md:8:homegeneus
+content/04.Exploratory Data Analysis.md:12:Additionaly
+content/04.Exploratory Data Analysis.md:12:datasets
+content/04.Exploratory Data Analysis.md:19:allert
+content/04.Exploratory Data Analysis.md:19:IDOT
+content/04.Exploratory Data Analysis.md:23:CSV
+content/04.Exploratory Data Analysis.md:23:IDOT
+content/04.Exploratory Data Analysis.md:23:IDOT's
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:8:Khorasani
