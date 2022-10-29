@@ -3,7 +3,7 @@ allert
 APIs
 Champaign
 COVID
-CSV
+csv
 dataset
 datasets
 Diab
@@ -13,8 +13,8 @@ Farid
 fsaudm
 Grainger
 Grivna
-HAKKERT
-Hauer
+Hakkert
+HAUER
 homegeneus
 Huaman
 ICT
@@ -28,7 +28,7 @@ Mohammadi
 occurence
 occuring
 publicided
-QUEK
+Quek
 Renan
 renanssmaia
 Safarpour
