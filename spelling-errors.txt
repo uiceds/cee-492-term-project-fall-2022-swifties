@@ -1,7 +1,9 @@
+Abu
 Additionaly
 allert
 APIs
 Champaign
+COVID
 CSV
 dataset
 datasets
@@ -11,6 +13,7 @@ downloan
 Farid
 fsaudm
 Grainger
+Grivna
 homegeneus
 Huaman
 ICT
@@ -22,6 +25,7 @@ Maia
 Mohammadi
 occurence
 occuring
+publicided
 Renan
 renanssmaia
 Safarpour
@@ -32,6 +36,8 @@ Unkown
 Urbana
 usign
 XXXX
+Yasin
 Yu
 Zavareh
 Zhang
+Zidan

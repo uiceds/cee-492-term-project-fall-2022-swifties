@@ -21,21 +21,35 @@ content/03.Introduction.md:35:downloan
 content/03.Introduction.md:35:IDOT
 content/03.Introduction.md:35:IDOT's
 content/03.Introduction.md:37:idot
+content/04.Exploratory Data Analysis.md:3:Abu
+content/04.Exploratory Data Analysis.md:3:COVID
+content/04.Exploratory Data Analysis.md:3:csv
+content/04.Exploratory Data Analysis.md:3:dataset
+content/04.Exploratory Data Analysis.md:3:dataset
 content/04.Exploratory Data Analysis.md:3:dataset
 content/04.Exploratory Data Analysis.md:3:datasets
-content/04.Exploratory Data Analysis.md:4:Datasets
-content/04.Exploratory Data Analysis.md:8:CSV
-content/04.Exploratory Data Analysis.md:8:dataset
-content/04.Exploratory Data Analysis.md:8:datasets
-content/04.Exploratory Data Analysis.md:8:datasets
-content/04.Exploratory Data Analysis.md:8:homegeneus
-content/04.Exploratory Data Analysis.md:12:Additionaly
-content/04.Exploratory Data Analysis.md:12:datasets
-content/04.Exploratory Data Analysis.md:19:allert
-content/04.Exploratory Data Analysis.md:19:IDOT
-content/04.Exploratory Data Analysis.md:23:CSV
-content/04.Exploratory Data Analysis.md:23:IDOT
-content/04.Exploratory Data Analysis.md:23:IDOT's
+content/04.Exploratory Data Analysis.md:3:datasets
+content/04.Exploratory Data Analysis.md:3:datasets
+content/04.Exploratory Data Analysis.md:3:datasets
+content/04.Exploratory Data Analysis.md:3:Grivna
+content/04.Exploratory Data Analysis.md:3:IDOT
+content/04.Exploratory Data Analysis.md:3:IDOT
+content/04.Exploratory Data Analysis.md:3:IDOT
+content/04.Exploratory Data Analysis.md:3:publicided
+content/04.Exploratory Data Analysis.md:3:Yasin
+content/04.Exploratory Data Analysis.md:3:Zidan
+content/04.Exploratory Data Analysis.md:7:CSV
+content/04.Exploratory Data Analysis.md:7:dataset
+content/04.Exploratory Data Analysis.md:7:datasets
+content/04.Exploratory Data Analysis.md:7:datasets
+content/04.Exploratory Data Analysis.md:7:homegeneus
+content/04.Exploratory Data Analysis.md:11:Additionaly
+content/04.Exploratory Data Analysis.md:11:datasets
+content/04.Exploratory Data Analysis.md:18:allert
+content/04.Exploratory Data Analysis.md:18:IDOT
+content/04.Exploratory Data Analysis.md:22:CSV
+content/04.Exploratory Data Analysis.md:22:IDOT
+content/04.Exploratory Data Analysis.md:22:IDOT's
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:8:Khorasani
@@ -43,5 +57,10 @@ content/90.back-matter.md:8:Mohammadi
 content/90.back-matter.md:8:Safarpour
 content/90.back-matter.md:8:traumatology
 content/90.back-matter.md:8:Zavareh
-content/90.back-matter.md:12:Yu
-content/90.back-matter.md:12:Zhang
+content/90.back-matter.md:12:Abu
+content/90.back-matter.md:12:COVID
+content/90.back-matter.md:12:Grivna
+content/90.back-matter.md:12:Yasin
+content/90.back-matter.md:12:Zidan
+content/90.back-matter.md:14:Yu
+content/90.back-matter.md:14:Zhang

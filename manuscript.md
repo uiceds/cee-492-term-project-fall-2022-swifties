@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-28'
+date-meta: '2022-10-29'
 author-meta:
 - Lara Diab
 - Renan Santos Maia.
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-10-28" />
-  <meta name="citation_publication_date" content="2022-10-28" />
+  <meta name="dc.date" content="2022-10-29" />
+  <meta name="citation_publication_date" content="2022-10-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ae2842d84ce04d5f48ceb8e970e2fc50a89d5880/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ae2842d84ce04d5f48ceb8e970e2fc50a89d5880/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ae2842d84ce04d5f48ceb8e970e2fc50a89d5880/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/427a32be5622c50d118d32ebf73757e37a872ca4/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ae2842d84ce04d5f48ceb8e970e2fc50a89d5880/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@427a32b](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/427a32be5622c50d118d32ebf73757e37a872ca4)
-on October 28, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@ae2842d](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ae2842d84ce04d5f48ceb8e970e2fc50a89d5880)
+on October 29, 2022.
 </em></small>
 
 ## Authors
@@ -169,8 +169,7 @@ The datasets for different years are available for downloan as a .CSV file in th
 
 ## Exploratory Data Analysis {.page_break_before}
 
-Extensive data was found, each dataset containing the observations arranged in rows and the independent variables in columns. One of these datasets included up to 85 columns.
-Datasets from 2017,2018,2019 are included in this Exploratory Data Analysis.
+Open-source crashes' data is publicided by the Illinois Department of Transportation (IDOT), yearly. Each year's dataset was found to have extensive crashes' reports, which include several variables to describe each crash event. Each dataset is organized with observations filled according to the IDOT Traffic Crash Report SR 1050 Instruction Manual (2019). The datasets for each year are available in .csv format by IDOT, and they contain the observations arranged in rows and the independent variables in columns. The datasets from 2017, 2018, and 2019 were included in this Exploratory Data Analysis. The datasets from 2020 and 2021 were discarded in this analysis given the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and of course crash-related data (Yasin, Grivna & Abu-Zidan, 2021). When it comes to the size of the datasets, each one had over 300,000 rows (944,317 in total, combined), and at least 80 columns (only the 2019 dataset included 5 extra columns, discarded).
 
 ### Reading the Data
 
@@ -207,4 +206,9 @@ Safarpour, H., Khorasani-Zavareh, D., & Mohammadi, R. (2020). The common road sa
 
 World Health Organization (WHO). (2022). Road traffic injuries World Health Organization Regional Office for the Eastern Mediterranean. Geneva, Switzerland. https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries 
 
+Yasin, Y. J., Grivna, M., & Abu-Zidan, F. M. (2021). Global impact of COVID-19 pandemic on road traffic collisions. World journal of emergency surgery, 16(1), 1-14.
+
 Yu, R., Han, L., & Zhang, H. (2021). Trajectory data based freeway high-risk events prediction and its influencing factors analyses. Accident Analysis & Prevention, 154, 106085. https://doi.org/10.1016/j.aap.2021.106085.
+
+
+
