@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4dc6fd360c1fcdc60c2af48d17e6a7b01986592f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4dc6fd360c1fcdc60c2af48d17e6a7b01986592f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4dc6fd360c1fcdc60c2af48d17e6a7b01986592f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/4dc6fd360c1fcdc60c2af48d17e6a7b01986592f/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@b8a089b](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d)
+from [uiceds/cee-492-term-project-fall-2022-swifties@4dc6fd3](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/4dc6fd360c1fcdc60c2af48d17e6a7b01986592f)
 on October 29, 2022.
 </em></small>
 
@@ -167,7 +167,20 @@ The datasets for different years are available for downloan as a .CSV file in th
 
 [https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05]{.center}
 
-## Exploratory Data Analysis {.page_break_before}
+### Project Objective and Plan Proposal
+
+The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crash data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections. 
+
+The plan to be carried out will follow the basic steps described as follows:
+
+1. Read the IDOT's crash data CSV files available as an open data source.
+2. Clean the data by deleting unwanted columns, handling missing data, and removing irrelevant observations.
+3. Tidy the data by organizing the variables into columns and the observations into rows.
+4. Analyze and visualize the data by finding correlations both analytically and graphically.
+5. Model a prediction algorithm for crash risk according to categorical variables.
+
+
+### Exploratory Data Analysis {.page_break_before}
 
 Open-source crashes' data is publicided by the Illinois Department of Transportation (IDOT), yearly. Each year's dataset was found to have extensive crashes' reports, which include several variables to describe each crash event. Each dataset is organized with observations filled according to the IDOT Traffic Crash Report SR 1050 Instruction Manual (2019). The datasets for each year are available in .csv format by IDOT, and they contain the observations arranged in rows and the independent variables in columns. The datasets from 2017, 2018, and 2019 were included in this Exploratory Data Analysis. The datasets from 2020 and 2021 were discarded in this analysis given the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and of course crash-related data (Yasin, Grivna & Abu-Zidan, 2021). When it comes to the size of the datasets, each one had over 300,000 rows (944,328 in total, combined), and at least 80 columns (only the 2019 dataset included 5 extra columns, discarded).
 
@@ -182,18 +195,18 @@ It was found that several independent variables would not provide fruitful infor
  When it comes to crash reports, several inconsistencies are considerably frequent. In the literature, for example, it is mentioned that "investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records", and thats why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer & Hakkert, 1989; Chin & Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, the observations labeled as "blank", "unknown", and "other" were matter of discussion among the group on how these inconsistencies would be handled. For all variables, the "blank" observations were immediately removed from the dataset. 
 
 
-### Project Objective and Plan Proposal
+### Analysis and Visualization
 
-The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crash data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections. 
+Plots
 
-The plan to be carried out will follow the basic steps described as follows:
+Trends
 
-1. Read the IDOT's crash data CSV files available as an open data source.
-2. Clean the data by deleting unwanted columns, handling missing data, and removing irrelevant observations.
-3. Tidy the data by organizing the variables into columns and the observations into rows.
-4. Analyze and visualize the data by finding correlations both analytically and graphically.
-5. Model a prediction algorithm for crash risk according to categorical variables.
-}
+Potential Issues
+
+
+### Modeling plan
+
+What we want to predict?
 
 ## References {.page_break_before}
 
