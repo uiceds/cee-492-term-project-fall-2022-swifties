@@ -44,8 +44,15 @@ content/04.Exploratory Data Analysis.md:7:dataset
 content/04.Exploratory Data Analysis.md:7:datasets
 content/04.Exploratory Data Analysis.md:7:datasets
 content/04.Exploratory Data Analysis.md:7:homegeneus
-content/04.Exploratory Data Analysis.md:11:Additionaly
+content/04.Exploratory Data Analysis.md:11:dataset
 content/04.Exploratory Data Analysis.md:11:datasets
+content/04.Exploratory Data Analysis.md:11:taht
+content/04.Exploratory Data Analysis.md:13:dataset
+content/04.Exploratory Data Analysis.md:13:Hakkert
+content/04.Exploratory Data Analysis.md:13:Hauer
+content/04.Exploratory Data Analysis.md:13:inexistent
+content/04.Exploratory Data Analysis.md:13:Quek
+content/04.Exploratory Data Analysis.md:13:thats
 content/04.Exploratory Data Analysis.md:18:allert
 content/04.Exploratory Data Analysis.md:18:IDOT
 content/04.Exploratory Data Analysis.md:22:CSV
@@ -65,3 +72,6 @@ content/90.back-matter.md:12:Yasin
 content/90.back-matter.md:12:Zidan
 content/90.back-matter.md:14:Yu
 content/90.back-matter.md:14:Zhang
+content/90.back-matter.md:16:HAKKERT
+content/90.back-matter.md:16:HAUER
+content/90.back-matter.md:18:QUEK

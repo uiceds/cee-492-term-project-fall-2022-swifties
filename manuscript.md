@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/26de0936fb570a9133c161b96c55db2ebb21144b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/26de0936fb570a9133c161b96c55db2ebb21144b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/26de0936fb570a9133c161b96c55db2ebb21144b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/26de0936fb570a9133c161b96c55db2ebb21144b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@26de093](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/26de0936fb570a9133c161b96c55db2ebb21144b)
+from [uiceds/cee-492-term-project-fall-2022-swifties@b8a089b](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b8a089bbbb681c6b1d1c698ab95362d5d97ddd2d)
 on October 29, 2022.
 </em></small>
 
@@ -173,13 +173,13 @@ Open-source crashes' data is publicided by the Illinois Department of Transporta
 
 ### Reading the Data
 
-To carry out the first step, the datasets were imported to Visual Studio Code using the CSV library. The datasets were merged into a unified file once the total numbers of columns of each of them were matched to an homegeneus number since it was noticeable that the latest dataset included additional independent variables the first two did not include. The three files were merged into a new database after this first sanity check. The final dataset integrated 80 variables (columns) and 944,328 observations (rows).
+To carry out the first step, the datasets were imported to Visual Studio Code using the CSV library. The datasets were merged into a unified file, once the total numbers of columns of each of them were matched to an homegeneus number since it was noticeable that the latest dataset included additional independent variables the first two did not include. The three files were merged into a new database after this first sanity check. The final dataset integrated 80 variables (columns) and 944,328 observations (rows).
 
 ### Cleaning Process
 
-It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. Thus, the datasets were visually inspected to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude & longitude, or X & Y coordinates) have not been taken into account. Columns containing codes describing the city, county or ID of the location where the crash took place has also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), traffic structures, etc were also removed. For some other independent variables, information that would have been useful was found to be significantly incomplete such as the number of lanes or type of intersection and therefore it was decided to not include it. Additionaly, independent variables with a high number of labels to describe them such as Railroad Crossing Number were also filtered out since it would not provide handy information for the end-user.
+It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. Thus, the datasets were visually inspected to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude & longitude, or X & Y coordinates) have not been taken into account. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. That happened with, for example, the number of lanes and the type of intersection, so therefore these variables were not included on the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the "Railroad Crossing Number" variable presented several unique values taht were found not to provide handy information for the end-user. In terms of variables (columns), after filtering out the information that would not be utilized for this analysis, the number of independent variables went from 80 to 21.
 
-After filtering out the information that will not be utilized for this analysis, the number of independent variables went from 80 to 21.
+ When it comes to crash reports, several inconsistencies are considerably frequent. In the literature, for example, it is mentioned that "investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records", and thats why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer & Hakkert, 1989; Chin & Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, the observations labeled as "blank", "unknown", and "other" were matter of discussion among the group on how these inconsistencies would be handled. For all variables, the "blank" observations were immediately removed from the dataset. 
 
 
 ### Project Objective and Plan Proposal
@@ -210,5 +210,10 @@ Yasin, Y. J., Grivna, M., & Abu-Zidan, F. M. (2021). Global impact of COVID-19 p
 
 Yu, R., Han, L., & Zhang, H. (2021). Trajectory data based freeway high-risk events prediction and its influencing factors analyses. Accident Analysis & Prevention, 154, 106085. https://doi.org/10.1016/j.aap.2021.106085.
 
+HAUER, E.; HAKKERT, A. S. The Extent and Implications of Incomplete Accident Reporting. Transportation Research Record: Journal of the Transportation Research Board, n.1185, p.1-10, 1989. 
+
+CHIN, H. C.; QUEK, S. T. Measurement of Traffic Conflicts. Safety Science, Vol. 26(3), p. 169-185, 1997. DOI: https://doi.org/10.1016/S0925-7535(97)00041-6.
+
+FARMER, C. M. Reliability of Police-Reported Information for Determining Crash and Injury Severity. Traffic Injury Prevention, 2003, n.4, p.38-44, 2003. DOI: https://doi.org/10.1080/15389580309855.
 
 
