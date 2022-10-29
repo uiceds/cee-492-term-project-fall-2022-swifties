@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c7b5b105f5e028ae98ecbb42908dd26452841e16/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c7b5b105f5e028ae98ecbb42908dd26452841e16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c7b5b105f5e028ae98ecbb42908dd26452841e16/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b9259eae7c6a4e2f9817b8723564f9886f51eca/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b9259eae7c6a4e2f9817b8723564f9886f51eca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b9259eae7c6a4e2f9817b8723564f9886f51eca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c7b5b105f5e028ae98ecbb42908dd26452841e16/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b9259eae7c6a4e2f9817b8723564f9886f51eca/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@c7b5b10](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c7b5b105f5e028ae98ecbb42908dd26452841e16)
+from [uiceds/cee-492-term-project-fall-2022-swifties@5b9259e](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5b9259eae7c6a4e2f9817b8723564f9886f51eca)
 on October 29, 2022.
 </em></small>
 
@@ -219,6 +219,12 @@ Loaded from the latest version of image on GitHub.
 **A random sample bar chart to test quality.**
 Loaded from the latest version of image on GitHub.
 ](https://user-images.githubusercontent.com/63623246/198846505-32f95aca-301b-48d9-ace5-77b22c869df4.jpg "Bar Chart"){#fig:bar-chart}
+
+
+![
+**A map that Renan likes.**
+Farid opposed the idea.
+](https://user-images.githubusercontent.com/63623246/198846854-75c666af-afb6-4188-8a21-28eb872b80ac.jpeg "Mapinha"){#fig:map-ihna}
 
 
 
