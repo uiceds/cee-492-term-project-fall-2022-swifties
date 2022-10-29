@@ -13,7 +13,7 @@ Farid
 fsaudm
 Grainger
 Grivna
-Hakkert
+HAKKERT
 HAUER
 Huaman
 ICT
@@ -27,7 +27,7 @@ Mohammadi
 occurence
 occurences
 occuring
-Quek
+QUEK
 Renan
 renanssmaia
 Safarpour
