@@ -58,8 +58,8 @@ content/04.Exploratory Data Analysis.md:26:Hauer
 content/04.Exploratory Data Analysis.md:26:inexistent
 content/04.Exploratory Data Analysis.md:26:Quek
 content/04.Exploratory Data Analysis.md:26:thats
-content/04.Exploratory Data Analysis.md:56:Renan
-content/04.Exploratory Data Analysis.md:57:Farid
+content/04.Exploratory Data Analysis.md:57:Renan
+content/04.Exploratory Data Analysis.md:58:Farid
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:8:Khorasani

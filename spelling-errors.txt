@@ -13,8 +13,8 @@ Farid
 fsaudm
 Grainger
 Grivna
-Hakkert
-HAUER
+HAKKERT
+Hauer
 homegeneus
 Huaman
 ICT
@@ -28,7 +28,7 @@ Mohammadi
 occurence
 occuring
 publicided
-Quek
+QUEK
 Renan
 renanssmaia
 Safarpour

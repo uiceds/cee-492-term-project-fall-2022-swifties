@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1e736f17bdf9921fee29c39517457a79c6def148/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1e736f17bdf9921fee29c39517457a79c6def148/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1e736f17bdf9921fee29c39517457a79c6def148/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/abe3fad882306ae0638fb6c254c53bebe6214970/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/abe3fad882306ae0638fb6c254c53bebe6214970/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/abe3fad882306ae0638fb6c254c53bebe6214970/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1e736f17bdf9921fee29c39517457a79c6def148/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/abe3fad882306ae0638fb6c254c53bebe6214970/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@1e736f1](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1e736f17bdf9921fee29c39517457a79c6def148)
+from [uiceds/cee-492-term-project-fall-2022-swifties@abe3fad](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/abe3fad882306ae0638fb6c254c53bebe6214970)
 on October 29, 2022.
 </em></small>
 
@@ -201,7 +201,8 @@ Plots
 
 Trends
 
-Potential Issues
+#### Potential Issues
+Once the data was analyzed from the visualization efforts, it could be observed that most of the crashes are reported in conditions that were initially hypothesized to represent a “safer” scenario. A high percentage of the crashes reported after data cleaning was reported in the following conditions: (i) daylight, (ii) dry surface, (iii) no road defects, (iv) no work-zone. This way, this should be considered for the future modeling. 
 
 
 ### Modeling plan
