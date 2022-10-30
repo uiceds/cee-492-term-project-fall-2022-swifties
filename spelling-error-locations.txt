@@ -45,7 +45,7 @@ content/04.Exploratory Data Analysis.md:14:inexistent
 content/04.Exploratory Data Analysis.md:14:Quek
 content/04.Exploratory Data Analysis.md:14:thats
 content/04.Exploratory Data Analysis.md:22:occurences
-content/04.Exploratory Data Analysis.md:70:cosidered
+content/04.Exploratory Data Analysis.md:69:cosidered
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:9:idot

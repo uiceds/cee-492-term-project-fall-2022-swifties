@@ -1,6 +1,7 @@
 Abu
 allert
 APIs
+BarPlot
 Champaign
 cosidered
 COVID
@@ -14,7 +15,7 @@ fsaudm
 Grainger
 Grivna
 HAKKERT
-HAUER
+Hauer
 Huaman
 ICT
 IDOT
@@ -27,9 +28,10 @@ Mohammadi
 occurence
 occurences
 occuring
-QUEK
+Quek
 Renan
 renanssmaia
+RoadDefects
 Safarpour
 Saud
 thats
