@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-29'
+date-meta: '2022-10-30'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-10-29" />
-  <meta name="citation_publication_date" content="2022-10-29" />
+  <meta name="dc.date" content="2022-10-30" />
+  <meta name="citation_publication_date" content="2022-10-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/2163a9584a3340cc4aa0db7de3f0258a2c24626b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/2163a9584a3340cc4aa0db7de3f0258a2c24626b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/2163a9584a3340cc4aa0db7de3f0258a2c24626b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/2163a9584a3340cc4aa0db7de3f0258a2c24626b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@2163a95](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/2163a9584a3340cc4aa0db7de3f0258a2c24626b)
-on October 29, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@4825239](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/48252395d5ac2b21d589a010d581d57b5cd9fe44)
+on October 30, 2022.
 </em></small>
 
 ## Authors
