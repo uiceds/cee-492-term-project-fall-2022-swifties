@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/17f4f787b40fc97b2f33ec052d861e6f28a41e36/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/17f4f787b40fc97b2f33ec052d861e6f28a41e36/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/17f4f787b40fc97b2f33ec052d861e6f28a41e36/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/48252395d5ac2b21d589a010d581d57b5cd9fe44/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/17f4f787b40fc97b2f33ec052d861e6f28a41e36/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@4825239](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/48252395d5ac2b21d589a010d581d57b5cd9fe44)
+from [uiceds/cee-492-term-project-fall-2022-swifties@17f4f78](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/17f4f787b40fc97b2f33ec052d861e6f28a41e36)
 on October 30, 2022.
 </em></small>
 
@@ -199,6 +199,12 @@ Crash reports from 2017,2018,2019 in the state of Illinois, USA.
 From 2017 to 2019.
 ](https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png "PC_LC"){#fig:lightning-cond}
 
+#### Bar Chart | Road Defects
+![
+**Distribution of accidents by Road Defects.**
+](content/images/BarPlot_RoadDefects.png"PC_LC"){#fig:road-defects}
+
+
 #### Pie Chart |Road Surface Condition
 
 ![
@@ -214,6 +220,8 @@ From 2017 to 2019.
 **Distribution of accidents by Road Defect Condition.**
 From 2017 to 2019.
 ](https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png "Mapinha"){#fig:map-ihna}
+
+
 
 
 #### Bar Plot
