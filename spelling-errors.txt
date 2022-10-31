@@ -1,3 +1,4 @@
+Abdulhafedh
 Abu
 allert
 analized
@@ -16,6 +17,7 @@ CrashSeverity
 CrashYr
 crosstab
 CSV
+Danesh
 dataset
 datasets
 DayOfWeekCode
@@ -27,7 +29,7 @@ fsaudm
 Grainger
 Grivna
 Hakkert
-HAUER
+Hauer
 hotspots
 Huaman
 ICT
@@ -35,17 +37,20 @@ IDOT
 IDOTAdmin
 IDOT’s
 inexistent
+innacurate
 IntersectionRelated
 Khorasani
 LightingCond
 Maia
 meaningul
+minize
 Mohammadi
 NoInjuries
 NumberOfVehicles
 occurence
 occuring
 QUEK
+Rashidi
 Renan
 renanssmaia
 RoadDefects

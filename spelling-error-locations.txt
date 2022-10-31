@@ -97,21 +97,12 @@ content/04.Exploratory Data Analysis.md:142:dataset
 content/04.Exploratory Data Analysis.md:152:analized
 content/04.Exploratory Data Analysis.md:152:meaningul
 content/04.Exploratory Data Analysis.md:154:througout
-content/05.Predictive Model.md:3:Abu
-content/05.Predictive Model.md:3:COVID
-content/05.Predictive Model.md:3:CSV
-content/05.Predictive Model.md:3:dataset
-content/05.Predictive Model.md:3:dataset
-content/05.Predictive Model.md:3:datasets
-content/05.Predictive Model.md:3:datasets
-content/05.Predictive Model.md:3:datasets
-content/05.Predictive Model.md:3:Grivna
-content/05.Predictive Model.md:3:IDOT
-content/05.Predictive Model.md:3:IDOT
-content/05.Predictive Model.md:3:IDOT
-content/05.Predictive Model.md:3:occurence
-content/05.Predictive Model.md:3:Yasin
-content/05.Predictive Model.md:3:Zidan
+content/05.Predictive Model.md:4:Abdulhafedh
+content/05.Predictive Model.md:4:Rashidi
+content/05.Predictive Model.md:6:Danesh
+content/05.Predictive Model.md:6:dataset
+content/05.Predictive Model.md:8:innacurate
+content/05.Predictive Model.md:17:minize
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:9:idot
