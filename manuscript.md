@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@ff3f7bc](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e)
+from [uiceds/cee-492-term-project-fall-2022-swifties@a13da24](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a13da24490493403cf41e2e670a07d02ddfb3b29)
 on October 31, 2022.
 </em></small>
 
@@ -317,11 +317,11 @@ It can be noticed that most of the attributes are subjective observations trying
 ## Predictive Model {.page_break_before}
 
 
-Road crash prediction models are very useful tools in highway safety, given their potential for determining both the crash frequency occurrence and the degree severity of crashes (Abdulhafedh, 2017). While crash frequency refers to the number of predicted crashes for a given road under specific conditions, crash severity aims to correlate the casualties with contributing factors such as driven behavior, road conditions, and external factors (weather, lightning, etc). Identifying and analyzing the attributes influencing forecasting accuracy is of great importance in road crash prediction (Rashidi et al, 2022). 
+Road crash prediction models are very useful tools in highway safety, given their potential for determining both the crash frequency occurrence and the degree severity of crashes (Abdulhafedh, 2017). While crash frequency refers to the number of predicted crashes for a given road under specific conditions, crash severity aims to correlate the casualties with contributing factors such as driver behavior, road conditions, and external factors (weather, lightning, etc). Identifying and analyzing the attributes influencing forecasting accuracy is of great importance in road crash prediction (Rashidi et al, 2022). 
 
 In a road crash dataset, the fatal crash samples, often constitute a very small proportion in comparison with non-fatal crash samples. Accurate prediction of fatal crashes, as a minority class, is one of the important challenges in such imbalanced sample distribution in most machine learning algorithms (Danesh et al, 2017). On top of that, several other factors such as the traffic flow or the average speed can greatly influence the prediction, so assumptions have to be made in order to develop a prediction model.
 
-Given the nature of our database, the prediction model to be developed will focus on estimating crash severity based on our known attributes. For the reasons established before, crash frequency would require traffic data. Thus, trying to estimate it without this specific independent variable would lead to a completely innacurate model. 
+Given the nature of our database, the prediction model to be developed will focus on estimating crash severity based on our known attributes. For the reasons established before, crash frequency predictions would require traffic data. Thus, trying to estimate it without this specific independent variable would lead to a completely innacurate model. 
 
 In the previous section, the Exploratory Data Analysis provided insightful information regarding the correlation of the independent variables, and a regression model will be the first approach for crash severity prediction. In this section, attention will be placed to understand the contribution of every independent variable to the overall result, to later start working on solving the data imbalance issue already identified.
 
@@ -330,7 +330,7 @@ The steps to be carried out can be summarized as follows:
 1. Assign numerical values to the classification attributes to further study the influence of each factor in our target value.
 2. Analyze the correlation between independent variables, and filter out those who are highly correlated.
 3. Define an error metric and build a regression model. 
-4. Train the model to find the parameters that minize the error metric.
+4. Train the model to find the parameters that minimize the error metric.
 5. Divide the database into training data and test data.
 6. Compare the predicted crash severity with both training data and test data, and assess the preliminary results.
 
@@ -360,5 +360,15 @@ HAUER, E.; HAKKERT, A. S. The Extent and Implications of Incomplete Accident Rep
 CHIN, H. C.; QUEK, S. T. Measurement of Traffic Conflicts. Safety Science, Vol. 26(3), p. 169-185, 1997. DOI: https://doi.org/10.1016/S0925-7535(97)00041-6.
 
 FARMER, C. M. Reliability of Police-Reported Information for Determining Crash and Injury Severity. Traffic Injury Prevention, 2003, n.4, p.38-44, 2003. DOI: https://doi.org/10.1080/15389580309855.
+
+Lee, C., Hellinga, B., & Saccomanno, F. (2003). Real-Time Crash Prediction Model for Application to Crash Prevention in Freeway Traffic. Transportation Research Record, 1840(1), 67–77. https://doi.org/10.3141/1840-08
+
+Akbar Danesh, Mehrdad Ehsani, Fereidoon Moghadas Nejad & Hamzeh Zakeri (2022) Prediction model of crash severity in imbalanced dataset using data leveling methods and metaheuristic optimization algorithms, International Journal of Crashworthiness, DOI: 10.1080/13588265.2022.2028471
+
+Abdulhafedh, A. (2017) Road Crash Prediction Models: Different Statistical Modeling Approaches. Journal of Transportation Technologies, 7, 190-205. doi: 10.4236/jtts.2017.72014.
+
+Mohammad Hesam Rashidi, Soheil Keshavarz, Parham Pazari, Navid Safahieh, Amir Samimi, Modeling the accuracy of traffic crash prediction models, IATSS Research, Volume 46, Issue 3, 2022, Pages 345-352, ISSN 0386-1112, https://doi.org/10.1016/j.iatssr.2022.03.004.
+
+
 
 
