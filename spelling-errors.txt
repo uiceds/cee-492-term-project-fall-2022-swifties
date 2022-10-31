@@ -6,6 +6,7 @@ Champaign
 CityName
 ClassOfTrafficWay
 CollisionTypeCode
+Comapring
 COVID
 Cramer’s
 CrashDay
@@ -25,7 +26,7 @@ Farid
 fsaudm
 Grainger
 Grivna
-HAKKERT
+Hakkert
 HAUER
 hotspots
 Huaman
@@ -50,6 +51,7 @@ renanssmaia
 RoadDefects
 RoadSurfaceCond
 RoadwayFunctionalClassCode
+RoadwayFunctionClassCode
 Safarpour
 Saud
 thats
@@ -63,6 +65,7 @@ TypeOfFirstCrash
 Unkown
 Urbana
 WeatherCond
+workzone
 WorkZoneRelated
 XXXX
 Yasin
