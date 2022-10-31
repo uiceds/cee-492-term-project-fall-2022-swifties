@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f55e3c31df4b0b1162306e7ea8c004410d528b54/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f55e3c31df4b0b1162306e7ea8c004410d528b54/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f55e3c31df4b0b1162306e7ea8c004410d528b54/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3db67447e496b5e1c94b2dfcfd5448fb35579798/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3db67447e496b5e1c94b2dfcfd5448fb35579798/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3db67447e496b5e1c94b2dfcfd5448fb35579798/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f55e3c31df4b0b1162306e7ea8c004410d528b54/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3db67447e496b5e1c94b2dfcfd5448fb35579798/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@f55e3c3](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/f55e3c31df4b0b1162306e7ea8c004410d528b54)
+from [uiceds/cee-492-term-project-fall-2022-swifties@3db6744](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/3db67447e496b5e1c94b2dfcfd5448fb35579798)
 on October 31, 2022.
 </em></small>
 
@@ -271,11 +271,40 @@ From 2017 to 2019.
 
 
 #### Correlation Plot
+|                               | Association with CrashSeverity         
+|:------------------------------|:-------------:|
+| CrashYr                       | 0.00807       |
+| CrashMonth                    | 0.0268889     | 
+| CrashDay                      | 0.00470057    |
+| NumberOfVehicles              | 0.101171      | 
+| DayOfWeekCode                 | 0.0110936     |
+| CrashHour                     | 0.0255177     | 
+| CollisionTypeCode             | 0.259482      | 
+| TotalFatals                   | 0.707104      | 
+| TotalInjured                  | 0.705812      | 
+| NoInjuries                    | 0.355953      | 
+| CrashSeverity                 | 1             | 
+| IntersectionRelated           | 0.141338      |
+| RoadwayFunctionalClassCode    | 0.0714974     | 
+| WorkZoneRelated               | 0.00473353    | 
+| TypeOfFirstCrash              | 0.259498      | 
+| CityName                      | 0.0738726     | 
+| ClassOfTrafficWay             | 0.0608374     | 
+| Cause1                        | 0.165848      | 
+| TrafficControlDevice          | 0.097696      |
+| TrafficControlDeviceCond      | 0.0515391     | 
+| RoadSurfaceCond               | 0.0329927     | 
+| RoadDefects                   | 0.0424504     |
+| LightingCond                  | 0.02852       | 
+| WeatherCond                   | 0.0307212     | 
 
-![
-**Correlation of Independent Variables.**
-Only the top 5 independent variables have been cosidered.
-](https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png "Mapinha"){#fig:map-ihna}
+
+As mentioned earlier, one of the objectives of analyzing this data is understanding how different road and environment conditions would affect crashes and their severity. This can be obtained by finding the associations between the different variables (columns) in the dataset, meaning how is one variable affected by the other.
+However, most of the variables are of categorical type, i.e., variables that are identified based on names or labels given to them and not based on numbers. This makes the built-in correlation functions in Python or Julia not helpful. One very commonly used method to measure the correlation between two categorical variables is Cramer’s V statistic. Cramer’s V is based on a nominal variation of Pearson’s Chi-Square Test. Like correlation, the output takes values between 0 and 1 (inclusive), with 0 corresponding to no correlation between the variables and 1 corresponding to one variable being completely determined by the other. On the other hand, and unlike the usual correlation, there are no negative values.
+For this project, a function was created in Python that calculates the association between any 2 categorical columns using confusion matrix which can be obtained via built-in pandas method for categorical columns (pd.crosstab).
+For this data that has 24 columns, running this function for every pair of variables would take too much time and may not give many insights. Therefore, the function was used to find how the column “CrashSeverity” is correlated with every other variable. This column was chosen because finding how different conditions affect the severity of the crash is one of the most important outcomes of studying this dataset, and this would give an idea about the variables that have a significant impact on the crashes.
+
+The output is described in the table below:
 
 
 ### Trends

@@ -50,10 +50,39 @@ content/04.Exploratory Data Analysis.md:54:hotspots
 content/04.Exploratory Data Analysis.md:64:dataset
 content/04.Exploratory Data Analysis.md:64:dataset
 content/04.Exploratory Data Analysis.md:90:dataset
-content/04.Exploratory Data Analysis.md:108:cosidered
-content/04.Exploratory Data Analysis.md:120:analized
-content/04.Exploratory Data Analysis.md:120:meaningul
-content/04.Exploratory Data Analysis.md:122:througout
+content/04.Exploratory Data Analysis.md:105:CrashSeverity
+content/04.Exploratory Data Analysis.md:107:CrashYr
+content/04.Exploratory Data Analysis.md:108:CrashMonth
+content/04.Exploratory Data Analysis.md:109:CrashDay
+content/04.Exploratory Data Analysis.md:110:NumberOfVehicles
+content/04.Exploratory Data Analysis.md:111:DayOfWeekCode
+content/04.Exploratory Data Analysis.md:112:CrashHour
+content/04.Exploratory Data Analysis.md:113:CollisionTypeCode
+content/04.Exploratory Data Analysis.md:114:TotalFatals
+content/04.Exploratory Data Analysis.md:115:TotalInjured
+content/04.Exploratory Data Analysis.md:116:NoInjuries
+content/04.Exploratory Data Analysis.md:117:CrashSeverity
+content/04.Exploratory Data Analysis.md:118:IntersectionRelated
+content/04.Exploratory Data Analysis.md:119:RoadwayFunctionalClassCode
+content/04.Exploratory Data Analysis.md:120:WorkZoneRelated
+content/04.Exploratory Data Analysis.md:121:TypeOfFirstCrash
+content/04.Exploratory Data Analysis.md:122:CityName
+content/04.Exploratory Data Analysis.md:123:ClassOfTrafficWay
+content/04.Exploratory Data Analysis.md:125:TrafficControlDevice
+content/04.Exploratory Data Analysis.md:126:TrafficControlDeviceCond
+content/04.Exploratory Data Analysis.md:127:RoadSurfaceCond
+content/04.Exploratory Data Analysis.md:128:RoadDefects
+content/04.Exploratory Data Analysis.md:129:LightingCond
+content/04.Exploratory Data Analysis.md:130:WeatherCond
+content/04.Exploratory Data Analysis.md:133:dataset
+content/04.Exploratory Data Analysis.md:134:Cramer’s
+content/04.Exploratory Data Analysis.md:134:Cramer’s
+content/04.Exploratory Data Analysis.md:135:crosstab
+content/04.Exploratory Data Analysis.md:136:CrashSeverity
+content/04.Exploratory Data Analysis.md:136:dataset
+content/04.Exploratory Data Analysis.md:149:analized
+content/04.Exploratory Data Analysis.md:149:meaningul
+content/04.Exploratory Data Analysis.md:151:througout
 content/05.Predictive Model.md:3:Abu
 content/05.Predictive Model.md:3:COVID
 content/05.Predictive Model.md:3:CSV
