@@ -61,9 +61,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bbefc8d07d38e4ef3cc64dba042b8842e4af3755/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bbefc8d07d38e4ef3cc64dba042b8842e4af3755/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bbefc8d07d38e4ef3cc64dba042b8842e4af3755/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bbefc8d07d38e4ef3cc64dba042b8842e4af3755/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/bbefc8d07d38e4ef3cc64dba042b8842e4af3755">uiceds/cee-492-term-project-fall-2022-swifties@bbefc8d</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ff3f7bcade202bce32c0b1dfc1e5e749e2ec084e">uiceds/cee-492-term-project-fall-2022-swifties@ff3f7bc</a>
 on October 31, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -162,70 +162,69 @@ The Exploratory Data Analysis will be carried out following the steps described 
 <p>It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each attribute. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude &amp; longitude, or X &amp; Y coordinates) has not been taken into account. A map plot was initially produced to see the distribution of the data. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included in the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the “Railroad Crossing Number” variable had up to 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that would not be utilized for this analysis, the number of independent variables went down from 80 to 21.</p>
 <p>When it comes to crash reports, several inconsistencies are considerably frequent. In the literature, for example, it is mentioned that “investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records”, and that is why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer &amp; Hakkert, 1989; Chin &amp; Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, the observations labeled as “blank”, “unknown”, and “other” were a matter of discussion among the group on how these inconsistencies would be handled. For all variables, the “blank” observations were immediately removed from the dataset.</p>
 <h3 id="analysis-and-visualization">Analysis and Visualization</h3>
-<p>In this section, a set of plots, charts and visuals are presented to present some of the findings of the exploratory data analysis. Certain conditions that were identified as more significant are displayed in the graphs below.</p>
+<p>In this section, a set of plots, charts, and visuals were developed using a set of tools: Julia, Python, and Power BI, and are presented to display the findings and trends, product of the exploratory data analysis. The visualization include distributions of car crashes over time and for the identified variables discussed in this report.</p>
 <h4 id="bar-plot-crashes">Bar Plot Crashes</h4>
-<div id="fig:crash-2017" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/112973190/198912087-2713cf8e-9bff-48d8-92c9-4eaa55ab5f13.png" alt="Figure 1: Bar Plot Historical Crashes. Crash reports from 2017 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Bar Plot Historical Crashes.</strong>
-Crash reports from 2017 in the state of Illinois, USA.</figcaption>
-</figure>
-</div>
-<p>For 2017, the month with the most incidents is December (“12”), with 28032 car crashes (out of 295651 for that year), and the month with the least car crashes is February (“2”), with 20049 incidents that month. These findings can represent the effect of weather conditions as well, given that during the very first and the later years of the year, the amount of accidents increases. These months correspond to winter season, and englobes certain holidays where people might be very active and potentially more car crashes might happen.</p>
-<div id="fig:crash-2018" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png" alt="Figure 2: Bar Plot Historical Crashes. Crash reports from 2018 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Bar Plot Historical Crashes.</strong>
-Crash reports from 2018 in the state of Illinois, USA.</figcaption>
-</figure>
-</div>
-<p>Now, for 2018, different from the previous year, the month with the largest count of accidents is November (“11”), with 28743 recorded crashes (out of 304196). The month with the least amount of crashes is March (“3”), with 22200 crashes. For this year, just like for 2017, the months were peaks happen can be associated to the worse seasons for a driver.</p>
-<div id="fig:crash-2019" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png" alt="Figure 3: Bar Plot Historical Crashes. Crash reports from 2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Bar Plot Historical Crashes.</strong>
-Crash reports from 2019 in the state of Illinois, USA.</figcaption>
-</figure>
-</div>
-<p>For the year 2019, the month with most accidents is November (“11”), with 26964 recorded crashes (out of 283946), and the month with the least accidents is March (“3”), with 20569 incidents. in a similar way to years 2017 and 2018, the months with the highest count happen in the same season.</p>
-<h4 id="map">Map</h4>
-<div id="fig:map-ihna" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 4: Distribution of crash occurrences. Crash reports from 2017,2018,2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>Distribution of crash occurrences.</strong>
-Crash reports from 2017,2018,2019 in the state of Illinois, USA.</figcaption>
-</figure>
-</div>
-<p>Using the “X” and “Y” information present in the dataset, a visual distribution of the location of the recorded car crashes is illustrated in the map Figure. In the map of Illinois, the red dots represent a pair of “X” and “Y” coordinates, being the location where a car crash happened. The majority of car crashes appear to had happened in cities and towns. The best example would be Chicago, where all around the area, the number of occurrences, or red dots, is significantly higher, which may be presumable given that Chicago and the surrounding areas host a big fraction of the state’s population. In a smaller scale, this is also visible that in other cities and towns, such as Springfield and Davenport. In other locations, the recorded car crashes are much more spaced out, with certain “hotspots” in some highways and roads.</p>
-<h4 id="pie-chart-lightning-conditions">Pie Chart | Lightning Conditions</h4>
-<div id="fig:lightning-cond" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png" alt="Figure 5: Distribution of accidents by Lightning Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Distribution of accidents by Lightning Condition.</strong>
-From 2017 to 2019.</figcaption>
-</figure>
-</div>
-<p>This figure displays the different percentages of the different lighting conditions presented in the dataset. The condition with the most car crashes associated to it is “Daylight”, representing a 66% of the crashes in the dataset. During night time, “Darkness/Lighted Road” accounts for 18% of the crashes and “Darkness”, 11%. Conditions “Dawn” and “Dusk” account for 2% each of the car crashes recorded.</p>
-<h4 id="pie-chart-road-surface-condition">Pie Chart |Road Surface Condition</h4>
-<div id="fig:surf-cond" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/112973190/198915863-f53ee251-18bb-4c60-8c64-8315ef08ee9f.png" alt="Figure 6: Distribution of accidents by Road Surface Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Distribution of accidents by Road Surface Condition.</strong>
-From 2017 to 2019.</figcaption>
-</figure>
-</div>
-<p>The chart above summarizes the analysis performed on the data on the influence of the road surface condition on the amount of car crashes. It was found that 76% of the recorded crashes correspond to a “dry” road surface, which can be thought of as the least dangerous condition. For the not too favorable road surface conditions, 16% of the car crashes analyzed correspond to a “wet” road surface, 5% to “snow”, 2% to “ice” and other “unknown” road surface conditions.</p>
-<h4 id="bar-plot-road-defects">Bar Plot | Road Defects</h4>
-<p><img src="https://user-images.githubusercontent.com/112973190/198915785-44a4248e-d9b5-4dbb-adfd-4349b6e764d4.png" title="surface-def" alt="Distribution of accidents by Road Surface Condition. From 2017 to 2019." /> {#fig:surface_def}</p>
-<p>This figure shows the number of car crashes associated with the different Road Defects. The horizontal axis labels the road defects from the data, and the vertical axis accounts for the number of observations. As seen in the bar chart, the vast majority of the incidents (808,835 out of 883,793 observations, which accounts for a 91.52%) happened where “no defects” were present in the location. The following condition of road defects is “unknown”, accounting for a 6.61% of accidents. Now, the percentage of observations where defects were reported are 0.5% for “worn surface” and “other road defects”, 0.14% for “shoulder” road defects, 0.49% for debris on roadways, and 0.21% for “ruts and holes”.</p>
-<div id="fig:road-excl" class="fignos">
-<figure>
-<img src="https://user-images.githubusercontent.com/112973190/198915622-972e8402-da22-4a13-99fe-6995ee936c70.png" alt="Figure 7: Distribution of accidents by Road Defects, excluding No Defects condition" /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Distribution of accidents by Road Defects,</strong>
-excluding No Defects condition</figcaption>
-</figure>
-</div>
-<p>Given that a great number of crashes happened without any road defects, it might be interested to account for the likelihood of road defects to be associated with a car crash. Figure X displays the different percentages of the road defects accounted for in the dataset, where “unknown” represents 78% of the data, followed by a 6% for “worn surfaces”, “debris on roadway” and “other” road defects, and 2% for “ruts and holes” and “shoulder” defects.</p>
 <h4 id="bar-plot">Bar Plot</h4>
 <div id="fig:over-time" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973190/198916592-12348b8d-af9f-47f6-8bad-c0deb7819bec.jpeg" alt="Figure 8: Distribution of accidents over time. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Distribution of accidents over time.</strong>
+<img src="https://user-images.githubusercontent.com/112973190/198916592-12348b8d-af9f-47f6-8bad-c0deb7819bec.jpeg" alt="Figure 1: Distribution of accidents over time. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Distribution of accidents over time.</strong>
 From 2017 to 2019.</figcaption>
 </figure>
 </div>
+<p>The first plot presented is a visual representation of the number of car crashes throughout time. This served as a foundational step for the later-developed visuals. Below, the data is subdivided by year, and then by month to better understand the number of car crashes through time.</p>
+<div id="fig:crash-2017" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198912087-2713cf8e-9bff-48d8-92c9-4eaa55ab5f13.png" alt="Figure 2: Bar Plot Historical Crashes. Crash reports from 2017 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Bar Plot Historical Crashes.</strong>
+Crash reports from 2017 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
+<p>For 2017, the month with the most incidents is December (“12”), with 28032 car crashes (out of 295651 for that year), and the month with the least car crashes is February (“2”), with 20049 incidents that month. These findings can represent the effect of weather conditions as well, given that during the very first and the later years of the year, the amount of accidents increases. These months correspond to the winter season and englobes certain holidays where people might be very active and potentially more car crashes might happen.</p>
+<div id="fig:crash-2018" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png" alt="Figure 3: Bar Plot Historical Crashes. Crash reports from 2018 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Bar Plot Historical Crashes.</strong>
+Crash reports from 2018 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
+<p>Now, for 2018, different from the previous year, the month with the largest count of accidents is November (“11”), with 28743 recorded crashes (out of 304196). The month with the least amount of crashes is March (“3”), with 22200 crashes. For this year, just like for 2017, the months where peaks happen can be associated with the worse seasons for a driver.</p>
+<div id="fig:crash-2019" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png" alt="Figure 4: Bar Plot Historical Crashes. Crash reports from 2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>Bar Plot Historical Crashes.</strong>
+Crash reports from 2019 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
+<p>For the year 2019, the month with the most accidents is November (“11”), with 26964 recorded crashes (out of 283946), and the month with the least accidents is March (“3”), with 20569 incidents. in a similar way to the years 2017 and 2018, the months with the highest count happen in the same season.</p>
+<h4 id="map">Map</h4>
+<div id="fig:map-ihna" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 5: Distribution of crash occurrences. Crash reports from 2017,2018,2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Distribution of crash occurrences.</strong>
+Crash reports from 2017,2018,2019 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
+<p>Using the “X” and “Y” information present in the dataset, a visual distribution of the location of the recorded car crashes is illustrated in the map Figure. In the map of Illinois, the red dots represent a pair of “X” and “Y” coordinates, being the location where a car crash happened. The majority of car crashes appear to have happened in cities and towns. The best example would be Chicago, where all around the area, the number of occurrences, or red dots, is significantly higher, which may be presumable given that Chicago and the surrounding areas host a big fraction of the state’s population. On a smaller scale, this is also visible in other cities and towns, such as Springfield and Davenport. In other locations, the recorded car crashes are much more spaced out, with certain “hotspots” in some highways and roads.</p>
+<h4 id="pie-chart-lightning-conditions">Pie Chart | Lightning Conditions</h4>
+<div id="fig:lightning-cond" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png" alt="Figure 6: Distribution of accidents by Lightning Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Distribution of accidents by Lightning Condition.</strong>
+From 2017 to 2019.</figcaption>
+</figure>
+</div>
+<p>This figure displays the different percentages of the different lighting conditions presented in the dataset. The condition with the most car crashes associated with it is “Daylight”, representing 66% of the crashes in the dataset. During the nighttime, “Darkness/Lighted Road” accounts for 18% of the crashes, and “Darkness”, for 11%. Conditions “Dawn” and “Dusk” account for 2% each of the car crashes recorded.</p>
+<h4 id="pie-chart-road-surface-condition">Pie Chart |Road Surface Condition</h4>
+<div id="fig:surf-cond" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198915863-f53ee251-18bb-4c60-8c64-8315ef08ee9f.png" alt="Figure 7: Distribution of accidents by Road Surface Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Distribution of accidents by Road Surface Condition.</strong>
+From 2017 to 2019.</figcaption>
+</figure>
+</div>
+<p>The chart above summarizes the analysis performed on the data on the influence of road surface conditions on the number of car crashes. It was found that 76% of the recorded crashes correspond to a “dry” road surface, which can be thought of as the least dangerous condition. For the not-too-favorable road surface conditions, 16% of the car crashes analyzed correspond to a “wet” road surface, 5% to “snow”, 2% to “ice” and other “unknown” road surface conditions.</p>
+<h4 id="pie-chart-road-defects">Pie Chart | Road Defects</h4>
+<div id="fig:road-excl" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198915622-972e8402-da22-4a13-99fe-6995ee936c70.png" alt="Figure 8: Distribution of accidents by Road Defects, excluding No Defects condition" /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Distribution of accidents by Road Defects,</strong>
+excluding No Defects condition</figcaption>
+</figure>
+</div>
+<p>While analyzing the distribution of accidents by road defects, it was found that the vast majority of the incidents (808,835 out of 883,793 observations, which accounts for 91.52%) happened were “no defects” were present in the location. Given that a great number of crashes happened without any road defects, it might be interesting to account for the likelihood of road defects being associated with a car crash. Figure 6 displays the different percentages of the road defects accounted for in the dataset, where “unknown” represents 78% of the data, followed by 6% for “worn surfaces”, “debris on the roadway” and “other” road defects, and 2% for “ruts and holes” and “shoulder” defects.</p>
 <h4 id="correlation-between-variables">Correlation between Variables</h4>
 <p>As mentioned earlier, one of the objectives of analyzing this data is understanding how different road and environment conditions would affect crashes and their severity. This can be obtained by finding the associations between the different variables (columns) in the dataset, meaning how one variable is affected another variable.
 However, most of the variables are of categorical type, i.e., variables that are identified based on names or labels given to them and not based on numbers. This makes the built-in correlation functions in Python or Julia not helpful. One very commonly used method to measure the correlation between two categorical variables is Cramer’s V statistic. Cramer’s V is based on a nominal variation of Pearson’s Chi-Square Test. Like correlation, the output takes values between 0 and 1 (inclusive), with 0 corresponding to no association between the variables and 1 corresponding to one variable being completely determined by the other. On the other hand, and unlike the usual correlation, there are no negative values.
