@@ -10,12 +10,13 @@ dataset
 datasets
 Diab
 diablara
+englobes
 Farid
 fsaudm
 Grainger
 Grivna
 Hakkert
-HAUER
+Hauer
 hotspots
 Huaman
 ICT
@@ -29,7 +30,7 @@ meaningul
 Mohammadi
 occurence
 occuring
-QUEK
+Quek
 Renan
 renanssmaia
 Safarpour
