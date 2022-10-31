@@ -14,8 +14,9 @@ Farid
 fsaudm
 Grainger
 Grivna
-HAKKERT
-Hauer
+Hakkert
+HAUER
+hotspots
 Huaman
 ICT
 IDOT
@@ -27,7 +28,6 @@ Maia
 meaningul
 Mohammadi
 occurence
-occurences
 occuring
 QUEK
 Renan

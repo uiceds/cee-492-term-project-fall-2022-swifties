@@ -44,11 +44,15 @@ content/04.Exploratory Data Analysis.md:14:Hauer
 content/04.Exploratory Data Analysis.md:14:inexistent
 content/04.Exploratory Data Analysis.md:14:Quek
 content/04.Exploratory Data Analysis.md:14:thats
-content/04.Exploratory Data Analysis.md:40:occurences
-content/04.Exploratory Data Analysis.md:87:cosidered
-content/04.Exploratory Data Analysis.md:99:analized
-content/04.Exploratory Data Analysis.md:99:meaningul
-content/04.Exploratory Data Analysis.md:101:througout
+content/04.Exploratory Data Analysis.md:54:dataset
+content/04.Exploratory Data Analysis.md:54:hotspots
+content/04.Exploratory Data Analysis.md:64:dataset
+content/04.Exploratory Data Analysis.md:64:dataset
+content/04.Exploratory Data Analysis.md:89:dataset
+content/04.Exploratory Data Analysis.md:107:cosidered
+content/04.Exploratory Data Analysis.md:119:analized
+content/04.Exploratory Data Analysis.md:119:meaningul
+content/04.Exploratory Data Analysis.md:121:througout
 content/05.Predictive Model.md:3:Abu
 content/05.Predictive Model.md:3:COVID
 content/05.Predictive Model.md:3:CSV
