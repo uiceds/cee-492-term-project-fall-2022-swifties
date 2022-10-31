@@ -1,5 +1,6 @@
 Abu
 allert
+analized
 APIs
 Champaign
 cosidered
@@ -14,7 +15,7 @@ fsaudm
 Grainger
 Grivna
 HAKKERT
-HAUER
+Hauer
 Huaman
 ICT
 IDOT
@@ -23,16 +24,18 @@ IDOT’s
 inexistent
 Khorasani
 Maia
+meaningul
 Mohammadi
 occurence
 occurences
 occuring
-Quek
+QUEK
 Renan
 renanssmaia
 Safarpour
 Saud
 thats
+througout
 traumatology
 Unkown
 Urbana

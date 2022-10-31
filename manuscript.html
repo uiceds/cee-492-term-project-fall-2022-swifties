@@ -8,7 +8,7 @@
   <meta name="author" content="Renan Santos Maia" />
   <meta name="author" content="Farid Saud" />
   <meta name="author" content="Johann J Cardenas Huaman" />
-  <meta name="dcterms.date" content="2022-10-30" />
+  <meta name="dcterms.date" content="2022-10-31" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Crash Risk Prediction Model using Data Science</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-10-30" />
-  <meta name="citation_publication_date" content="2022-10-30" />
+  <meta name="dc.date" content="2022-10-31" />
+  <meta name="citation_publication_date" content="2022-10-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -61,9 +61,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,10 +77,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a2717039778a946902f4d4988111bb8d62ff1112">uiceds/cee-492-term-project-fall-2022-swifties@a271703</a>
-on October 30, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/fb57a64c86ec967ba16bdd007b495787c13338af">uiceds/cee-492-term-project-fall-2022-swifties@fb57a64</a>
+on October 31, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -162,59 +162,82 @@ The Exploratory Data Analysis will be carried out following the steps described 
 <p>It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each attribute. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude &amp; longitude, or X &amp; Y coordinates) have not been taken into account. A map plot was initially produced to see the distribution of the data though. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included on the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the “Railroad Crossing Number” variable had up to 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that would not be utilized for this analysis, the number of independent variables went down from 80 to 21.</p>
 <p>When it comes to crash reports, several inconsistencies are considerably frequent. In the literature, for example, it is mentioned that “investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records”, and thats why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer &amp; Hakkert, 1989; Chin &amp; Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, the observations labeled as “blank”, “unknown”, and “other” were matter of discussion among the group on how these inconsistencies would be handled. For all variables, the “blank” observations were immediately removed from the dataset.</p>
 <h3 id="analysis-and-visualization">Analysis and Visualization</h3>
+<h4 id="bar-plot-crashes">Bar Plot Crashes</h4>
+<div id="fig:map-ihna" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198912087-2713cf8e-9bff-48d8-92c9-4eaa55ab5f13.png" alt="Figure 1: Bar Plot Historical Crashes. Crash reports from 2017 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Bar Plot Historical Crashes.</strong>
+Crash reports from 2017 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
+<div id="fig:map-ihna" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png" alt="Figure 2: Bar Plot Historical Crashes. Crash reports from 2018 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Bar Plot Historical Crashes.</strong>
+Crash reports from 2018 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
+<div id="fig:map-ihna" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png" alt="Figure 3: Bar Plot Historical Crashes. Crash reports from 2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Bar Plot Historical Crashes.</strong>
+Crash reports from 2019 in the state of Illinois, USA.</figcaption>
+</figure>
+</div>
 <h4 id="map">Map</h4>
 <div id="fig:map-ihna" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 1: Distribution of crash occurences. Crash reports from 2017,2018,2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Distribution of crash occurences.</strong>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 4: Distribution of crash occurences. Crash reports from 2017,2018,2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>Distribution of crash occurences.</strong>
 Crash reports from 2017,2018,2019 in the state of Illinois, USA.</figcaption>
 </figure>
 </div>
 <h4 id="pie-chart-lightning-conditions">Pie Chart | Lightning Conditions</h4>
 <div id="fig:lightning-cond" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png" alt="Figure 2: Distribution of accidents by Lightning Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Distribution of accidents by Lightning Condition.</strong>
+<img src="https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png" alt="Figure 5: Distribution of accidents by Lightning Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Distribution of accidents by Lightning Condition.</strong>
 From 2017 to 2019.</figcaption>
 </figure>
 </div>
 <h4 id="bar-chart-road-defects">Bar Chart | Road Defects</h4>
 <div id="fig:road_def" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112972950/198900615-b9549f07-5fbb-4253-9625-15b430d9799e.png%22road_def%22" alt="Figure 3: Distribution of accidents by Road Defects." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Distribution of accidents by Road Defects.</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112972950/198900615-b9549f07-5fbb-4253-9625-15b430d9799e.png%22road_def%22" alt="Figure 6: Distribution of accidents by Road Defects." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Distribution of accidents by Road Defects.</strong></figcaption>
 </figure>
 </div>
 <h4 id="pie-chart-road-surface-condition">Pie Chart |Road Surface Condition</h4>
 <div id="fig:map-ihna" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 4: Distribution of accidents by Road Surface Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>Distribution of accidents by Road Surface Condition.</strong>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 7: Distribution of accidents by Road Surface Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Distribution of accidents by Road Surface Condition.</strong>
 From 2017 to 2019.</figcaption>
 </figure>
 </div>
 <h4 id="pie-chart-road-defect-condition">Pie Chart | Road Defect Condition</h4>
 <div id="fig:map-ihna" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 5: Distribution of accidents by Road Defect Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Distribution of accidents by Road Defect Condition.</strong>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 8: Distribution of accidents by Road Defect Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Distribution of accidents by Road Defect Condition.</strong>
 From 2017 to 2019.</figcaption>
 </figure>
 </div>
 <h4 id="bar-plot">Bar Plot</h4>
 <div id="fig:map-ihna" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 6: Distribution of accidents over time. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Distribution of accidents over time.</strong>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 9: Distribution of accidents over time. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>Distribution of accidents over time.</strong>
 From 2017 to 2019.</figcaption>
 </figure>
 </div>
 <h4 id="correlation-plot">Correlation Plot</h4>
 <div id="fig:map-ihna" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 7: Correlation of Independent Variables. Only the top 5 independent variables have been cosidered." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Correlation of Independent Variables.</strong>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 10: Correlation of Independent Variables. Only the top 5 independent variables have been cosidered." /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Correlation of Independent Variables.</strong>
 Only the top 5 independent variables have been cosidered.</figcaption>
 </figure>
 </div>
-<p>Trends</p>
-<h4 id="potential-issues">Potential Issues</h4>
-<p>Once the data was analyzed from the visualization efforts, it could be observed that most of the crashes are reported in conditions that were initially hypothesized to represent a “safer” scenario. A high percentage of the crashes reported after data cleaning was reported in the following conditions: (i) daylight, (ii) dry surface, (iii) no road defects, (iv) no work-zone. This way, this should be considered for the future modeling.</p>
-<h3 id="modeling-plan">Modeling plan</h3>
-<p>What we want to predict?</p>
+<h3 id="trends">Trends</h3>
+<p>Since not all the variables have to be present for an accident to occur, it can be seen that most accidents happen in the absence of adverse conditions. However, we should take into account that this reflects the fact that adverse conditions are exceptions, and accidents happen on a daily basis with other factors as underlying reasons such as human behavior. However, adverse conditions do increase the likelihood of accidents and it can be observed an increase in the overall number of occurrences in specific hours (evening), days (weekends), and months (winter).The road type is also found to be directly correlated with the maximum speed limit, and as a consequence is tied to the number of accidents per day.</p>
+<h3 id="potential-issues">Potential Issues</h3>
+<p>As long as the number of entries containing a value for an independent variable overcome by large any other value for the same independent variable, we may experience problems related to “imbalanced data” due to the uneven distribution of observations.
+Similarly, it can be seen that most of the independent variables are “classifications”, and therefore their entries don’t provide meaningul numerical values to be analized or correlated. For some of them we could replace the text values by boolean variables, but for some others a rating system may be needed if a numerical interpretation is required.</p>
+<p>It can be noticed that most of the attributes are subjective observations trying to describe the potential causes of an accident, and may be dependent on the observer itself. However, the casualties are a meaningful numerical observation that will be thoroughly used througout this report.</p>
+<h2 class="page_break_before" id="predictive-model">Predictive Model</h2>
+<p>Open-source crash data is published by the Illinois Department of Transportation (IDOT) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each occurence. Each dataset is organized with observations filled out according to the IDOT Traffic Crash Report SR 1050 Instruction Manual (2019). The datasets for each year are available online in .CSV format at the IDOT website, and they contain observations arranged in rows and attributes in columns. The datasets from 2017, 2018, and 2019 were included in this Exploratory Data Analysis. The datasets from 2020 and 2021 were discarded in this analysis given the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna &amp; Abu-Zidan, 2021). Regarding the dataset size, each one had originally over 300,000 rows (944,328 in total, combined).
+The Exploratory Data Analysis will be carried out following the steps described in the next sections.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <p>Illinois Department of Transportation | IDOTAdmin

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-30'
+date-meta: '2022-10-31'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-10-30" />
-  <meta name="citation_publication_date" content="2022-10-30" />
+  <meta name="dc.date" content="2022-10-31" />
+  <meta name="citation_publication_date" content="2022-10-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a2717039778a946902f4d4988111bb8d62ff1112/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/fb57a64c86ec967ba16bdd007b495787c13338af/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@a271703](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a2717039778a946902f4d4988111bb8d62ff1112)
-on October 30, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@fb57a64](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/fb57a64c86ec967ba16bdd007b495787c13338af)
+on October 31, 2022.
 </em></small>
 
 ## Authors
@@ -185,6 +185,24 @@ When it comes to crash reports, several inconsistencies are considerably frequen
 
 ### Analysis and Visualization
 
+#### Bar Plot Crashes
+
+![
+**Bar Plot Historical Crashes.**
+Crash reports from 2017 in the state of Illinois, USA.
+](https://user-images.githubusercontent.com/112973190/198912087-2713cf8e-9bff-48d8-92c9-4eaa55ab5f13.png "Mapinha"){#fig:map-ihna}
+
+![
+**Bar Plot Historical Crashes.**
+Crash reports from 2018 in the state of Illinois, USA.
+](https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png "Mapinha"){#fig:map-ihna}
+
+![
+**Bar Plot Historical Crashes.**
+Crash reports from 2019 in the state of Illinois, USA.
+](https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png "Mapinha"){#fig:map-ihna}
+
+
 #### Map
 
 ![
@@ -239,16 +257,23 @@ Only the top 5 independent variables have been cosidered.
 ](https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png "Mapinha"){#fig:map-ihna}
 
 
-Trends
+### Trends
 
-#### Potential Issues
-Once the data was analyzed from the visualization efforts, it could be observed that most of the crashes are reported in conditions that were initially hypothesized to represent a “safer” scenario. A high percentage of the crashes reported after data cleaning was reported in the following conditions: (i) daylight, (ii) dry surface, (iii) no road defects, (iv) no work-zone. This way, this should be considered for the future modeling. 
+Since not all the variables have to be present for an accident to occur, it can be seen that most accidents happen in the absence of adverse conditions. However, we should take into account that this reflects the fact that adverse conditions are exceptions, and accidents happen on a daily basis with other factors as underlying reasons such as human behavior. However, adverse conditions do increase the likelihood of accidents and it can be observed an increase in the overall number of occurrences in specific hours (evening), days (weekends), and months (winter).The road type is also found to be directly correlated with the maximum speed limit, and as a consequence is tied to the number of accidents per day.
 
 
-### Modeling plan
+### Potential Issues
 
-What we want to predict?
+As long as the number of entries containing a value for an independent variable overcome by large any other value for the same independent variable, we may experience problems related to "imbalanced data" due to the uneven distribution of observations.
+Similarly, it can be seen that most of the independent variables are "classifications", and therefore their entries don't provide meaningul numerical values to be analized or correlated. For some of them we could replace the text values by boolean variables, but for some others a rating system may be needed if a numerical interpretation is required. 
 
+It can be noticed that most of the attributes are subjective observations trying to describe the potential causes of an accident, and may be dependent on the observer itself. However, the casualties are a meaningful numerical observation that will be thoroughly used througout this report.
+
+
+## Predictive Model {.page_break_before}
+
+Open-source crash data is published by the Illinois Department of Transportation (IDOT) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each occurence. Each dataset is organized with observations filled out according to the IDOT Traffic Crash Report SR 1050 Instruction Manual (2019). The datasets for each year are available online in .CSV format at the IDOT website, and they contain observations arranged in rows and attributes in columns. The datasets from 2017, 2018, and 2019 were included in this Exploratory Data Analysis. The datasets from 2020 and 2021 were discarded in this analysis given the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna & Abu-Zidan, 2021). Regarding the dataset size, each one had originally over 300,000 rows (944,328 in total, combined).
+The Exploratory Data Analysis will be carried out following the steps described in the next sections.
 
 
 
