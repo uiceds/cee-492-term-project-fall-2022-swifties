@@ -23,7 +23,7 @@ content/04.Exploratory Data Analysis.md:3:COVID
 content/04.Exploratory Data Analysis.md:3:CSV
 content/04.Exploratory Data Analysis.md:3:dataset
 content/04.Exploratory Data Analysis.md:3:dataset
-content/04.Exploratory Data Analysis.md:3:datasets
+content/04.Exploratory Data Analysis.md:3:dataset
 content/04.Exploratory Data Analysis.md:3:datasets
 content/04.Exploratory Data Analysis.md:3:datasets
 content/04.Exploratory Data Analysis.md:3:Grivna
@@ -43,7 +43,6 @@ content/04.Exploratory Data Analysis.md:14:Hakkert
 content/04.Exploratory Data Analysis.md:14:Hauer
 content/04.Exploratory Data Analysis.md:14:inexistent
 content/04.Exploratory Data Analysis.md:14:Quek
-content/04.Exploratory Data Analysis.md:14:thats
 content/04.Exploratory Data Analysis.md:28:englobes
 content/04.Exploratory Data Analysis.md:54:dataset
 content/04.Exploratory Data Analysis.md:54:hotspots
@@ -53,7 +52,6 @@ content/04.Exploratory Data Analysis.md:92:dataset
 content/04.Exploratory Data Analysis.md:108:dataset
 content/04.Exploratory Data Analysis.md:109:Cramer’s
 content/04.Exploratory Data Analysis.md:109:Cramer’s
-content/04.Exploratory Data Analysis.md:110:crosstab
 content/04.Exploratory Data Analysis.md:111:CrashSeverity
 content/04.Exploratory Data Analysis.md:111:dataset
 content/04.Exploratory Data Analysis.md:115:CrashSeverity
@@ -94,7 +92,6 @@ content/04.Exploratory Data Analysis.md:142:WorkZoneRelated
 content/04.Exploratory Data Analysis.md:143:Comapring
 content/04.Exploratory Data Analysis.md:143:workzone
 content/04.Exploratory Data Analysis.md:144:dataset
-content/04.Exploratory Data Analysis.md:154:analized
 content/04.Exploratory Data Analysis.md:154:meaningul
 content/04.Exploratory Data Analysis.md:156:througout
 content/05.Predictive Model.md:4:Abdulhafedh
