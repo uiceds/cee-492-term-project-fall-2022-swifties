@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/74f8005accf6faf08ebb49fbe4b561e8400b49dd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/74f8005accf6faf08ebb49fbe4b561e8400b49dd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/74f8005accf6faf08ebb49fbe4b561e8400b49dd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a38f913caf1760142e7e8830abdb9147b01c81ce/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a38f913caf1760142e7e8830abdb9147b01c81ce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a38f913caf1760142e7e8830abdb9147b01c81ce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/74f8005accf6faf08ebb49fbe4b561e8400b49dd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a38f913caf1760142e7e8830abdb9147b01c81ce/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@74f8005](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/74f8005accf6faf08ebb49fbe4b561e8400b49dd)
+from [uiceds/cee-492-term-project-fall-2022-swifties@a38f913](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a38f913caf1760142e7e8830abdb9147b01c81ce)
 on October 31, 2022.
 </em></small>
 
@@ -244,12 +244,14 @@ The chart above summarizes the analysis performed on the data on the influence o
 
 
 #### Bar Plot | Road Defects
+
 ![
-**Distribution of accidents by Road Defects.**
+**Distribution of accidents by Road Surface Condition.**
 From 2017 to 2019.
-]( https://user-images.githubusercontent.com/112973190/198915785-44a4248e-d9b5-4dbb-adfd-4349b6e764d4.png "road-def") {#fig:road_def}
+]( https://user-images.githubusercontent.com/112973190/198915785-44a4248e-d9b5-4dbb-adfd-4349b6e764d4.png "surface-def") {#fig:surface_def}
 
 This figure shows the number of car crashes associated with the different Road Defects. The horizontal axis labels the road defects from the data, and the vertical axis accounts for the number of observations. As seen in the bar chart, the vast majority of the incidents (808,835 out of 883,793 observations, which accounts for a 91.52%) happened where “no defects” were present in the location. The following condition of road defects is “unknown”, accounting for a 6.61% of accidents. Now, the percentage of observations where defects were reported are 0.5% for “worn surface” and “other road defects”, 0.14% for “shoulder” road defects, 0.49% for debris on roadways, and 0.21% for “ruts and holes”.
+
 
 ![
 **Distribution of accidents by Road Defects,**
