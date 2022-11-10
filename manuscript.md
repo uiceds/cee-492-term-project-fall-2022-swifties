@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-31'
+date-meta: '2022-11-10'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-10-31" />
-  <meta name="citation_publication_date" content="2022-10-31" />
+  <meta name="dc.date" content="2022-11-10" />
+  <meta name="citation_publication_date" content="2022-11-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a13da24490493403cf41e2e670a07d02ddfb3b29/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@a13da24](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a13da24490493403cf41e2e670a07d02ddfb3b29)
-on October 31, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@f8e9289](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/f8e92895bc8c80b659186203a9167a0a68eff888)
+on November 10, 2022.
 </em></small>
 
 ## Authors
@@ -334,6 +334,8 @@ The steps to be carried out can be summarized as follows:
 5. Divide the database into training data and test data.
 6. Compare the predicted crash severity with both training data and test data, and assess the preliminary results.
 
+
+### Model Description
 
 
 
