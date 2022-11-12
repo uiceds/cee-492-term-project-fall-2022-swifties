@@ -7,6 +7,7 @@ Champaign
 CityName
 ClassOfTrafficWay
 CollisionTypeCode
+colum
 Comapring
 COVID
 Cramer’s
@@ -24,6 +25,7 @@ DayOfWeekCode
 Diab
 diablara
 Ehsani
+Enconders
 englobes
 Farid
 Fereidoon
@@ -32,7 +34,7 @@ Grainger
 Grivna
 HAKKERT
 Hamzeh
-HAUER
+Hauer
 Hellinga
 Hesam
 hotspots

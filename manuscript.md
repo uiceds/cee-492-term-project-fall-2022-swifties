@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-10'
+date-meta: '2022-11-12'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-11-10" />
-  <meta name="citation_publication_date" content="2022-11-10" />
+  <meta name="dc.date" content="2022-11-12" />
+  <meta name="citation_publication_date" content="2022-11-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1092bb5352c3cacd5f36e99ed5b858156f9b183f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1092bb5352c3cacd5f36e99ed5b858156f9b183f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1092bb5352c3cacd5f36e99ed5b858156f9b183f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f8e92895bc8c80b659186203a9167a0a68eff888/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1092bb5352c3cacd5f36e99ed5b858156f9b183f/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@f8e9289](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/f8e92895bc8c80b659186203a9167a0a68eff888)
-on November 10, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@1092bb5](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1092bb5352c3cacd5f36e99ed5b858156f9b183f)
+on November 12, 2022.
 </em></small>
 
 ## Authors
@@ -336,6 +336,17 @@ The steps to be carried out can be summarized as follows:
 
 
 ### Model Description
+
+
+
+
+### One Hot Enconders
+
+Since our most relevant independent variables are categorical, the task of assigning numerical values to make use of them has to be handled with the aim of avoiding undesired biases in the assignment process. If we assigned a float or a integer to describe them, our machine learning model may wrongly allocate a higher weight to variables with higher numbers, affecting the accuracy of the prediction model.
+
+To avoid this issue, we will encode our categorical features as one-hot numeric arrays. The one-hot encoding scheme, also known as ‘one-of-K’ or ‘dummy’ creates a binary colum for each category, and returns a sparse matrix or dense array (depending on the sparse parameters).Our inputs to this transform will be strings, denoting the values taken on by our categorical (discrete) features :RoadSurfaceCond,:RoadDefects,:LightingCond,:WeatherCond. 
+
+
 
 
 

@@ -99,6 +99,12 @@ content/05.Predictive Model.md:4:Rashidi
 content/05.Predictive Model.md:6:Danesh
 content/05.Predictive Model.md:6:dataset
 content/05.Predictive Model.md:8:innacurate
+content/05.Predictive Model.md:27:Enconders
+content/05.Predictive Model.md:31:colum
+content/05.Predictive Model.md:31:LightingCond
+content/05.Predictive Model.md:31:RoadDefects
+content/05.Predictive Model.md:31:RoadSurfaceCond
+content/05.Predictive Model.md:31:WeatherCond
 content/90.back-matter.md:5:IDOTAdmin
 content/90.back-matter.md:6:idot
 content/90.back-matter.md:9:idot
