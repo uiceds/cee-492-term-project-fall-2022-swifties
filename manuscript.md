@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ba9aa5a9240ca627f6500dafc223f7c45367e702/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ba9aa5a9240ca627f6500dafc223f7c45367e702/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ba9aa5a9240ca627f6500dafc223f7c45367e702/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3e4bcdb342f23aa8b85bb8b08b4130b2d32330a9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3e4bcdb342f23aa8b85bb8b08b4130b2d32330a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3e4bcdb342f23aa8b85bb8b08b4130b2d32330a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ba9aa5a9240ca627f6500dafc223f7c45367e702/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3e4bcdb342f23aa8b85bb8b08b4130b2d32330a9/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@ba9aa5a](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ba9aa5a9240ca627f6500dafc223f7c45367e702)
+from [uiceds/cee-492-term-project-fall-2022-swifties@3e4bcdb](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/3e4bcdb342f23aa8b85bb8b08b4130b2d32330a9)
 on November 12, 2022.
 </em></small>
 
@@ -337,16 +337,26 @@ The steps to be carried out can be summarized as follows:
 
 ### Model Description
 
+Given the nature of our database, we face a classification problem. Our first approach will be the development of a Decision Tree (DT) scheme. Decision Trees are non-parametric supervised learning methods, that can deal with large datasets without imposing complicated parametric structures, enabling them to predict the value of a target variable based on simple decision rules inferred from the data features. The objective is to find a set of decision rules that naturally partition the feature space to provide an informative and robust hierarchical classification model (Myles et al, 2004).
 
+Our dataset is large enough (with hundreds of thousands of entries), so we can take advantange of this by dividing it into training and validation datasets. The training dataset will be used to build a decision tree model and the validation dataset will be useful to to decide on the appropriate tree size needed to achieve the optimal model accuracy.
 
-
-### One Hot Encoders
+### One Hot Encoding
 
 Machine learning algorithms are generally unable to work with categorical data when fed directly into the model. Therefore, there is a need to convert our independent variables (inputs) :RoadSurfaceCond,:RoadDefects,:LightingCond and :WeatherCond into numbers, into numbers and the same will be required for our output variable since it will also be categorical (:CrashSeverity).
 
 The task of assigning numerical values to make use of them has to be handled with the aim of avoiding undesired biases in the assignment process. If we assigned a float or a integer value, our machine learning model may wrongly allocate a higher weight to variables with higher values, affecting the accuracy of the prediction model.
 
-To avoid this issue, we will encode our categorical features as one-hot numeric arrays. The one-hot encoding scheme, also known as ‘one-of-K’ or ‘dummy’ creates a binary colum for each category, and returns a sparse matrix or dense array (depending on the sparse parameters).Our inputs to this transform will be strings, denoting the values taken on by our categorical (discrete) features and our output will be a binary feature for each possible category with the value of 1 to the feature of each sample that belongs to the category, and a value of 0 for any other feature (Buitinck et al, 2013).
+To avoid this issue, we will encode our categorical features as one-hot numeric arrays. The one-hot encoding scheme, also known as ‘one-of-K’ or ‘dummy’ creates a binary colum for each category, and returns a sparse matrix or dense array (depending on the sparse parameters).Our inputs to this transform will be strings, denoting the values taken on by our categorical (discrete) features and our output will be a binary feature for each possible category with the value of 1 to the feature of each sample that belongs to the category, and a value of 0 for any other feature (Buitinck et al, 2013). An example is shown below for the variable *:LightingCond*:
+
+| Original Feature |  One-Hot Encoded Feature | 
+|:-----------------|:------------------------:|
+| Darkness         |    [1, 0, 0, 0, 0, 0]    |  
+| Darkness/Lighted |    [0, 1, 0, 0, 0, 0]    | 
+| Dawn             |    [0, 0, 1, 0, 0, 0]    | 
+| Daylight         |    [0, 0, 0, 1, 0, 0]    | 
+| Dusk             |    [0, 0, 0, 0, 1, 0]    | 
+| Unknown          |    [0, 0, 0, 0, 0, 1]    | 
 
 Although, the One Hot Encoding technique will be useful to transform and preprocess our data so that our model can understand it better and learn from it more effectively, it comes with its own advatanges and disadvantages. We'll be analizing the results as we test our model to report our findings. 
 
@@ -374,7 +384,10 @@ https://idot.illinois.gov/home/resources/Manuals/Manuals-and-Guides
 
 Lee, C., Hellinga, B., & Saccomanno, F. (2003). Real-Time Crash Prediction Model for Application to Crash Prevention in Freeway Traffic. Transportation Research Record, 1840(1), 67–77. https://doi.org/10.3141/1840-08
 
+
 Mohammad Hesam Rashidi, Soheil Keshavarz, Parham Pazari, Navid Safahieh, Amir Samimi, Modeling the accuracy of traffic crash prediction models, IATSS Research, Volume 46, Issue 3, 2022, Pages 345-352, ISSN 0386-1112, https://doi.org/10.1016/j.iatssr.2022.03.004.
+
+Myles, A.J., Feudale, R.N., Liu, Y., Woody, N.A. and Brown, S.D. (2004), An introduction to decision tree modeling. J. Chemometrics, 18: 275-285. https://doi.org/10.1002/cem.873
 
 Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V. and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P. and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E. (2011). Scikit-learn: Machine Learning in {P}ython, Journal of Machine Learning Research, Volume 12, pages 2825-2830.
 
@@ -385,7 +398,6 @@ World Health Organization (WHO). (2022). Road traffic injuries World Health Orga
 Yasin, Y. J., Grivna, M., & Abu-Zidan, F. M. (2021). Global impact of COVID-19 pandemic on road traffic collisions. World journal of emergency surgery, 16(1), 1-14.
 
 Yu, R., Han, L., & Zhang, H. (2021). Trajectory data based freeway high-risk events prediction and its influencing factors analyses. Accident Analysis & Prevention, 154, 106085. https://doi.org/10.1016/j.aap.2021.106085.
-
 
 
 

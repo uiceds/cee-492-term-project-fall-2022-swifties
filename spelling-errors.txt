@@ -1,5 +1,6 @@
 Abdulhafedh
 Abu
+advantange
 advatanges
 allert
 Amir
@@ -8,6 +9,7 @@ APIs
 Brucher
 Buitinck
 Champaign
+Chemometrics
 CityName
 ClassOfTrafficWay
 CollisionTypeCode
@@ -29,12 +31,14 @@ datasets
 DayOfWeekCode
 Diab
 diablara
+DT
 Dubourg
 Duchesnay
 Ehsani
 englobes
 Farid
 Fereidoon
+Feudale
 fsaudm
 Grainger
 Gramfort
@@ -59,6 +63,7 @@ ISSN
 Keshavarz
 Khorasani
 LightingCond
+Liu
 Maia
 meaningul
 Mehrdad
@@ -78,7 +83,7 @@ Pedregosa
 Perrot
 preprocess
 Prettenhofer
-QUEK
+Quek
 Rashidi
 Renan
 renanssmaia
