@@ -110,6 +110,10 @@ content/05.Predictive Model.md:22:dataset
 content/05.Predictive Model.md:22:dataset
 content/05.Predictive Model.md:22:dataset
 content/05.Predictive Model.md:22:datasets
+content/05.Predictive Model.md:22:DecisionTreeClassifier
+content/05.Predictive Model.md:22:DT
+content/05.Predictive Model.md:22:DT
+content/05.Predictive Model.md:22:DT
 content/05.Predictive Model.md:22:DT
 content/05.Predictive Model.md:22:IDOT
 content/05.Predictive Model.md:22:IDOT's

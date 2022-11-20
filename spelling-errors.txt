@@ -28,6 +28,7 @@ Danesh
 dataset
 datasets
 DayOfWeekCode
+DecisionTreeClassifier
 Diab
 diablara
 DT
@@ -43,9 +44,9 @@ Grainger
 Gramfort
 Grisel
 Grivna
-Hakkert
+HAKKERT
 Hamzeh
-HAUER
+Hauer
 Hellinga
 Hesam
 hotspots
