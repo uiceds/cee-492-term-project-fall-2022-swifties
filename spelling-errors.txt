@@ -1,6 +1,5 @@
 Abdulhafedh
 Abu
-advantange
 advatanges
 allert
 Amir
@@ -56,6 +55,7 @@ ICT
 IDOT
 IDOTAdmin
 IDOT’s
+immediatly
 inexistent
 innacurate
 IntersectionRelated
@@ -84,7 +84,7 @@ Pedregosa
 Perrot
 preprocess
 Prettenhofer
-QUEK
+Quek
 Rashidi
 Renan
 renanssmaia

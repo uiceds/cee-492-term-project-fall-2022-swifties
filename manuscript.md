@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a9e13fc71399991d1ea2f6e4b0458f0395078b8/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a9e13fc71399991d1ea2f6e4b0458f0395078b8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a9e13fc71399991d1ea2f6e4b0458f0395078b8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c0eb29fee3503c4ab2eed16a95724358519116ef/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c0eb29fee3503c4ab2eed16a95724358519116ef/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c0eb29fee3503c4ab2eed16a95724358519116ef/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a9e13fc71399991d1ea2f6e4b0458f0395078b8/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c0eb29fee3503c4ab2eed16a95724358519116ef/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@0a9e13f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/0a9e13fc71399991d1ea2f6e4b0458f0395078b8)
+from [uiceds/cee-492-term-project-fall-2022-swifties@c0eb29f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c0eb29fee3503c4ab2eed16a95724358519116ef)
 on November 20, 2022.
 </em></small>
 
@@ -319,7 +319,7 @@ It can be noticed that most of the attributes are subjective observations trying
 
 Road crash prediction models are very useful tools in highway safety, given their potential for determining both the crash frequency occurrence and the degree severity of crashes (Abdulhafedh, 2017). While crash frequency refers to the number of predicted crashes for a given road under specific conditions, crash severity aims to correlate the casualties with contributing factors such as driver behavior, road conditions, and external factors (weather, lightning, etc). Identifying and analyzing the attributes influencing forecasting accuracy is of great importance in road crash prediction (Rashidi et al, 2022). 
 
-In a road crash dataset, the fatal crash samples often constitute a very small proportion in comparison with non-fatal crash samples. That is also the case for the dataset obtaned fro this work, even after the whole process of cleaning. The accurate prediction of fatal crashes, as a minority class, is one of the important challenges in such imbalanced sample distribution in most machine learning algorithms (Danesh et al, 2017). On top of that, several other factors such as the traffic flow or the average speed can greatly influence the prediction, so assumptions have to be made in order to develop a prediction model. Given the nature of this database, the prediction model to be developed will focus on estimating crash severity based on our known attributes. For the reasons established before, crash frequency predictions would require traffic data. Thus, trying to estimate it without this specific independent variable would lead to a completely innacurate model. In the previous section, the Exploratory Data Analysis provided insightful information regarding the correlation of the independent variables, and a regression model will be the first approach for crash severity prediction. In this section, attention will be placed to understand the contribution of every independent variable to the overall result, to later start working on solving the data imbalance issue already identified.
+In a road crash dataset, the fatal crash samples often constitute a very small proportion in comparison with non-fatal crash samples. That is also the case for the dataset obtaned fro this work, even after the whole process of cleaning. The accurate prediction of fatal crashes, as a minority class, is one of the important challenges in such imbalanced sample distribution in most machine learning algorithms (Danesh et al, 2017). On top of that, several other factors such as the traffic flow or the average speed can greatly influence the prediction, so assumptions have to be made in order to develop a prediction model. Given the nature of this database, the prediction model to be developed will focus on estimating crash severity based on our known attributes. For the reasons established before, crash frequency predictions would require traffic data. Thus, trying to estimate it without this specific independent variable would lead to a completely innacurate model. In the previous section, the Exploratory Data Analysis provided insightful information regarding the correlation of the independent variables, and a regression model will be the first approach for crash severity prediction. In this section, attention will be placed on understanding the contribution of every independent variable to the overall result, to later start working on solving the data imbalance issue already identified.
 
 The steps to be carried out can be summarized as follows:
 
@@ -333,9 +333,9 @@ The steps to be carried out can be summarized as follows:
 
 ### Model Description
 
-Given the nature of our database, we face a classification problem. Our first approach will be the development of a Decision Tree (DT) scheme. Decision Trees are non-parametric supervised learning methods, that can deal with large datasets without imposing complicated parametric structures, enabling them to predict the value of a target variable based on simple decision rules inferred from the data features. The objective is to find a set of decision rules that naturally partition the feature space to provide an informative and robust hierarchical classification model (Myles et al, 2004).
+Given the nature of the database and the primary established goal of predicting the severity of crashes according to different combinations of scenarios, a classification problem is faced. The first approach will be the development of a Decision Tree (DT) scheme. Decision Trees are non-parametric supervised learning methods, that can deal with large datasets without imposing complicated parametric structures, enabling them to predict the value of a target variable based on simple decision rules inferred from the data features. The objective is to find a set of decision rules that naturally partition the feature space to provide an informative and robust hierarchical classification model (Myles et al, 2004). 
 
-Our dataset is large enough (with hundreds of thousands of entries), so we can take advantange of this by dividing it into training and validation datasets. The training dataset will be used to build a decision tree model and the validation dataset will be useful to to decide on the appropriate tree size needed to achieve the optimal model accuracy.
+The dataset in this study is large enough (with hundreds of thousands of entries), so advantage could be taken from this by dividing it into training and validation datasets. Another option derives from the fact that the IDOT's crash databases from different years are also freely available online on .csv format. Therefore, additional hundreds of thousands of entries could be used for validation (e.g. the data from the years immediatly before the ones selected for building the dataset of this work, such as the 2016 dataset). This way, the full dataset will be used to train and build a DT model, and the validation dataset will afterwards be useful to to decide on the appropriate tree size needed to achieve the optimal model accuracy.
 
 ### One Hot Encoding
 
