@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@c1fc18f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c1fc18fd7a1da639561f38f59f70221c4a6fddcc)
+from [uiceds/cee-492-term-project-fall-2022-swifties@c1789f6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c1789f690a4cef62729f147cfa3e7ff0a11ed982)
 on November 21, 2022.
 </em></small>
 
@@ -381,20 +381,20 @@ After achieving an accuracy of 78% for the  decision trees and random forest mod
 As mentioned earlier, it was decided only include the columns “RoadSurfaceCond”, “RoadDefects”, “LightingCond” and “WeatherCond”. Each of these columns (attributes) has different possible values. Table 3 below shows the unique values for each attribute. For example, and as can be seen in the table, WeatherCond has 12 different possible values and for the one-hot encoding, this would create 12 columns just for the attribute “WeatherCond”.  It was thought that reducing the number of the one-hot encoded columns would make the accuracy better as the model would not have as many columns to use to make predict the labels.
 therefore, it was decided to delete the rows that have “WeatherCond”, “RoadSurfaceCond” and “LightingCond” as “Other” or “Unknown”. These two values were chosen to be removed because they do not offer any significant or specific information about the corresponding attributes.
 
-| RoadSurfaceCond      |  RoadDefects             |  LightingCond            |  WeatherCond 
+| RoadSurfaceCond      |  RoadDefects             |  LightingCond            |  WeatherCond             |
 |:---------------------|:------------------------:|:------------------------:|:------------------------:|
-| Wet                  |  Debris on Roadway       | Darkness                 |  Blowing Sand
-| Dry                  |  No Defects              | Darkness/Lighted Road    |  Blowing Snow 
-| Ice                  |  Other                   | Dawn                     |  Clear
-| Snow or Slush        |  Rut Holes               | Daylight                 |  Cloudy/Overcast
-| Unknown              |  Shoulders               | Dusk                     |  Fog/Smoke/Haze
-| Other                |  Unknown                 |                          |  Freezing Rain
-| Sand/Mud/Dirt        |  Worn Surface            |                          |  Other
-|                      |                          |                          |  Rain  
-|                      |                          |                          |  Severe Cross Wind
-|                      |                          |                          |  Sleet/Hail
-|                      |                          |                          |  Snow
-|                      |                          |                          |  Unknown
+| Wet                  |  Debris on Roadway       | Darkness                 |  Blowing Sand            |
+| Dry                  |  No Defects              | Darkness/Lighted Road    |  Blowing Snow            |
+| Ice                  |  Other                   | Dawn                     |  Clear                   |
+| Snow or Slush        |  Rut Holes               | Daylight                 |  Cloudy/Overcast         |
+| Unknown              |  Shoulders               | Dusk                     |  Fog/Smoke/Haze          |
+| Other                |  Unknown                 |                          |  Freezing Rain           |
+| Sand/Mud/Dirt        |  Worn Surface            |                          |  Other                   |
+|                      |                          |                          |  Rain                    |
+|                      |                          |                          |  Severe Cross Wind       |
+|                      |                          |                          |  Sleet/Hail              |
+|                      |                          |                          |  Snow                    |
+|                      |                          |                          |  Unknown                 |
 Table 3: Different values for each of the attributes chosen for the predictive model
 
 After removing these rows, performing one-hot encoding again and running the decision tree/random forest models again, the same level of accuracy of 78% was achieved. This indicated that the higher number of one-hot encoded columns is not impacting the prediction.
@@ -405,7 +405,10 @@ It was also decided to try considering one more column in the dataset and that c
 
 #### 3- Addressing the issue of imbalanced data
 Because the problem was not the presence of several values for each column, dealing with the imbalanced dataset was another approach that was implemented by the team. This model is trying to predict the crash severity level which has three label options: "Property Damage", "Injury" and "Fatal". "Property Damage" constitutes 80% of the data; 627706 rows out 809824 total rows (after cleaning the dataset), This imbalance is causing the model to predict "Propert Damage" most of the time, decreasing the accuracy of the model. One way of addressing this is running the model with the same number of rows for each label.
-"Fatal" had the lowest number of rows in the data which was around 3,000. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. However, this decreased the accuracy of te decision tree and random forest to around 40%. The reason for this may be referred to the low number of rows that the dataset was modified to have as compared to the initial data, which, although was imbalanced, had much more rows and that gave a better accuracy.
+"Fatal" had the lowest number of rows in the data which was around 3,000. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. However, this decreased the accuracy of te decision tree and random forest to around 40%. The reason for this may be referred to the low number of rows that the dataset was modified to have as compared to the initial data, which, although was imbalanced, had much more rows and that gave a better accuracy. 
+
+#### 4- Removing "perfect" conditions
+
 
 ### d) Convolutional Neural Network (CNN)
 

@@ -61,9 +61,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c1fc18fd7a1da639561f38f59f70221c4a6fddcc">uiceds/cee-492-term-project-fall-2022-swifties@c1fc18f</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c1789f690a4cef62729f147cfa3e7ff0a11ed982">uiceds/cee-492-term-project-fall-2022-swifties@c1789f6</a>
 on November 21, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -519,6 +519,7 @@ therefore, it was decided to delete the rows that have “WeatherCond”, “Roa
 <h4 id="addressing-the-issue-of-imbalanced-data">3- Addressing the issue of imbalanced data</h4>
 <p>Because the problem was not the presence of several values for each column, dealing with the imbalanced dataset was another approach that was implemented by the team. This model is trying to predict the crash severity level which has three label options: “Property Damage”, “Injury” and “Fatal”. “Property Damage” constitutes 80% of the data; 627706 rows out 809824 total rows (after cleaning the dataset), This imbalance is causing the model to predict “Propert Damage” most of the time, decreasing the accuracy of the model. One way of addressing this is running the model with the same number of rows for each label.
 “Fatal” had the lowest number of rows in the data which was around 3,000. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. However, this decreased the accuracy of te decision tree and random forest to around 40%. The reason for this may be referred to the low number of rows that the dataset was modified to have as compared to the initial data, which, although was imbalanced, had much more rows and that gave a better accuracy.</p>
+<h4 id="removing-perfect-conditions">4- Removing “perfect” conditions</h4>
 <h3 id="d-convolutional-neural-network-cnn">d) Convolutional Neural Network (CNN)</h3>
 <p>As the first approach, the values by default have been kept constant while the maximum depth of the decision tree is altered from scenario to scenario to evaluate the changes in the result.</p>
 <h3 id="b-random-forest-1">b) Random Forest</h3>
@@ -545,7 +546,7 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in the following figure:</p>
 <h4 id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:30894e5a-1988-4695-a9ab-ba877bf261ad" class="fignos">
+<div id="fig:476a5741-a176-4bce-beba-03c12711c7c8" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 10: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -553,7 +554,7 @@ softmax
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in the following figure:</p>
 <h4 id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:d8635d85-b486-4b15-91f8-6fb972a0f89a" class="fignos">
+<div id="fig:6c901abc-c748-4c81-9965-c4d411967245" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 11: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>

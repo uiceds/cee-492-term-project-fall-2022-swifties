@@ -14,7 +14,7 @@ CollisionTypeCode
 colum
 Comapring
 Conv
-convolutional
+Convolutional
 Cournapeau
 COVID
 Cramer’s
