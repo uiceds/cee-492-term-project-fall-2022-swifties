@@ -61,9 +61,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e9cf61b3591ef4cc6a4fc9c6c2808e8850320720/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e9cf61b3591ef4cc6a4fc9c6c2808e8850320720/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e9cf61b3591ef4cc6a4fc9c6c2808e8850320720/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e9cf61b3591ef4cc6a4fc9c6c2808e8850320720/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/e9cf61b3591ef4cc6a4fc9c6c2808e8850320720">uiceds/cee-492-term-project-fall-2022-swifties@e9cf61b</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/09b0717d48044c7381c25e07c67ecd604e8cfdc4">uiceds/cee-492-term-project-fall-2022-swifties@09b0717</a>
 on November 21, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -412,6 +412,12 @@ The description, adequacy, results, and conclusions from every model tested is d
 - rng: the random number generator to use. Can be an Int, which will be used to seed and create a new random number generator.
 As the first approach, the values by default have been kept constant while the maximum depth of the decision tree is altered from scenario to scenario to evaluate the changes in the result.
 The first proposed model (Decision Tree) resulted in limited accuracy (78%) on the training data using the fully cleaned combined dataset. As a first estimate, this value could be seen as promising, however several issues could be immediately noticed. Despite testing several model parameters, the accuracy of the model didn’t improve at all what indicates a problem in our dataset. Let’s look at the general structure of our decision tree to understand this.</p>
+<div id="fig:DT_Structure" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/63623246/202955035-4e2c3ee6-60ab-4d00-a1e8-95dd54139032.png" alt="Figure 9: Decision Tree Structure. Using DecisionTreeClassifier.jl." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>Decision Tree Structure.</strong>
+Using DecisionTreeClassifier.jl.</figcaption>
+</figure>
+</div>
 <p>We could summarize this issue by stating that one of the possible outputs (“Property Damage”), the lowest severity crash type, dominates the dataset, accounting for almost 78% of the total number of cases. Consequently, a simple model that only predicts “Property Damage”, independently of the entries, would have 78% accuracy. This imposes a huge bias in the criteria being used by the model to predict an output. As seen in the previous figure, most of the leaves of the decision tree get the right output just because the likelihood of predicting one of them is enormously higher than the likelihood of any of the other two.</p>
 <p>Alternative strategies were brainstormed to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. As this test didn’t bring a considerable change either, a Random Forest (RF) model was also run for both datasets (full and reduced, equally sampled).</p>
 <h3 id="b-random-forest">b) Random Forest</h3>
