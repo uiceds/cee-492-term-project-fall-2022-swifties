@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9695b9d24b8f0b3546d6dc7052f33cf7cff819e3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9695b9d24b8f0b3546d6dc7052f33cf7cff819e3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9695b9d24b8f0b3546d6dc7052f33cf7cff819e3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/69567b0579faab407a4c0b25aaeb9c39c9fb0a7a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/69567b0579faab407a4c0b25aaeb9c39c9fb0a7a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/69567b0579faab407a4c0b25aaeb9c39c9fb0a7a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/9695b9d24b8f0b3546d6dc7052f33cf7cff819e3/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/69567b0579faab407a4c0b25aaeb9c39c9fb0a7a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@9695b9d](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/9695b9d24b8f0b3546d6dc7052f33cf7cff819e3)
+from [uiceds/cee-492-term-project-fall-2022-swifties@69567b0](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/69567b0579faab407a4c0b25aaeb9c39c9fb0a7a)
 on November 21, 2022.
 </em></small>
 
@@ -331,24 +331,29 @@ The steps to be carried out can be summarized as follows:
 6. Compare the predicted crash severity with both training data and test data, and assess the preliminary results.
 
 
-### Model Description
+## Model Description {.page_break_before}
 
-Given the nature of the database and the primary established goal of predicting the severity of crashes according to different combinations of scenarios, a classification problem is faced. The first approach will be the development of a Decision Tree (DT) scheme. Decision Trees are non-parametric supervised learning methods, that can deal with large datasets without imposing complicated parametric structures, enabling them to predict the value of a target variable based on simple decision rules inferred from the data features. The objective is to find a set of decision rules that naturally partition the feature space to provide an informative and robust hierarchical classification model (Myles et al, 2004). 
+Given the nature of the database and the primary established goal of predicting the severity of crashes according to different combinations of scenarios, a classification problem is faced, for which the following models will be tested:
+a)	Decision Tree
+b)	Random Forest
+c)	Convolutional Neural Network (CNN) 
 
-The dataset in this study is large enough (with hundreds of thousands of entries), so advantage could be taken from this by dividing it into training and validation datasets. Another option derives from the fact that the IDOT's crash databases from different years are also freely available online on .csv format. Therefore, additional hundreds of thousands of entries could be used for validation (e.g. the data from the years immediatly before the ones selected for building the dataset of this work, such as the 2016 dataset). This way, the full dataset will be used to train and build a DT model, and the validation dataset will afterwards be useful to to decide on the appropriate tree size needed to achieve the optimal model accuracy. For the purpose of the DT modeling, the Julia "DecisionTreeClassifier" model was used for the implementation of the DT. Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained. 
+The dataset in this study is large enough (with hundreds of thousands of entries), so an advantage could be taken from this by dividing it into training and validation datasets. Another option derives from the fact that the IDOT's crash databases from different years are also freely available online on .csv format. Therefore, additional hundreds of thousands of entries could be used for validation (e.g. the data from the years immediately before the ones selected for building the dataset of this report, such as the 2016 dataset). This way, the full dataset could be used to train and build the model, and the validation datasets will afterwards be useful to decide on the appropriate model parameters needed to achieve the optimal model accuracy. 
 
+<<<<<<< HEAD
+Since machine learning algorithms are generally unable to work with categorical data when fed directly into the model, there is a need to convert our independent variables (inputs):RoadSurfaceCond,:RoadDefects,:LightingCond and :WeatherCond into numbers, and the same will be required for our output variable since it will also be categorical (:CrashSeverity). The task of assigning numerical values to make use of them has to be handled with the aim of avoiding undesired biases in the assignment process. If we assigned a float or a integer value, our machine learning model may wrongly allocate a higher weight to variables with higher values, affecting the accuracy of the prediction model. To avoid this issue, we will encode our categorical features as one-hot numeric arrays, a technique that is presented hereafter.
+=======
 As it will be further discussed later, the first proposed model (Decision Tree) resulted in a limited accuracy (78%) on the training data using the full cleaned combined dataset. As a first estimation, this value could be seen as promising, however several issues could be immediately realized. In summary, “property damage”, the lowest severity crash type, dominates the dataset (also approximately 78% of the cases). Therefore, a simple model that only predicts “property damage”, independently of the entries, would have 78% accuracy. Alternative strategies were brainstormed in order to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. Other than that, the Random Forest (RF) approach was also ran for both datasets (full and reduced, equally sampled). 
 
 The RF models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes.  Given the presence of multiple DTs, the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and different between each other DTs, otherwise the final accuracy of RF and DT would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model. 
 
 
 ### One Hot Encoding
+>>>>>>> 9695b9d24b8f0b3546d6dc7052f33cf7cff819e3
 
-Machine learning algorithms are generally unable to work with categorical data when fed directly into the model. Therefore, there is a need to convert our independent variables (inputs) :RoadSurfaceCond,:RoadDefects,:LightingCond and :WeatherCond into numbers, into numbers and the same will be required for our output variable since it will also be categorical (:CrashSeverity).
+#### One Hot Encoding
 
-The task of assigning numerical values to make use of them has to be handled with the aim of avoiding undesired biases in the assignment process. If we assigned a float or a integer value, our machine learning model may wrongly allocate a higher weight to variables with higher values, affecting the accuracy of the prediction model.
-
-To avoid this issue, we will encode our categorical features as one-hot numeric arrays. The one-hot encoding scheme, also known as ‘one-of-K’ or ‘dummy’ creates a binary colum for each category, and returns a sparse matrix or dense array (depending on the sparse parameters).Our inputs to this transform will be strings, denoting the values taken on by our categorical (discrete) features and our output will be a binary feature for each possible category with the value of 1 to the feature of each sample that belongs to the category, and a value of 0 for any other feature (Buitinck et al, 2013). An example is shown below for the variable *:LightingCond*:
+The one-hot encoding scheme, also known as ‘one-of-K’ or ‘dummy’ creates a binary colum for each category, and returns a sparse matrix or dense array (depending on the sparse parameters).Our inputs to this transform will be strings, denoting the values taken on by our categorical (discrete) features and our output will be a binary feature for each possible category with the value of 1 to the feature of each sample that belongs to the category, and a value of 0 for any other feature (Buitinck et al, 2013). An example is shown below for the variable *:LightingCond*:
 
 | Original Feature |  One-Hot Encoded Feature | 
 |:-----------------|:------------------------:|
@@ -359,8 +364,29 @@ To avoid this issue, we will encode our categorical features as one-hot numeric 
 | Dusk             |    [0, 0, 0, 0, 1, 0]    | 
 | Unknown          |    [0, 0, 0, 0, 0, 1]    | 
 
-Although, the One Hot Encoding technique will be useful to transform and preprocess our data so that our model can understand it better and learn from it more effectively, it comes with its own advatanges and disadvantages. We'll be analizing the results as we test our model to report our findings. 
+Although, the One Hot Encoding technique will be useful to transform and preprocess our data so that our model can understand it better and learn from it more effectively, it comes with its own advantages and disadvantages. We'll be analyzing the results as we test our model to report our findings. 
 
+Once the data has been transformed, we can use it to train our proposed models.
+The description, adequacy, results, and conclusions from every model tested is discussed in the following sections.
+
+### a) Decision Tree Model
+
+The first approach will be the development of a Decision Tree (DT) scheme. Decision Trees are non-parametric supervised learning methods, that can deal with large datasets without imposing complicated parametric structures, enabling them to predict the value of a target variable based on simple decision rules inferred from the data features. The objective is to find a set of decision rules that naturally partition the feature space to provide an informative and robust hierarchical classification model (Myles et al, 2004). 
+
+The DecisionTree.jl package available for Julia, provided 
+
+
+
+
+
+
+
+### b) Random Forest
+
+For the purpose of the model definition, the Julia "DecisionTreeClassifier" model was used for the implementation of the DT. Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained.
+
+
+### c) Convolutional Neural Network (CNN)
 
 
 ## References {.page_break_before}
