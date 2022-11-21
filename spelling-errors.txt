@@ -5,7 +5,6 @@ Amir
 APIs
 Brucher
 Buitinck
-cff
 Champaign
 Chemometrics
 CityName
@@ -53,13 +52,13 @@ Hellinga
 Hesam
 hotspots
 Huaman
+hyperparameters
 IATSS
 ICT
 IDOT
 IDOTAdmin
 IDOT’s
 inexistent
-innacurate
 IntersectionRelated
 ISSN
 jl
@@ -77,7 +76,6 @@ Navid
 Nejad
 NoInjuries
 NumberOfVehicles
-obtaned
 occurence
 occuring
 Parham
@@ -92,6 +90,7 @@ RandomForestClassifier
 Rashidi
 Renan
 renanssmaia
+rng
 RoadDefects
 RoadSurfaceCond
 RoadwayFunctionalClassCode
@@ -103,6 +102,7 @@ Samimi
 Saud
 Scikit
 Soheil
+subfeatures
 Thirion
 througout
 TotalFatals
