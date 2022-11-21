@@ -96,7 +96,6 @@ Pedregosa
 Perrot
 preprocess
 Prettenhofer
-Propert
 Quek
 RandomForestClassifier
 Rashidi
