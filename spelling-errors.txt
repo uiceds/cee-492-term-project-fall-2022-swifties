@@ -23,7 +23,7 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-CSV
+csv
 Danesh
 dataset
 datasets
@@ -32,6 +32,7 @@ DecisionTreeClassifier
 Diab
 diablara
 DT
+DTs
 Dubourg
 Duchesnay
 Ehsani
@@ -86,6 +87,7 @@ Perrot
 preprocess
 Prettenhofer
 Quek
+RandomForestClassifier
 Rashidi
 Renan
 renanssmaia
