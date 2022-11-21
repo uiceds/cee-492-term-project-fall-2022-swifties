@@ -28,7 +28,7 @@ CrashYr
 CSV
 Danesh
 dataset
-Datasets
+datasets
 DayOfWeekCode
 DCNN
 DecisionTree
@@ -113,7 +113,7 @@ Safarpour
 Samimi
 Saud
 Scikit
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion

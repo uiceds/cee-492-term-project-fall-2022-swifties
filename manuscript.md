@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/53cbcc6991d04e8965b6733b4c1ae22d406b4974/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/53cbcc6991d04e8965b6733b4c1ae22d406b4974/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/53cbcc6991d04e8965b6733b4c1ae22d406b4974/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b43c9ca68654df26ae9eceba01673024b03d367/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b43c9ca68654df26ae9eceba01673024b03d367/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b43c9ca68654df26ae9eceba01673024b03d367/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/53cbcc6991d04e8965b6733b4c1ae22d406b4974/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5b43c9ca68654df26ae9eceba01673024b03d367/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@53cbcc6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/53cbcc6991d04e8965b6733b4c1ae22d406b4974)
+from [uiceds/cee-492-term-project-fall-2022-swifties@5b43c9c](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5b43c9ca68654df26ae9eceba01673024b03d367)
 on November 21, 2022.
 </em></small>
 
@@ -272,32 +272,32 @@ The output is described in the table below:
 
 |                               | Association with CrashSeverity         
 |:------------------------------|:-------------:|
-| CrashYr                       | 0.00807       |
-| CrashMonth                    | 0.0268889     | 
-| CrashDay                      | 0.00470057    |
-| NumberOfVehicles              | 0.101171      | 
-| DayOfWeekCode                 | 0.0110936     |
-| CrashHour                     | 0.0255177     | 
-| CollisionTypeCode             | 0.259482      | 
-| TotalFatals                   | 0.707104      | 
-| TotalInjured                  | 0.705812      | 
-| NoInjuries                    | 0.355953      | 
+| CrashYr                       | 0.008         |
+| CrashMonth                    | 0.027         | 
+| CrashDay                      | 0.005         |
+| NumberOfVehicles              | 0.101         | 
+| DayOfWeekCode                 | 0.011         |
+| CrashHour                     | 0.025         | 
+| CollisionTypeCode             | 0.259         | 
+| TotalFatals                   | 0.707         | 
+| TotalInjured                  | 0.706         | 
+| NoInjuries                    | 0.356         | 
 | CrashSeverity                 | 1             | 
-| IntersectionRelated           | 0.141338      |
-| RoadwayFunctionalClassCode    | 0.0714974     | 
-| WorkZoneRelated               | 0.00473353    | 
-| TypeOfFirstCrash              | 0.259498      | 
-| CityName                      | 0.0738726     | 
-| ClassOfTrafficWay             | 0.0608374     | 
-| Cause1                        | 0.165848      | 
-| TrafficControlDevice          | 0.097696      |
-| TrafficControlDeviceCond      | 0.0515391     | 
-| RoadSurfaceCond               | 0.0329927     | 
-| RoadDefects                   | 0.0424504     |
-| LightingCond                  | 0.02852       | 
-| WeatherCond                   | 0.0307212     | 
+| IntersectionRelated           | 0.141         |
+| RoadwayFunctionalClassCode    | 0.071         | 
+| WorkZoneRelated               | 0.005         | 
+| TypeOfFirstCrash              | 0.259         | 
+| CityName                      | 0.074         | 
+| ClassOfTrafficWay             | 0.061         | 
+| Cause1                        | 0.166         | 
+| TrafficControlDevice          | 0.098         |
+| TrafficControlDeviceCond      | 0.052         | 
+| RoadSurfaceCond               | 0.033         | 
+| RoadDefects                   | 0.042         |
+| LightingCond                  | 0.028         | 
+| WeatherCond                   | 0.031         | 
 
-From the table above, it can be observed that the the factor that is the most correlated to the crash severity is the "TotalFatals" column which indicates the number of fatalities for each crash, with a  value of 0.707104. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond".
+From the table above, it can be observed that the the factor that is the most correlated to the crash severity is the "TotalFatals" column which indicates the number of fatalities for each crash, with a  value of 0.707. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond".
 Comapring these, it can be seen that presence of intersections has the highest correlation with the severity of the crash followed by the traffic control device. In addition, the characteristics of the workzone seem to have the least correlation with the severity of the crash.
 This observation can be useful to understand the dataset and get an idea about which variables are important for making predictions. This was done to get a general idea about the data but for performing predictions, this will be handled in detail.
 
