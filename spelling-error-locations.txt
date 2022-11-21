@@ -153,6 +153,9 @@ content/05.Predictive Model.md:91:dataset
 content/05.Predictive Model.md:91:dataset
 content/05.Predictive Model.md:91:Propert
 content/05.Predictive Model.md:92:dataset
+content/05.Predictive Model.md:95:coditions
+content/05.Predictive Model.md:95:dataset
+content/05.Predictive Model.md:95:defcts
 content/05.Predictive Model.md:97:Convolutional
 content/05.Predictive Model.md:111:DecisionTreeClassifier
 content/05.Predictive Model.md:111:DT

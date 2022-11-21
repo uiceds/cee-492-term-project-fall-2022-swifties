@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a1c4794bc65fbdda872b7cdb82028b7c3080505c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a1c4794bc65fbdda872b7cdb82028b7c3080505c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a1c4794bc65fbdda872b7cdb82028b7c3080505c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1789f690a4cef62729f147cfa3e7ff0a11ed982/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/a1c4794bc65fbdda872b7cdb82028b7c3080505c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@c1789f6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c1789f690a4cef62729f147cfa3e7ff0a11ed982)
+from [uiceds/cee-492-term-project-fall-2022-swifties@a1c4794](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/a1c4794bc65fbdda872b7cdb82028b7c3080505c)
 on November 21, 2022.
 </em></small>
 
@@ -408,7 +408,7 @@ Because the problem was not the presence of several values for each column, deal
 "Fatal" had the lowest number of rows in the data which was around 3,000. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. However, this decreased the accuracy of te decision tree and random forest to around 40%. The reason for this may be referred to the low number of rows that the dataset was modified to have as compared to the initial data, which, although was imbalanced, had much more rows and that gave a better accuracy. 
 
 #### 4- Removing "perfect" conditions
-
+Another way to look at the data imbalance of this dataset is by observing the features rather than the dependent variables. Part of the reason why the data is imbalanced is the fact that most of the time when the crashes happen, the coditions are "perfect", meaning the weather condition is clear, the road has no defcts, the lighting condition is daylight and the road surface condition is dry. Therefore, one approach taken by the team was to remove those conditions and try to run the decision tree model for the remaining cases. This increased the model accuracy, at best, to 85% 
 
 ### d) Convolutional Neural Network (CNN)
 

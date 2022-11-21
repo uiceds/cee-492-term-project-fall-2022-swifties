@@ -10,6 +10,7 @@ Champaign
 Chemometrics
 CityName
 ClassOfTrafficWay
+coditions
 CollisionTypeCode
 colum
 Comapring
@@ -32,6 +33,7 @@ DayOfWeekCode
 DCNN
 DecisionTree
 DecisionTreeClassifier
+defcts
 Diab
 diablara
 dimensionality
