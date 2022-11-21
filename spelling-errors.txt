@@ -4,6 +4,7 @@ allert
 Amir
 APIs
 Brucher
+Brunton
 Buitinck
 Champaign
 Chemometrics
@@ -12,7 +13,8 @@ ClassOfTrafficWay
 CollisionTypeCode
 colum
 Comapring
-Convolutional
+Conv
+convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -27,10 +29,12 @@ Danesh
 dataset
 datasets
 DayOfWeekCode
+DCNN
 DecisionTree
 DecisionTreeClassifier
 Diab
 diablara
+dimensionality
 DT
 DTs
 Dubourg
@@ -64,9 +68,11 @@ ISSN
 jl
 Keshavarz
 Khorasani
+Kutz
 LightingCond
 Liu
 Maia
+MaxPool
 meaningul
 Mehrdad
 metaheuristic
@@ -79,6 +85,8 @@ NoInjuries
 NumberOfVehicles
 occurence
 occuring
+ouput
+overfitting
 Parham
 Passos
 Pazari
@@ -90,6 +98,7 @@ Propert
 Quek
 RandomForestClassifier
 Rashidi
+ReLU
 Renan
 renanssmaia
 rng
@@ -103,6 +112,7 @@ Safarpour
 Samimi
 Saud
 Scikit
+softmax
 Soheil
 subfeatures
 Thirion

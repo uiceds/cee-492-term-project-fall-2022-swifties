@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c1fc18fd7a1da639561f38f59f70221c4a6fddcc/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@79e1dca](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/79e1dca059b9cc08f383a68ca9172f801bc8bda1)
+from [uiceds/cee-492-term-project-fall-2022-swifties@c1fc18f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c1fc18fd7a1da639561f38f59f70221c4a6fddcc)
 on November 21, 2022.
 </em></small>
 
@@ -431,6 +431,50 @@ As it will be further discussed later, the first proposed model (Decision Tree) 
 
 The RF models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes.  Given the presence of multiple DTs, the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and different between each other DTs, otherwise the final accuracy of RF and DT would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model. 
 
+According to Brunton and Kutz, practitioners would generally refer to Deep Convolutional Neural Networks when thinking of Neural Networks. Given its popularity, flexibility and effectiveness for classification problems, DCNN were used to model this problem.
+
+The Deep Convolutional Neural Network was constructed using the Julia Machine Learning Library, Flux. This library allows for an easier construction of neural networks with predefined functions for different kinds of layers, activation functions, model training functions, and several other functions of interest when building up a neural network. 
+
+For this model, as a first attempt, the entire dataset was used. An important consideration to account for when using the Flux library is that the neural network expects a very specific structure of the data: a 3 dimensional matrix of the input data that contains the observations divided into vectors, and one-hot encoded variables.
+
+During the training phase, the model included convolutional layers, dense layers (to reduce the dimensionality of the ouput), the “ReLU” activation function (one of the more popular activation functions), pooling layers (for a more efficient computation and reduce overfitting), a dropout layer (to specifically target overfitting), and a “Softmax” function (a generalized version of the functions used for classification problems). These functions where all put together using a “Chain” function. In the testing phase, the Dropout functions is disabled. 
+
+The architecture of the Neural Network used is as follows:
+
+model =Chain(
+    Conv((3,), 1=>2, pad=(1,)),
+    MaxPool((2,)),
+    Conv((3,), 2=>4, pad=(1,)),
+    MaxPool((2,)),
+    x -> reshape(x, :, size(x, 3)),
+    Dropout(1),
+    Dense(28,3),
+    softmax
+)
+
+The error metric used for training this Neural Network was the logistical cross entropy loss function. This function matches the “Softmax” function output, and works as a generalized version of cross entropy loss functions used for “more-than-two” classes classification problems.
+
+The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01. 
+
+Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in the following figure:
+
+#### Convolutional Neural Network Training
+
+![
+**Using the complete dataset**
+]( https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png "DCNN"){#fig: DCNN -full}
+
+Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model. 
+
+With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in the following figure:
+
+#### Convolutional Neural Network Training
+
+![
+**Using a reduced dataset**
+]( https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png "DCNN2"){#fig: DCNN -reduced}
+
+The results obtained using this predictive model may not be able to improve any further given the nature of the dataset used to train the predicted models. Since the amount of “Property Damage” as one of the possible “Crash Severity” is overwhelmingly greater than the other 2 possible classes, the models tend to learn that the majority of combinations of the selected parameters would lead to a “Property Damage” prediction.
 
 
 
@@ -441,6 +485,8 @@ The RF models are used to predict both categorical and continuous outputs. The b
 Abdulhafedh, A. (2017) Road Crash Prediction Models: Different Statistical Modeling Approaches. Journal of Transportation Technologies, 7, 190-205. doi: 10.4236/jtts.2017.72014.
 
 Akbar Danesh, Mehrdad Ehsani, Fereidoon Moghadas Nejad & Hamzeh Zakeri (2022) Prediction model of crash severity in imbalanced dataset using data leveling methods and metaheuristic optimization algorithms, International Journal of Crashworthiness, DOI: 10.1080/13588265.2022.2028471
+
+Brunton, S., Kutz, N., (2017) Data Driven Science & Engineering: Machine Learning, Dynamical Systems, and Control.
 
 Chin, H. C.; Quek, S. T. Measurement of Traffic Conflicts. Safety Science, Vol. 26(3), p. 169-185, 1997. DOI: https://doi.org/10.1016/S0925-7535(97)00041-6.
 
