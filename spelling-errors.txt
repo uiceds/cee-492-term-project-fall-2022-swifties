@@ -70,6 +70,7 @@ Maia
 meaningul
 Mehrdad
 metaheuristic
+modelling
 Moghadas
 Mohammadi
 Navid
@@ -85,6 +86,7 @@ Pedregosa
 Perrot
 preprocess
 Prettenhofer
+Propert
 Quek
 RandomForestClassifier
 Rashidi

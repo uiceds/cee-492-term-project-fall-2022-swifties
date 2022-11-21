@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/09b0717d48044c7381c25e07c67ecd604e8cfdc4/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/79e1dca059b9cc08f383a68ca9172f801bc8bda1/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@09b0717](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/09b0717d48044c7381c25e07c67ecd604e8cfdc4)
+from [uiceds/cee-492-term-project-fall-2022-swifties@79e1dca](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/79e1dca059b9cc08f383a68ca9172f801bc8bda1)
 on November 21, 2022.
 </em></small>
 
@@ -374,7 +374,40 @@ The Random Forest (RF) models are used to predict both categorical and continuou
 
 For the purpose of the model definition, the Julia "DecisionTreeClassifier" model was used for the implementation of the DT. Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained.
 
-### c) Convolutional Neural Network (CNN)
+### c) Different Approaches for the Decision Tree and Random Forest Models
+After achieving an accuracy of 78% for the  decision trees and random forest models that were tried, different approaches were implemented to modify the data with the goal of achieving higher accuracy. These approaches are described below:
+
+#### 1-	Removing rows with entries that are not very well understood
+As mentioned earlier, it was decided only include the columns “RoadSurfaceCond”, “RoadDefects”, “LightingCond” and “WeatherCond”. Each of these columns (attributes) has different possible values. Table 3 below shows the unique values for each attribute. For example, and as can be seen in the table, WeatherCond has 12 different possible values and for the one-hot encoding, this would create 12 columns just for the attribute “WeatherCond”.  It was thought that reducing the number of the one-hot encoded columns would make the accuracy better as the model would not have as many columns to use to make predict the labels.
+therefore, it was decided to delete the rows that have “WeatherCond”, “RoadSurfaceCond” and “LightingCond” as “Other” or “Unknown”. These two values were chosen to be removed because they do not offer any significant or specific information about the corresponding attributes.
+
+| RoadSurfaceCond      |  RoadDefects             |  LightingCond            |  WeatherCond 
+|:---------------------|:------------------------:|:------------------------:|:------------------------:|
+| Wet                  |  Debris on Roadway       | Darkness                 |  Blowing Sand
+| Dry                  |  No Defects              | Darkness/Lighted Road    |  Blowing Snow 
+| Ice                  |  Other                   | Dawn                     |  Clear
+| Snow or Slush        |  Rut Holes               | Daylight                 |  Cloudy/Overcast
+| Unknown              |  Shoulders               | Dusk                     |  Fog/Smoke/Haze
+| Other                |  Unknown                 |                          |  Freezing Rain
+| Sand/Mud/Dirt        |  Worn Surface            |                          |  Other
+|                      |                          |                          |  Rain  
+|                      |                          |                          |  Severe Cross Wind
+|                      |                          |                          |  Sleet/Hail
+|                      |                          |                          |  Snow
+|                      |                          |                          |  Unknown
+Table 3: Different values for each of the attributes chosen for the predictive model
+
+After removing these rows, performing one-hot encoding again and running the decision tree/random forest models again, the same level of accuracy of 78% was achieved. This indicated that the higher number of one-hot encoded columns is not impacting the prediction.
+
+
+#### 2- Taking into consideration another attribute
+It was also decided to try considering one more column in the dataset and that could maybe increase the accuracy. The reason behind this reasoning is maybe if the model was offered more insight about the data, other than the surface road conditions, road defects, weather conditions and lighting conditions, this would help the model notice more relationships between the features and the dependent variable and thus increasing the accuracy. Therefore, and  based on the previous analysis of correlations between the columns, it was found that the presence or absence of road intersections was relatively highly correlated with crash severity, it was re-considered as one of the features for modelling. This attribute has 2 values: Yes or No. One-hot encoding was performed again and the decision tree model was applied again. However, the accuracy was also 78%. This showed that increasing the number of attributes is not the solution to low accuracy, in this case. 
+
+#### 3- Addressing the issue of imbalanced data
+Because the problem was not the presence of several values for each column, dealing with the imbalanced dataset was another approach that was implemented by the team. This model is trying to predict the crash severity level which has three label options: "Property Damage", "Injury" and "Fatal". "Property Damage" constitutes 80% of the data; 627706 rows out 809824 total rows (after cleaning the dataset), This imbalance is causing the model to predict "Propert Damage" most of the time, decreasing the accuracy of the model. One way of addressing this is running the model with the same number of rows for each label.
+"Fatal" had the lowest number of rows in the data which was around 3,000. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. However, this decreased the accuracy of te decision tree and random forest to around 40%. The reason for this may be referred to the low number of rows that the dataset was modified to have as compared to the initial data, which, although was imbalanced, had much more rows and that gave a better accuracy.
+
+### d) Convolutional Neural Network (CNN)
 
 As the first approach, the values by default have been kept constant while the maximum depth of the decision tree is altered from scenario to scenario to evaluate the changes in the result. 
 
@@ -397,6 +430,8 @@ For the purpose of the model definition, the Julia "DecisionTreeClassifier" mode
 As it will be further discussed later, the first proposed model (Decision Tree) resulted in a limited accuracy (78%) on the training data using the full cleaned combined dataset. As a first estimation, this value could be seen as promising, however several issues could be immediately realized. In summary, “property damage”, the lowest severity crash type, dominates the dataset (also approximately 78% of the cases). Therefore, a simple model that only predicts “property damage”, independently of the entries, would have 78% accuracy. Alternative strategies were brainstormed in order to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. Other than that, the Random Forest (RF) approach was also ran for both datasets (full and reduced, equally sampled). 
 
 The RF models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes.  Given the presence of multiple DTs, the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and different between each other DTs, otherwise the final accuracy of RF and DT would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model. 
+
+
 
 
 ## References {.page_break_before}
