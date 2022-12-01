@@ -26,7 +26,7 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-csv
+CSV
 Danesh
 dataset
 datasets
@@ -43,7 +43,6 @@ DTs
 Dubourg
 Duchesnay
 Ehsani
-encourgae
 englobes
 Farid
 Fereidoon

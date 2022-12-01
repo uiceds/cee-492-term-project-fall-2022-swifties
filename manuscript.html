@@ -63,9 +63,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/cca6567dc40a00ae043dc99372a52068a12fc061">uiceds/cee-492-term-project-fall-2022-swifties@cca6567</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/423f32bbcacb91399703de24ba369cb17d46a17d">uiceds/cee-492-term-project-fall-2022-swifties@423f32b</a>
 on December 1, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -127,22 +127,27 @@ Illinois Center for Transportation; Department of Civil and Environmental Engine
 · Funded by The Grainger College of Engineering
 </small></p></li>
 </ul>
-<h1 class="page_break_before" id="project-selection-and-introduction">Project selection and Introduction</h1>
+<h1 class="page_break_before" id="introduction">Introduction</h1>
+<h2 id="overview">Overview</h2>
 <p>Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (<strong>WHO</strong>), approximately 1.30 million people die each year as a result of road traffic crashes (as of June, 2022). In addition to this, the cost of road traffic crashes represent roughly 3% of a the gross domestic product (<strong>GDP</strong>) of a country (Safarpour et al, 2020; WHO, 2022). Consequently, a thourough understanding of what factors influence these accidents on roads is of utmost importance. However, it is not easy to decide which specific conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a road user to be involved in a fatal/serious car accident.</p>
 <p>The ability of predicting accurately the potential occurence of a car crash is a valuable contribution for road safety. A common approach found in the literature, is the use of crash records data for the development of prediction models, so that agencies can allocate funds to priority areas within the roadway network. However, given that the available budget for infrastructure maintenance and rehabilitation is quite limited, the adoption of countermeasures for all the facilities where crashes are likely to occur is not feasible from an economic standpoint. Therefore, the ability of informing drivers about potential risks is an attractive way to proactively compensate the aforementioned limitations. Moreover, with the deployment of connected and autonomous vehicles (<strong>CAV</strong>), this information can be provided optimally helping vehicles with processes such as route selection, and can also deliver real-time alerts to instigate drivers to take the necessary safety precautions to operate their vehicles (Yu et al, 2021).</p>
-<h3 id="project-objective-and-plan-proposal">Project Objective and Plan Proposal</h3>
-<p>The objective of this project is to use the extensive crash database collected by the Illinois Department of Transportation (<strong>IDOT</strong>), to explore, analize and extract trends from it to allow the development of a
-crash risk prediction model based on its main categorical data. Considering that this database will keep being fed and the previous entries can also be updated (such as the weather/lighting/pavement conditions), the predictive model could potentially be used by navigation systems to encourgae drivers to adopt more cautious behavior as soon as they enter high-crash risk sections of a given road.</p>
-<p>The plan to be carried out will follow the basic steps described as follows:</p>
+<h2 id="plan-proposal">Plan Proposal</h2>
+<h3 id="project-objective">Project Objective</h3>
+<p>The objective of this project is to use the extensive crash database collected by the Illinois Department of Transportation (<strong>IDOT</strong>), to explore, detect, analize and extract trends from it to later develop a
+crash risk prediction model based on its most relevant categorical data.
+The prediction model will take categorical data as inputs and will yield the likelihood of a crash as an output. By using the results, we could categorize different sections of a given road based on the probability of crash accidents occurence. Considering that this database will keep being fed and the previous entries could also be updated (such as the weather/lighting/pavement conditions), the predictive model aims to be used by navigation systems to encourage drivers to adopt more cautious behavior as they enter high-crash risk sections.</p>
+<h3 id="work-plan">Work Plan</h3>
+<p>The plan to be carried out will follow the sequence described below:</p>
 <ol type="1">
-<li>Read the IDOT’s crash data CSV files available as an open data source.</li>
-<li>Clean the data by deleting unwanted columns, handling missing data, and removing irrelevant observations.</li>
+<li>Download, and store IDOT’s crash databases. The datasets are available as an open data source on IDOT’s website in .CSV format.</li>
+<li>Explore and clean the data by deleting irrelevant columns, handling missing data, and removing unimportant observations. Notice that rows and columns will be labeled as unimportant or irrelevant based on the objective of this project, so any categorical data not related to our target prediction will be filtered out.</li>
 <li>Tidy the data by organizing the variables into columns and the observations into rows.</li>
 <li>Analyze and visualize the data by finding correlations both analytically and graphically.</li>
-<li>Model a prediction algorithm for crash risk according to categorical variables.</li>
+<li>Test different machine learning models to build a crash prediction model, according to the categorical variables.</li>
+<li>Assess the results, discuss the findings and determine which algorithm performs better.</li>
 </ol>
-<h3 id="description-of-the-data-set">Description of the Data Set</h3>
-<p>IDOT has generated datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation (IDOT). The accident data has been collected throughout the years using Application Programming Interfaces (APIs) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that include conditions like (among others that are not listed or described here because these are not relevant for this study):</p>
+<h2 class="page_break_before" id="description-of-the-dataset">Description of the Dataset</h2>
+<p><strong>IDOT</strong> has generated annual datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation. The crash data has been collected throughout the years using Application Programming Interfaces (<strong>APIs</strong>) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that include conditions like the ones described below (among others that are not listed or described here because these are not relevant for this study):</p>
 <ol type="1">
 <li>Time and date (day, month, year)</li>
 <li>Coordinates (x,y)</li>
@@ -157,7 +162,7 @@ crash risk prediction model based on its main categorical data. Considering that
 <li>Possible causes of the accident.</li>
 </ol>
 <p>The datasets for different years are available for download as .CSV files at the IDOT’s website:</p>
-<p><span class="center">https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05</span></p>
+<p><strong><span class="center">https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05</span></strong></p>
 <h2 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h2>
 <p>Open-source crash data is published by the Illinois Department of Transportation (IDOT) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each crash occurence. Each dataset is organized with observations filled out according to the IDOT Traffic Crash Report SR 1050 Instruction Manual (2019). The dataset for each year is available online in .CSV format at the IDOT website, and they contain observations arranged in rows and attributes in columns. The datasets from 2017, 2018, and 2019 were included in this Exploratory Data Analysis. The datasets from 2020 and 2021 were discarded in this analysis due to the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna &amp; Abu-Zidan, 2021). Regarding the dataset size, each one had originally over 300,000 rows (944,328 in total, combined).
 The Exploratory Data Analysis will be carried out following the steps described in the next sections.</p>
@@ -548,7 +553,7 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:8cdee90f-188e-4555-a8a7-c2df0e51f771" class="fignos">
+<div id="fig:03ba19fa-510a-471d-b4d1-7db96af7292e" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 10: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -556,7 +561,7 @@ softmax
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:a7e8c679-3dae-48ea-9888-2c85773aabb5" class="fignos">
+<div id="fig:7250a245-62bb-46c4-b5e1-aee98b57e3f3" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 11: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
