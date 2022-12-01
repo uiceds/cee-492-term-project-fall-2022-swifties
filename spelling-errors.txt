@@ -29,10 +29,10 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-CSV
+csv
 Danesh
 dataset
-datasets
+Datasets
 DayOfWeekCode
 DCNN
 DecisionTree
@@ -122,7 +122,7 @@ Samimi
 Saud
 Scikit
 Similarily
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion

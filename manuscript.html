@@ -63,9 +63,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1333323eda4f4485b38051ac2bb0577f059ed230/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1333323eda4f4485b38051ac2bb0577f059ed230/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1333323eda4f4485b38051ac2bb0577f059ed230/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/1333323eda4f4485b38051ac2bb0577f059ed230/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/1333323eda4f4485b38051ac2bb0577f059ed230">uiceds/cee-492-term-project-fall-2022-swifties@1333323</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/40f176b0455d3bd0f6d97c7a42c811c6786b37c9">uiceds/cee-492-term-project-fall-2022-swifties@40f176b</a>
 on December 1, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -445,17 +445,20 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 </figure>
 </div>
 <p>Figure 9 below shows the confusion plot for the decision tree model. It can be seen from the plot that model is predicting 691050 accurate values for “Property Damage” and 111 non-accurate values as “Injury” instead of “Property Damage”. The prediction accuracy is much worse for the other two labels. For “Injury”, the model predicted only 185 accurate values and predicted 189752 values for “Property Damage” instead of “Injury”. Similarily, for “Fatal”, the model predicted only 2 accurate values and inaccurately predicted 2692 “Property Damage” instead of “Fatal”. This shows that the model is predicting “Property Damage” for most of the cases.</p>
-<p><strong>Confusion plot for the Decision Tree model</strong>
-]( https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png “ConDT”){#fig: ConDT}</p>
+<div id="fig:7b4ae8a3-a224-434c-9abb-f2f13ea896a2" class="fignos">
+<figure>
+<img src="https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png" alt="Figure 10: Confusion plot for the Decision Tree model" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Confusion plot for the Decision Tree model</strong></figcaption>
+</figure>
+</div>
 <p>This issue can be summarized by stating that one of the possible outputs (“Property Damage”), the lowest severity crash type, dominates the dataset, accounting for almost 78% of the total number of cases. Consequently, a simple model that only predicts “Property Damage”, independently of the entries, would have 78% accuracy. This imposes a huge bias in the criteria being used by the model to predict an output. As seen in the previous figure, most of the leaves of the decision tree get the right output just because the likelihood of predicting one of them is enormously higher than the likelihood of any of the other two.</p>
 <p>Alternative strategies were brainstormed to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. As this test didn’t bring a considerable change either, a Random Forest (RF) model was also run for both datasets (full and reduced, equally sampled).</p>
 <h3 id="b-random-forest">b) Random Forest</h3>
 <p>The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes. Given the presence of multiple Decision Trees (DTs), the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model.</p>
 <p>Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained. Similar to the decision tree model, the accuracy obtained by the Random Forest model was also 78%. Figure 10 below shows the confusion plot for the random forest.
 It can be seen in the figure that the model is working well only for “Property Damage” where it is predicting 691119 accurate values and only 42 non accurate ones. For “Injury”, the model is predicting 117 accurate values and is wrongly prediciting 189821 “Property Damage” instead. In addition, for “Fatal”, the model is only predicting one accurate value and for the remaining ones, it is giving “Property Damage” instead. Comapring the decison tree and the random forest models, the random forest is working even better for “Property Damage” and worse for the other 2, meaning, it is predicting more accurate values as “Property Damage” and less accurate values for “Injury” and “Fatal” keeping the overall accuracy the same at 78%.</p>
-<div id="fig:d451ef3c-3c32-4cf7-bc19-b693144af12b" class="fignos">
+<div id="fig:d059b06d-2909-4be4-8069-a5a1b9f40104" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png" alt="Figure 10: Confusion plot for the Random Forest model" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Confusion plot for the Random Forest model</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png" alt="Figure 11: Confusion plot for the Random Forest model" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Confusion plot for the Random Forest model</strong></figcaption>
 </figure>
 </div>
 <h3 id="c-different-approaches-for-the-decision-tree-and-random-forest-models">c) Different Approaches for the Decision Tree and Random Forest Models</h3>
@@ -576,17 +579,17 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:8668013f-da45-4185-ad5f-adeb5f090b63" class="fignos">
+<div id="fig:653e7a04-b102-4fb2-aa48-2baf5ce31fb7" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 11: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Using the complete dataset</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 12: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
 </div>
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:8dd9a643-9d61-47b1-aa0d-4a61b095697e" class="fignos">
+<div id="fig:e769f2b4-58e1-4e00-a2e5-e0dedc1e61d7" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 12: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Using a reduced dataset</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 13: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
 </div>
 <p>The results obtained using this predictive model may not be able to improve any further given the nature of the dataset used to train the predicted models. Since the amount of “Property Damage” as one of the possible “Crash Severity” is overwhelmingly greater than the other 2 possible classes, the models tend to learn that the majority of combinations of the selected parameters would lead to a “Property Damage” prediction.</p>
