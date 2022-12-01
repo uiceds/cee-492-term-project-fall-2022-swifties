@@ -15,8 +15,9 @@ coditions
 CollisionTypeCode
 colum
 Comapring
+ConDT
 Conv
-convolutional
+Convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -114,7 +115,7 @@ Safarpour
 Samimi
 Saud
 Scikit
-softmax
+Softmax
 Soheil
 subfeatures
 Thirion

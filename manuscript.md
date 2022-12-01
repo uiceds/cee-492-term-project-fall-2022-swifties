@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7ddae43759656912161a05479dff6c21d447e117/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7ddae43759656912161a05479dff6c21d447e117/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7ddae43759656912161a05479dff6c21d447e117/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/423f32bbcacb91399703de24ba369cb17d46a17d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7ddae43759656912161a05479dff6c21d447e117/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@423f32b](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/423f32bbcacb91399703de24ba369cb17d46a17d)
+from [uiceds/cee-492-term-project-fall-2022-swifties@7ddae43](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7ddae43759656912161a05479dff6c21d447e117)
 on December 1, 2022.
 </em></small>
 
@@ -373,6 +373,9 @@ The DecisionTree.jl package available for Julia, provided us with a "DecisionTre
 
 As the first approach, the values by default have been kept constant while the maximum depth of the decision tree is altered from scenario to scenario to evaluate the changes in the result. 
 The first proposed model (Decision Tree) resulted in limited accuracy (78%) on the training data using the fully cleaned combined dataset. As a first estimate, this value could be seen as promising, however several issues could be immediately noticed. Despite testing several model parameters, the accuracy of the model did not improve considerably what indicates a problem in our dataset. Let’s look at the general structure of our decision tree to understand this.
+
+](]( https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png "ConDT"){#fig: ConDT}
+
 
 ![
 **Decision Tree Structure.**
