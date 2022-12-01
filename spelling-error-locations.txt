@@ -2,22 +2,22 @@ content/01.Introduction.md:3:Safarpour
 content/01.Introduction.md:3:thourough
 content/01.Introduction.md:5:occurence
 content/01.Introduction.md:5:Yu
-content/01.Introduction.md:9:allert
-content/01.Introduction.md:9:IDOT
-content/01.Introduction.md:13:CSV
-content/01.Introduction.md:13:IDOT
-content/01.Introduction.md:13:IDOT's
-content/01.Introduction.md:21:APIs
-content/01.Introduction.md:21:datasets
-content/01.Introduction.md:21:datasets
-content/01.Introduction.md:21:IDOT
-content/01.Introduction.md:21:IDOT
-content/01.Introduction.md:29:Unkown
-content/01.Introduction.md:35:CSV
-content/01.Introduction.md:35:datasets
-content/01.Introduction.md:35:IDOT
-content/01.Introduction.md:35:IDOT's
-content/01.Introduction.md:37:idot
+content/01.Introduction.md:9:analize
+content/01.Introduction.md:10:encourgae
+content/01.Introduction.md:14:CSV
+content/01.Introduction.md:14:IDOT
+content/01.Introduction.md:14:IDOT's
+content/01.Introduction.md:22:APIs
+content/01.Introduction.md:22:datasets
+content/01.Introduction.md:22:datasets
+content/01.Introduction.md:22:IDOT
+content/01.Introduction.md:22:IDOT
+content/01.Introduction.md:30:Unkown
+content/01.Introduction.md:36:CSV
+content/01.Introduction.md:36:datasets
+content/01.Introduction.md:36:IDOT
+content/01.Introduction.md:36:IDOT's
+content/01.Introduction.md:38:idot
 content/02.Exploratory Data Analysis.md:3:Abu
 content/02.Exploratory Data Analysis.md:3:COVID
 content/02.Exploratory Data Analysis.md:3:CSV

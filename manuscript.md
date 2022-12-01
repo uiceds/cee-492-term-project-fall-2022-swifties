@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/cca6567dc40a00ae043dc99372a52068a12fc061/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@f08e39a](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/f08e39a1d4a9e8c7d842479774158e6f58798547)
+from [uiceds/cee-492-term-project-fall-2022-swifties@cca6567](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/cca6567dc40a00ae043dc99372a52068a12fc061)
 on December 1, 2022.
 </em></small>
 
@@ -133,7 +133,7 @@ on December 1, 2022.
 
 
 
-## Project selection and Introduction{.page_break_before}
+# Project selection and Introduction{.page_break_before}
 
 Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (__WHO__), approximately 1.30 million people die each year as a result of road traffic crashes (as of June, 2022). In addition to this, the cost of road traffic crashes represent roughly 3% of a the gross domestic product (__GDP__) of a country (Safarpour et al, 2020; WHO, 2022). Consequently, a thourough understanding of what factors influence these accidents on roads is of utmost importance. However, it is not easy to decide which specific conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a road user to be involved in a fatal/serious car accident.
 
@@ -141,7 +141,8 @@ The ability of predicting accurately the potential occurence of a car crash is a
 
 ### Project Objective and Plan Proposal
 
-The objective of this work is to use the Illinois Department of Transportation (IDOT) extensive crash data to be analyzed and, finally, be used for a crash risk prediction model based on main categorical data that can be real-time updated (such as the weather/lighting/pavement conditions). Ideally, it could be used by navigation systems to allert drivers to adopt more cautious behavior as soon as they enter higher-risk sections. 
+The objective of this project is to use the extensive crash database collected by the Illinois Department of Transportation (__IDOT__), to explore, analize and extract trends from it to allow the development of a 
+crash risk prediction model based on its main categorical data. Considering that this database will keep being fed and the previous entries can also be updated (such as the weather/lighting/pavement conditions), the predictive model could potentially be used by navigation systems to encourgae drivers to adopt more cautious behavior as soon as they enter high-crash risk sections of a given road. 
 
 The plan to be carried out will follow the basic steps described as follows:
 

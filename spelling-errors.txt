@@ -1,7 +1,7 @@
 Abdulhafedh
 Abu
-allert
 Amir
+analize
 APIs
 Brucher
 Brunton
@@ -16,7 +16,7 @@ CollisionTypeCode
 colum
 Comapring
 Conv
-Convolutional
+convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -26,10 +26,10 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-CSV
+csv
 Danesh
 dataset
-Datasets
+datasets
 DayOfWeekCode
 DCNN
 DecisionTree
@@ -43,6 +43,7 @@ DTs
 Dubourg
 Duchesnay
 Ehsani
+encourgae
 englobes
 Farid
 Fereidoon
@@ -114,7 +115,7 @@ Safarpour
 Samimi
 Saud
 Scikit
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion
