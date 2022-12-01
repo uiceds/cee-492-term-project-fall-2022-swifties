@@ -28,7 +28,7 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-CSV
+csv
 Danesh
 dataset
 datasets
@@ -44,6 +44,7 @@ DT
 DTs
 Dubourg
 Duchesnay
+EDA
 Ehsani
 englobes
 Farid
@@ -74,6 +75,7 @@ jl
 Keshavarz
 Khorasani
 Kutz
+lable
 LightingCond
 Liu
 Maia
@@ -116,7 +118,7 @@ Safarpour
 Samimi
 Saud
 Scikit
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion
