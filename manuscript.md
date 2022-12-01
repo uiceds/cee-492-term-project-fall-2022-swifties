@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@7c96363](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5)
+from [uiceds/cee-492-term-project-fall-2022-swifties@49e9262](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/49e9262158c9423d3c86836d6bf8a794c04cee08)
 on December 1, 2022.
 </em></small>
 
@@ -508,6 +508,21 @@ When the dataset was sampled to make the number of entries corresponding to ever
 ## Discussion {.page_break_before}
 
 Were you able to answer your research question or support/refute your hypothesis? If not, why not? What would be your next steps if you were to continue this line of inquiry after the semester is over? (There can always be next steps, regardless of whether you have been able to answer your question or not.)
+
+### Suggestions for Improvements in Crash Record Methods
+
+When it is talked about road safety and the technology needs for this area of the transportation engineering, it should be thought about how it is possible to induce drivers to proactively adopt measures for avoiding crashes (reducing speeds, turning on the headlights, opting to travel on a road with less defects, for example). In this work, models were developed to be potentially incorporated into navigation systems (such as Google Maps), in a way that it would give alerts to the driver to proceed with more caution when specific combinations of road surface conditions, road defects presence, lighting conditions, and weather conditions are present. However, because of factors such as the imbalance of data and the low correlation between the features and the labels (among others), the models developed were not able to do it in a satisfactory way, ending up predicting “low-severity” crashes in a frequency much higher than what happens in the real data. The limitations observed in the models are also derived from the limitations of the databases itself. 
+
+Aiming to improve the development of models like these in the future, more information (i.e., columns) should be added to the features’ data frame. Besides capturing information that can potentially be more correlated with the expected outputs, acquiring quantitative data could help on avoid relying on the one-hot encoding for the modeling. As a suggestion, the IDOT dataset could be improved by adding information such as:
+
+# Maximum speed of the section: quantitative data that surrogates the patterns of speed.
+# Traffic (Average Annual Daily Traffic, AADT): quantitative data that surrogates the freedom of movement within the section.
+# Class of vehicles involved in the crash: when heavy vehicles are involved, the impacts of the crash can potentially be more relevant than the environment conditions and better correlate with the severity of the crash.
+# Passing zone: this true/false feature can potentially capture the occurrence of front-to-front crashes, which can be more severe.
+# Crossing zone: a true/false that can potentially capture the occurrence of perpendicular crashes.
+
+In a near future, it is expected that technologies such as the V2V (vehicle-to-vehicle) communication and the autonomous/connected vehicles will become more accessible, and therefore more widespread. In this case, databases such as the one studied in this project (made by IDOT) might also include vehicles and drivers’ information. This will be of utmost importance, given that the behavioral patterns are a big source of uncertainties when it comes to the analysis of crash data. For example, drivers that have a more aggressive behavior tend to drive at higher speeds and maintain a smaller gap to the leading vehicle. As for now, the categories that are recorded in the datasets do not capture this. Transportation engineers can eventually find surrogates of this, but still, this is not an easy task. 
+
 
 ## References {.page_break_before}
 
