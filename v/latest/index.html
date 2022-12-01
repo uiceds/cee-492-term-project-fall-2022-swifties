@@ -63,9 +63,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/8a54750fe14740d513caff8bf0a7e5dfb503dae9">uiceds/cee-492-term-project-fall-2022-swifties@8a54750</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5">uiceds/cee-492-term-project-fall-2022-swifties@7c96363</a>
 on December 1, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -146,7 +146,7 @@ The prediction model will take categorical data as inputs and will yield the lik
 <li>Test different machine learning models to build a crash prediction model, according to the categorical variables.</li>
 <li>Assess the results, discuss the findings and determine which algorithm performs better.</li>
 </ol>
-<h2 class="page_break_before" id="description-of-the-dataset">Description of the Dataset</h2>
+<h2 id="description-of-the-dataset">Description of the Dataset</h2>
 <p><strong>IDOT</strong> has generated annual datasets with statewide crash locations produced by the Crash Information Section of the Illinois Department of Transportation. The crash data has been collected throughout the years using Application Programming Interfaces (<strong>APIs</strong>) that provided streaming traffic incident data. There are about 300,000 accident records per year in these datasets, and each record contains attributes that include conditions like the ones described below (among others that are not listed or described here because these are not relevant for this study):</p>
 <ol type="1">
 <li>Time and date (day, month, year)</li>
@@ -163,17 +163,32 @@ The prediction model will take categorical data as inputs and will yield the lik
 </ol>
 <p>The datasets for different years are available for download as .CSV files at the IDOT’s website:</p>
 <p><strong><span class="center">https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05</span></strong></p>
-<h2 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h2>
-<p>Open-source crash data is published by the Illinois Department of Transportation (IDOT) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each crash occurence. Each dataset is organized with observations filled out according to the IDOT Traffic Crash Report SR 1050 Instruction Manual (2019). The dataset for each year is available online in .CSV format at the IDOT website, and they contain observations arranged in rows and attributes in columns. The datasets from 2017, 2018, and 2019 were included in this Exploratory Data Analysis. The datasets from 2020 and 2021 were discarded in this analysis due to the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna &amp; Abu-Zidan, 2021). Regarding the dataset size, each one had originally over 300,000 rows (944,328 in total, combined).
-The Exploratory Data Analysis will be carried out following the steps described in the next sections.</p>
-<h3 id="reading-the-data">Reading the Data</h3>
-<p>The datasets were imported to Visual Studio Code using the CSV library. It was found that the latest report contained 5 additional attributes that could not be used since they were missing in previous reports. It was verified that any other attribute was arranged in the same way for each file, thus it was decided to discard this additional information. After deleting these attributes, all 03 datasets were merged into a unified file, which contains 80 variables (columns) and 944,328 observations (rows). This final database served as the baseline to start the cleaning process.</p>
-<h3 id="cleaning-process">Cleaning Process</h3>
-<p>It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each attribute. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude &amp; longitude, or X &amp; Y coordinates) has not been taken into account. A map plot was initially produced to see the distribution of the data. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included in the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the “Railroad Crossing Number” variable had up to 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that would not be utilized for this analysis, the number of independent variables went down from 80 to 21.</p>
-<p>When it comes to crash reports, several inconsistencies are considerably frequent. In the literature, for example, it is mentioned that “investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records”, and that is why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer &amp; Hakkert, 1989; Chin &amp; Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, the observations labeled as “blank”, “unknown”, and “other” were a matter of discussion among the group on how these inconsistencies would be handled. For all variables, the “blank” observations were immediately removed from the dataset.</p>
-<h3 id="analysis-and-visualization">Analysis and Visualization</h3>
-<p>In this section, a set of plots, charts, and visuals were developed using a set of tools: Julia, Python, and Power BI, and are presented to display the findings and trends, product of the exploratory data analysis. The visualization include distributions of car crashes over time and for the identified variables discussed in this report.</p>
-<h4 id="bar-plot-crashes">Bar Plot Crashes</h4>
+<h1 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h1>
+<p>Open-source crash data is published by the Illinois Department of Transportation (<strong>IDOT</strong>) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each crash occurence. Each dataset is filled out with observations according to the <strong>IDOT</strong> Traffic Crash Report SR 1050 Instruction Manual (2019), where every entry represents an observation. The dataset for each year is available online in .CSV format on the <strong>IDOT</strong> website, and they contain observations arranged in rows and attributes organized in columns. The datasets from 2017, 2018, and 2019 were included in the Exploratory Data Analysis <strong>(EDA)</strong>. The datasets from 2020 and 2021 were discarded in this analysis due to the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna &amp; Abu-Zidan, 2021). Regarding the dataset size, each of them had originally over 300,000 entries (944,328 in total, once combined).
+The <strong>EDA</strong> will be carried out following the steps described in the next sections.</p>
+<h2 id="reading-data">Reading Data</h2>
+<p>The selected datasets were imported to the widely-used Integrated Development Environment (<strong>IDE</strong>) and code editor <strong>Visual Studio Code</strong> using its CSV library. It was found that the latest report (2019) contained the following 5 additional attributes that could not be used since it was not included in any of the previous reports.</p>
+<ol type="1">
+<li>Access Control</li>
+<li>Flow Condition</li>
+<li>Did Involve Secondary Crash?</li>
+<li>Urban Rural</li>
+<li>Toll</li>
+</ol>
+<p>It was later verified that any other attribute was arranged in the same order for each of the datasets, thus it was decided to discard the aforementioned additional information for the sake of compatibility between the datasets.</p>
+<p>After deleting these attributes, all 03 datasets were merged into a unified file, which contains 80 variables (columns) and 944,328 observations (rows). This final database served as the baseline to start with the following step: the cleaning process.</p>
+<h2 id="cleaning-process">Cleaning Process</h2>
+<p>It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each of the attributes. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude &amp; longitude, or X &amp; Y coordinates) has not been taken into account. A map plot was initially produced just to check that the entries corresponded to several locations within the state of Illinois, but no further use was needed. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included in the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the “Railroad Crossing Number” variable contained around 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that won’t be utilized for this analysis, the number of independent variables went down from 80 to 21.</p>
+<p>When it comes to crash reports, several inconsistencies are unfortunately frequent. In the literature, for instance, it is mentioned that “investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records”, and that is why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer &amp; Hakkert, 1989; Chin &amp; Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, any observation labeled as “blank”, “unknown”, or “other” needs to be handled, by either replacing the original value for a more meaningful lable or by deleting it. For all variables, the “blank” observations were immediately removed from the dataset.</p>
+<h2 id="analysis-and-visualization">Analysis and Visualization</h2>
+<p>In this section, a set of plots, charts, and visuals were developed using the following tools:</p>
+<ol type="1">
+<li>Julia Programming Language</li>
+<li>Python Programming Language.</li>
+<li>Microsoft Power BI</li>
+</ol>
+<p>The plots are presented here to display visually the findings and trends, as a product of the <strong>EDA</strong>. The visualization include distributions of car crashes over time and for the identified variables discussed in this section of the report.</p>
+<h3 id="bar-plot-crashes">Bar Plot Crashes</h3>
 <h4 id="bar-plot">Bar Plot</h4>
 <div id="fig:over-time" class="fignos">
 <figure>
@@ -424,7 +439,7 @@ The description, adequacy, results, and conclusions from every model tested is d
 </ul>
 <p>As the first approach, the values by default have been kept constant while the maximum depth of the decision tree is altered from scenario to scenario to evaluate the changes in the result.
 The first proposed model (Decision Tree) resulted in limited accuracy (78%) on the training data using the fully cleaned combined dataset. As a first estimate, this value could be seen as promising, however several issues could be immediately noticed. Despite testing several model parameters, the accuracy of the model did not improve considerably what indicates a problem in our dataset. Let’s look at the general structure of our decision tree to understand this.</p>
-<div id="fig:5d07b7aa-69d5-4c30-8158-6c876ddf15dc" class="fignos">
+<div id="fig:5140ec71-9113-43e3-9860-165b1ba35617" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png" alt="Figure 9: Confusion plot for the Decision Tree model" /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>Confusion plot for the Decision Tree model</strong></figcaption>
 </figure>
@@ -439,7 +454,7 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 <p>Alternative strategies were brainstormed to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. As this test didn’t bring a considerable change either, a Random Forest (RF) model was also run for both datasets (full and reduced, equally sampled).</p>
 <h3 id="b-random-forest">b) Random Forest</h3>
 <p>The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes. Given the presence of multiple Decision Trees (DTs), the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model.</p>
-<div id="fig:2e7a15ff-522d-47a2-b38f-6d7d2c45b9a2" class="fignos">
+<div id="fig:dc9debf1-a417-40b3-ae0c-e1c871fa0d77" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png" alt="Figure 11: Confusion plot for the Random Forest model" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Confusion plot for the Random Forest model</strong></figcaption>
 </figure>
@@ -563,7 +578,7 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:c5071edd-008f-41b4-8ad8-a3f3f737214e" class="fignos">
+<div id="fig:06dee0b4-f68c-4b69-8aed-f86a97798168" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 12: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -571,7 +586,7 @@ softmax
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:dbcf50d4-87e7-4e8b-893a-e9ec65f95819" class="fignos">
+<div id="fig:f61a7785-f82a-468f-bd60-41ee99641e81" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 13: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
