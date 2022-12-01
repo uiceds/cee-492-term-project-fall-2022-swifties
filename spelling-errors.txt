@@ -19,7 +19,7 @@ Comapring
 ConDT
 ConRF
 Conv
-Convolutional
+convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -31,7 +31,7 @@ Crashworthiness
 CrashYr
 CSV
 Danesh
-dataset
+Dataset
 datasets
 DayOfWeekCode
 DCNN
@@ -119,7 +119,7 @@ Safarpour
 Samimi
 Saud
 Scikit
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion
