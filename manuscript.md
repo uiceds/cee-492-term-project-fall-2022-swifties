@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5dfb83660513387d1811df81bfcfd41fd85ab668/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5dfb83660513387d1811df81bfcfd41fd85ab668/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5dfb83660513387d1811df81bfcfd41fd85ab668/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5dfb83660513387d1811df81bfcfd41fd85ab668/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/8a54750fe14740d513caff8bf0a7e5dfb503dae9/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@5dfb836](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5dfb83660513387d1811df81bfcfd41fd85ab668)
+from [uiceds/cee-492-term-project-fall-2022-swifties@8a54750](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/8a54750fe14740d513caff8bf0a7e5dfb503dae9)
 on December 1, 2022.
 </em></small>
 
@@ -391,6 +391,10 @@ Alternative strategies were brainstormed to overcome the imbalanced data issue. 
 ### b) Random Forest
 
 The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes.  Given the presence of multiple Decision Trees (DTs), the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model. 
+
+![
+**Confusion plot for the Random Forest model**
+](https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png "ConRF"){#fig: ConRF}
 
 Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained.
 
