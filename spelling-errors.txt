@@ -19,7 +19,7 @@ Comapring
 ConDT
 ConRF
 Conv
-convolutional
+Convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -29,14 +29,15 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-CSV
+csv
 Danesh
-Dataset
+dataset
 datasets
 DayOfWeekCode
 DCNN
 DecisionTree
 DecisionTreeClassifier
+decison
 defcts
 Diab
 diablara
@@ -99,6 +100,7 @@ Passos
 Pazari
 Pedregosa
 Perrot
+prediciting
 preprocess
 Prettenhofer
 Quek
@@ -119,7 +121,8 @@ Safarpour
 Samimi
 Saud
 Scikit
-softmax
+Similarily
+Softmax
 Soheil
 subfeatures
 Thirion
