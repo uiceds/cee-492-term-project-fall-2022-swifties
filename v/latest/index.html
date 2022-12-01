@@ -8,7 +8,7 @@
   <meta name="author" content="Renan Santos Maia" />
   <meta name="author" content="Farid Saud" />
   <meta name="author" content="Johann J Cardenas Huaman" />
-  <meta name="dcterms.date" content="2022-11-21" />
+  <meta name="dcterms.date" content="2022-12-01" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Crash Risk Prediction Model using Data Science</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-11-21" />
-  <meta name="citation_publication_date" content="2022-11-21" />
+  <meta name="dc.date" content="2022-12-01" />
+  <meta name="citation_publication_date" content="2022-12-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -61,9 +61,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,10 +77,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/78437c191934e7027f030253b5b22e1063fc9a06">uiceds/cee-492-term-project-fall-2022-swifties@78437c1</a>
-on November 21, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/131b47f7e1333770fdda53729c879eb843e90054">uiceds/cee-492-term-project-fall-2022-swifties@131b47f</a>
+on December 1, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -543,7 +543,7 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:28a4ae0d-fb17-4b3d-99f6-76d13852e00d" class="fignos">
+<div id="fig:ebc9aeb6-eef8-4d82-831a-c9a71ec36e02" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 10: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -551,7 +551,7 @@ softmax
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:e4f3722e-892d-4ff0-b2f1-03fa3e77c475" class="fignos">
+<div id="fig:91da9b4d-00c9-46d8-be6b-2db1a31415ee" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 11: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
@@ -560,6 +560,8 @@ softmax
 <h2 id="preliminary-conclusions">Preliminary Conclusions</h2>
 <p>The main objective of this section was to go over the strategies for predicting the Crash Severity based on the Crash Datasets from the state of Illinois based on critical environmental/roadway-related characteristics. After the dataset preparation, which included the cleaning of the entries, as well as a thorough exploratory analysis of the data, the first steps were taken, starting from basic decision tree and random forest models, traditionally used for classification problems. For running any of these models, however, encoding the inputs was necessary, since these structures take numbers as inputs (not strings). The DT and RF models resulted in an accuracy that initially was interpreted as promising, but the limitations of the procedures taken were immediately realized, being the resulting models biased by the dominance of the “property damage” class on the dataset.</p>
 <p>When the dataset was sampled to make the number of entries corresponding to every output even, the accuracy decreased, indicating that the dataset was not large enough to train the model with enough information. On the other hand, when the entries corresponding to the most common output were removed, the accuracy for predicting the two least likely outputs increased. Finally, when testing a Convolutional Neural Network, the accuracy of the predictions was once again around 78% considering a batch size of around a third part form the total number of entries, and using the dataset removing “perfect” conditions, accuracy reached 85%. The preliminary results evidence that further techniques may be applied to the original dataset to sample it a more convenient way to optimize the overall accuracy. The results of every model were tested for different parameters to verify the convergence and consistency of the predictions, which could be considered acceptable for a classification problem. However, for the future deliveries, further refinement may help to keep increasing the achieved accuracy, and a final consolidated model will therefore be assessed in terms of validation using datasets from years not considered for the training data.</p>
+<h2 class="page_break_before" id="discussion">Discussion</h2>
+<p>Were you able to answer your research question or support/refute your hypothesis? If not, why not? What would be your next steps if you were to continue this line of inquiry after the semester is over? (There can always be next steps, regardless of whether you have been able to answer your question or not.)</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <p>Abdulhafedh, A. (2017) Road Crash Prediction Models: Different Statistical Modeling Approaches. Journal of Transportation Technologies, 7, 190-205. doi: 10.4236/jtts.2017.72014.</p>
