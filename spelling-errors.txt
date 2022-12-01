@@ -17,7 +17,7 @@ colum
 Comapring
 ConDT
 Conv
-Convolutional
+convolutional
 Cournapeau
 COVID
 Cramer’s
