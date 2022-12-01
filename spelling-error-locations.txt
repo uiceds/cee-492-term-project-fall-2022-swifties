@@ -1,6 +1,6 @@
 content/01.Introduction.md:3:Safarpour
+content/01.Introduction.md:3:thourough
 content/01.Introduction.md:5:occurence
-content/01.Introduction.md:5:occuring
 content/01.Introduction.md:5:Yu
 content/01.Introduction.md:9:allert
 content/01.Introduction.md:9:IDOT

@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca375aa1d112847a42903f540863dca951854ef4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca375aa1d112847a42903f540863dca951854ef4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca375aa1d112847a42903f540863dca951854ef4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca375aa1d112847a42903f540863dca951854ef4/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/f08e39a1d4a9e8c7d842479774158e6f58798547/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@ca375aa](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ca375aa1d112847a42903f540863dca951854ef4)
+from [uiceds/cee-492-term-project-fall-2022-swifties@f08e39a](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/f08e39a1d4a9e8c7d842479774158e6f58798547)
 on December 1, 2022.
 </em></small>
 
@@ -135,9 +135,9 @@ on December 1, 2022.
 
 ## Project selection and Introduction{.page_break_before}
 
-Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (__WHO__), approximately 1.30 million people die each year as a result of road traffic crashes (as of June, 2022). In addition to this, the cost of road traffic crashes represent roughly 3% of a the gross domestic product (__GDP__) of a country (Safarpour et al, 2020; WHO, 2022). Consequently, understanding what influences these accidents on roads is of utmost importance. However, it is not easy to decide which exact conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a driver to be in a fatal/serious accident.
+Road accidents are responsible for a significant number of injuries reported every year. According to the World Health Organization (__WHO__), approximately 1.30 million people die each year as a result of road traffic crashes (as of June, 2022). In addition to this, the cost of road traffic crashes represent roughly 3% of a the gross domestic product (__GDP__) of a country (Safarpour et al, 2020; WHO, 2022). Consequently, a thourough understanding of what factors influence these accidents on roads is of utmost importance. However, it is not easy to decide which specific conditions lead to these accidents. Different road, climate, vehicle and driver conditions affect the likelihood of a road user to be involved in a fatal/serious car accident.
 
-The ability of predicting in an accurate way the potential occurence of car crashes is a valuable contribution for road safety. In an approach frequently used in the literature, crash records' data are used for the development of crash prediction models, so that agencies can allocate investments to priority areas of the roadway network. However, given that the budget for infrastructure improvements is limited, adopting countermeasures for all facilities that crashes are potentially occuring is not financially feasible. Therefore, informing drivers about the potential safety risks is a way to proactively compensate the aforementioned limitations. Moreover, with the development of connected and autonomous vehicles, this information can be provided in a more optimized way, contributing for vehicles' route decision, as well as for real-time alerts that can lead drivers to take the necessary precautions to operate more safely (Yu et al, 2021).
+The ability of predicting accurately the potential occurence of a car crash is a valuable contribution for road safety. A common approach found in the literature, is the use of crash records data for the development of prediction models, so that agencies can allocate funds to priority areas within the roadway network. However, given that the available budget for infrastructure maintenance and rehabilitation is quite limited, the adoption of countermeasures for all the facilities where crashes are likely to occur is not feasible from an economic standpoint. Therefore, the ability of informing drivers about potential risks is an attractive way to proactively compensate the aforementioned limitations. Moreover, with the deployment of connected and autonomous vehicles (__CAV__), this information can be provided optimally helping vehicles with processes such as route selection, and can also deliver real-time alerts to instigate drivers to take the necessary safety precautions to operate their vehicles (Yu et al, 2021).
 
 ### Project Objective and Plan Proposal
 

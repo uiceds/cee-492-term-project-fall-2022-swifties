@@ -6,6 +6,7 @@ APIs
 Brucher
 Brunton
 Buitinck
+CAV
 Champaign
 Chemometrics
 CityName
@@ -25,10 +26,10 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-csv
+CSV
 Danesh
 dataset
-datasets
+Datasets
 DayOfWeekCode
 DCNN
 DecisionTree
@@ -86,7 +87,6 @@ Nejad
 NoInjuries
 NumberOfVehicles
 occurence
-occuring
 ouput
 overfitting
 Parham
@@ -118,6 +118,7 @@ Softmax
 Soheil
 subfeatures
 Thirion
+thourough
 througout
 TotalFatals
 TotalInjured
