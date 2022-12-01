@@ -200,11 +200,11 @@ content/03.Predictive Model.md:157:dataset
 content/03.Predictive Model.md:157:dataset
 content/03.Predictive Model.md:157:dataset
 content/03.Predictive Model.md:157:datasets
-content/04.Discussion.md:9:dataset
-content/04.Discussion.md:9:IDOT
-content/04.Discussion.md:12:AADT
-content/04.Discussion.md:17:datasets
-content/04.Discussion.md:17:IDOT
+content/04.Discussion.md:7:dataset
+content/04.Discussion.md:7:IDOT
+content/04.Discussion.md:10:AADT
+content/04.Discussion.md:15:datasets
+content/04.Discussion.md:15:IDOT
 content/90.back-matter.md:5:Abdulhafedh
 content/90.back-matter.md:7:Crashworthiness
 content/90.back-matter.md:7:Danesh
