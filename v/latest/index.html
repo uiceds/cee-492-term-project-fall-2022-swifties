@@ -63,9 +63,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/49e9262158c9423d3c86836d6bf8a794c04cee08/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7c96363de93ca35b1b3749789ffe2a1e7fdaaea5">uiceds/cee-492-term-project-fall-2022-swifties@7c96363</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/49e9262158c9423d3c86836d6bf8a794c04cee08">uiceds/cee-492-term-project-fall-2022-swifties@49e9262</a>
 on December 1, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -439,7 +439,7 @@ The description, adequacy, results, and conclusions from every model tested is d
 </ul>
 <p>As the first approach, the values by default have been kept constant while the maximum depth of the decision tree is altered from scenario to scenario to evaluate the changes in the result.
 The first proposed model (Decision Tree) resulted in limited accuracy (78%) on the training data using the fully cleaned combined dataset. As a first estimate, this value could be seen as promising, however several issues could be immediately noticed. Despite testing several model parameters, the accuracy of the model did not improve considerably what indicates a problem in our dataset. Let’s look at the general structure of our decision tree to understand this.</p>
-<div id="fig:5140ec71-9113-43e3-9860-165b1ba35617" class="fignos">
+<div id="fig:b78bcddd-7b7f-4ed1-aaf6-2f83b382687c" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png" alt="Figure 9: Confusion plot for the Decision Tree model" /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>Confusion plot for the Decision Tree model</strong></figcaption>
 </figure>
@@ -454,7 +454,7 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 <p>Alternative strategies were brainstormed to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. As this test didn’t bring a considerable change either, a Random Forest (RF) model was also run for both datasets (full and reduced, equally sampled).</p>
 <h3 id="b-random-forest">b) Random Forest</h3>
 <p>The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes. Given the presence of multiple Decision Trees (DTs), the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model.</p>
-<div id="fig:dc9debf1-a417-40b3-ae0c-e1c871fa0d77" class="fignos">
+<div id="fig:0b5072dd-6cfb-41a0-a54c-5c730126de7b" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png" alt="Figure 11: Confusion plot for the Random Forest model" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Confusion plot for the Random Forest model</strong></figcaption>
 </figure>
@@ -578,7 +578,7 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:06dee0b4-f68c-4b69-8aed-f86a97798168" class="fignos">
+<div id="fig:f2f5286a-6ce7-4c88-a590-4b5b6d4c52e0" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 12: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -586,7 +586,7 @@ softmax
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:f61a7785-f82a-468f-bd60-41ee99641e81" class="fignos">
+<div id="fig:cb09605c-3827-4ea2-a9ea-8d5736a8a019" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 13: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
@@ -597,6 +597,15 @@ softmax
 <p>When the dataset was sampled to make the number of entries corresponding to every output even, the accuracy decreased, indicating that the dataset was not large enough to train the model with enough information. On the other hand, when the entries corresponding to the most common output were removed, the accuracy for predicting the two least likely outputs increased. Finally, when testing a Convolutional Neural Network, the accuracy of the predictions was once again around 78% considering a batch size of around a third part form the total number of entries, and using the dataset removing “perfect” conditions, accuracy reached 85%. The preliminary results evidence that further techniques may be applied to the original dataset to sample it a more convenient way to optimize the overall accuracy. The results of every model were tested for different parameters to verify the convergence and consistency of the predictions, which could be considered acceptable for a classification problem. However, for the future deliveries, further refinement may help to keep increasing the achieved accuracy, and a final consolidated model will therefore be assessed in terms of validation using datasets from years not considered for the training data.</p>
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <p>Were you able to answer your research question or support/refute your hypothesis? If not, why not? What would be your next steps if you were to continue this line of inquiry after the semester is over? (There can always be next steps, regardless of whether you have been able to answer your question or not.)</p>
+<h3 id="suggestions-for-improvements-in-crash-record-methods">Suggestions for Improvements in Crash Record Methods</h3>
+<p>When it is talked about road safety and the technology needs for this area of the transportation engineering, it should be thought about how it is possible to induce drivers to proactively adopt measures for avoiding crashes (reducing speeds, turning on the headlights, opting to travel on a road with less defects, for example). In this work, models were developed to be potentially incorporated into navigation systems (such as Google Maps), in a way that it would give alerts to the driver to proceed with more caution when specific combinations of road surface conditions, road defects presence, lighting conditions, and weather conditions are present. However, because of factors such as the imbalance of data and the low correlation between the features and the labels (among others), the models developed were not able to do it in a satisfactory way, ending up predicting “low-severity” crashes in a frequency much higher than what happens in the real data. The limitations observed in the models are also derived from the limitations of the databases itself.</p>
+<p>Aiming to improve the development of models like these in the future, more information (i.e., columns) should be added to the features’ data frame. Besides capturing information that can potentially be more correlated with the expected outputs, acquiring quantitative data could help on avoid relying on the one-hot encoding for the modeling. As a suggestion, the IDOT dataset could be improved by adding information such as:</p>
+<h1 id="maximum-speed-of-the-section-quantitative-data-that-surrogates-the-patterns-of-speed.">Maximum speed of the section: quantitative data that surrogates the patterns of speed.</h1>
+<h1 id="traffic-average-annual-daily-traffic-aadt-quantitative-data-that-surrogates-the-freedom-of-movement-within-the-section.">Traffic (Average Annual Daily Traffic, AADT): quantitative data that surrogates the freedom of movement within the section.</h1>
+<h1 id="class-of-vehicles-involved-in-the-crash-when-heavy-vehicles-are-involved-the-impacts-of-the-crash-can-potentially-be-more-relevant-than-the-environment-conditions-and-better-correlate-with-the-severity-of-the-crash.">Class of vehicles involved in the crash: when heavy vehicles are involved, the impacts of the crash can potentially be more relevant than the environment conditions and better correlate with the severity of the crash.</h1>
+<h1 id="passing-zone-this-truefalse-feature-can-potentially-capture-the-occurrence-of-front-to-front-crashes-which-can-be-more-severe.">Passing zone: this true/false feature can potentially capture the occurrence of front-to-front crashes, which can be more severe.</h1>
+<h1 id="crossing-zone-a-truefalse-that-can-potentially-capture-the-occurrence-of-perpendicular-crashes.">Crossing zone: a true/false that can potentially capture the occurrence of perpendicular crashes.</h1>
+<p>In a near future, it is expected that technologies such as the V2V (vehicle-to-vehicle) communication and the autonomous/connected vehicles will become more accessible, and therefore more widespread. In this case, databases such as the one studied in this project (made by IDOT) might also include vehicles and drivers’ information. This will be of utmost importance, given that the behavioral patterns are a big source of uncertainties when it comes to the analysis of crash data. For example, drivers that have a more aggressive behavior tend to drive at higher speeds and maintain a smaller gap to the leading vehicle. As for now, the categories that are recorded in the datasets do not capture this. Transportation engineers can eventually find surrogates of this, but still, this is not an easy task.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <p>Abdulhafedh, A. (2017) Road Crash Prediction Models: Different Statistical Modeling Approaches. Journal of Transportation Technologies, 7, 190-205. doi: 10.4236/jtts.2017.72014.</p>
