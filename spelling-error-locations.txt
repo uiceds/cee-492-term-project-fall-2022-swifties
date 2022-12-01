@@ -1,199 +1,199 @@
-content/03.Introduction.md:3:Safarpour
-content/03.Introduction.md:5:occurence
-content/03.Introduction.md:5:occuring
-content/03.Introduction.md:5:Yu
-content/03.Introduction.md:9:allert
-content/03.Introduction.md:9:IDOT
-content/03.Introduction.md:13:CSV
-content/03.Introduction.md:13:IDOT
-content/03.Introduction.md:13:IDOT's
-content/03.Introduction.md:21:APIs
-content/03.Introduction.md:21:datasets
-content/03.Introduction.md:21:datasets
-content/03.Introduction.md:21:IDOT
-content/03.Introduction.md:21:IDOT
-content/03.Introduction.md:29:Unkown
-content/03.Introduction.md:35:CSV
-content/03.Introduction.md:35:datasets
-content/03.Introduction.md:35:IDOT
-content/03.Introduction.md:35:IDOT's
-content/03.Introduction.md:37:idot
-content/04.Exploratory Data Analysis.md:3:Abu
-content/04.Exploratory Data Analysis.md:3:COVID
-content/04.Exploratory Data Analysis.md:3:CSV
-content/04.Exploratory Data Analysis.md:3:dataset
-content/04.Exploratory Data Analysis.md:3:dataset
-content/04.Exploratory Data Analysis.md:3:dataset
-content/04.Exploratory Data Analysis.md:3:datasets
-content/04.Exploratory Data Analysis.md:3:datasets
-content/04.Exploratory Data Analysis.md:3:Grivna
-content/04.Exploratory Data Analysis.md:3:IDOT
-content/04.Exploratory Data Analysis.md:3:IDOT
-content/04.Exploratory Data Analysis.md:3:IDOT
-content/04.Exploratory Data Analysis.md:3:occurence
-content/04.Exploratory Data Analysis.md:3:Yasin
-content/04.Exploratory Data Analysis.md:3:Zidan
-content/04.Exploratory Data Analysis.md:8:CSV
-content/04.Exploratory Data Analysis.md:8:datasets
-content/04.Exploratory Data Analysis.md:8:datasets
-content/04.Exploratory Data Analysis.md:12:dataset
-content/04.Exploratory Data Analysis.md:12:datasets
-content/04.Exploratory Data Analysis.md:14:dataset
-content/04.Exploratory Data Analysis.md:14:Hakkert
-content/04.Exploratory Data Analysis.md:14:Hauer
-content/04.Exploratory Data Analysis.md:14:inexistent
-content/04.Exploratory Data Analysis.md:14:Quek
-content/04.Exploratory Data Analysis.md:37:englobes
-content/04.Exploratory Data Analysis.md:61:dataset
-content/04.Exploratory Data Analysis.md:61:hotspots
-content/04.Exploratory Data Analysis.md:71:dataset
-content/04.Exploratory Data Analysis.md:71:dataset
-content/04.Exploratory Data Analysis.md:91:dataset
-content/04.Exploratory Data Analysis.md:97:dataset
-content/04.Exploratory Data Analysis.md:98:Cramer’s
-content/04.Exploratory Data Analysis.md:98:Cramer’s
-content/04.Exploratory Data Analysis.md:100:CrashSeverity
-content/04.Exploratory Data Analysis.md:100:dataset
-content/04.Exploratory Data Analysis.md:104:CrashSeverity
-content/04.Exploratory Data Analysis.md:106:CrashYr
-content/04.Exploratory Data Analysis.md:107:CrashMonth
-content/04.Exploratory Data Analysis.md:108:CrashDay
-content/04.Exploratory Data Analysis.md:109:NumberOfVehicles
-content/04.Exploratory Data Analysis.md:110:DayOfWeekCode
-content/04.Exploratory Data Analysis.md:111:CrashHour
-content/04.Exploratory Data Analysis.md:112:CollisionTypeCode
-content/04.Exploratory Data Analysis.md:113:TotalFatals
-content/04.Exploratory Data Analysis.md:114:TotalInjured
-content/04.Exploratory Data Analysis.md:115:NoInjuries
-content/04.Exploratory Data Analysis.md:116:CrashSeverity
-content/04.Exploratory Data Analysis.md:117:IntersectionRelated
-content/04.Exploratory Data Analysis.md:118:RoadwayFunctionalClassCode
-content/04.Exploratory Data Analysis.md:119:WorkZoneRelated
-content/04.Exploratory Data Analysis.md:120:TypeOfFirstCrash
-content/04.Exploratory Data Analysis.md:121:CityName
-content/04.Exploratory Data Analysis.md:122:ClassOfTrafficWay
-content/04.Exploratory Data Analysis.md:124:TrafficControlDevice
-content/04.Exploratory Data Analysis.md:125:TrafficControlDeviceCond
-content/04.Exploratory Data Analysis.md:126:RoadSurfaceCond
-content/04.Exploratory Data Analysis.md:127:RoadDefects
-content/04.Exploratory Data Analysis.md:128:LightingCond
-content/04.Exploratory Data Analysis.md:129:WeatherCond
-content/04.Exploratory Data Analysis.md:131:ClassOfTrafficWay
-content/04.Exploratory Data Analysis.md:131:IntersectionRelated
-content/04.Exploratory Data Analysis.md:131:LightingCond
-content/04.Exploratory Data Analysis.md:131:RoadDefects
-content/04.Exploratory Data Analysis.md:131:RoadSurfaceCond
-content/04.Exploratory Data Analysis.md:131:RoadwayFunctionClassCode
-content/04.Exploratory Data Analysis.md:131:TotalFatals
-content/04.Exploratory Data Analysis.md:131:TrafficControlDevice
-content/04.Exploratory Data Analysis.md:131:TrafficControlDeviceCond
-content/04.Exploratory Data Analysis.md:131:WeatherCond
-content/04.Exploratory Data Analysis.md:131:WorkZoneRelated
-content/04.Exploratory Data Analysis.md:132:Comapring
-content/04.Exploratory Data Analysis.md:132:workzone
-content/04.Exploratory Data Analysis.md:133:dataset
-content/04.Exploratory Data Analysis.md:143:meaningul
-content/04.Exploratory Data Analysis.md:145:througout
-content/05.Predictive Model.md:7:Convolutional
-content/05.Predictive Model.md:9:csv
-content/05.Predictive Model.md:9:dataset
-content/05.Predictive Model.md:9:dataset
-content/05.Predictive Model.md:9:dataset
-content/05.Predictive Model.md:9:dataset
-content/05.Predictive Model.md:9:datasets
-content/05.Predictive Model.md:9:datasets
-content/05.Predictive Model.md:9:IDOT
-content/05.Predictive Model.md:9:IDOT's
-content/05.Predictive Model.md:11:CrashSeverity
-content/05.Predictive Model.md:11:LightingCond
-content/05.Predictive Model.md:11:RoadDefects
-content/05.Predictive Model.md:11:RoadSurfaceCond
-content/05.Predictive Model.md:11:WeatherCond
-content/05.Predictive Model.md:15:Buitinck
-content/05.Predictive Model.md:15:colum
-content/05.Predictive Model.md:15:LightingCond
-content/05.Predictive Model.md:26:preprocess
-content/05.Predictive Model.md:33:datasets
-content/05.Predictive Model.md:33:DT
-content/05.Predictive Model.md:35:DecisionTree
-content/05.Predictive Model.md:35:DecisionTreeClassifier
-content/05.Predictive Model.md:35:hyperparameters
-content/05.Predictive Model.md:35:jl
-content/05.Predictive Model.md:43:rng
-content/05.Predictive Model.md:46:dataset
-content/05.Predictive Model.md:46:dataset
-content/05.Predictive Model.md:50:DecisionTreeClassifier
-content/05.Predictive Model.md:50:jl
-content/05.Predictive Model.md:53:dataset
-content/05.Predictive Model.md:55:datasets
-content/05.Predictive Model.md:55:DT
-content/05.Predictive Model.md:59:DT
-content/05.Predictive Model.md:59:DTs
-content/05.Predictive Model.md:59:DTs
-content/05.Predictive Model.md:59:RandomForestClassifier
-content/05.Predictive Model.md:61:DT
-content/05.Predictive Model.md:67:LightingCond
-content/05.Predictive Model.md:67:RoadDefects
-content/05.Predictive Model.md:67:RoadSurfaceCond
-content/05.Predictive Model.md:67:WeatherCond
-content/05.Predictive Model.md:67:WeatherCond
-content/05.Predictive Model.md:67:WeatherCond
-content/05.Predictive Model.md:70:LightingCond
-content/05.Predictive Model.md:70:RoadDefects
-content/05.Predictive Model.md:70:RoadSurfaceCond
-content/05.Predictive Model.md:70:WeatherCond
-content/05.Predictive Model.md:90:dataset
-content/05.Predictive Model.md:90:modelling
-content/05.Predictive Model.md:93:dataset
-content/05.Predictive Model.md:93:dataset
-content/05.Predictive Model.md:94:dataset
-content/05.Predictive Model.md:97:coditions
-content/05.Predictive Model.md:97:dataset
-content/05.Predictive Model.md:97:defcts
-content/05.Predictive Model.md:99:Convolutional
-content/05.Predictive Model.md:101:Brunton
-content/05.Predictive Model.md:101:Convolutional
-content/05.Predictive Model.md:101:DCNN
-content/05.Predictive Model.md:101:Kutz
-content/05.Predictive Model.md:103:Convolutional
-content/05.Predictive Model.md:105:dataset
-content/05.Predictive Model.md:107:convolutional
-content/05.Predictive Model.md:107:dimensionality
-content/05.Predictive Model.md:107:ouput
-content/05.Predictive Model.md:107:overfitting
-content/05.Predictive Model.md:107:overfitting
-content/05.Predictive Model.md:107:ReLU
-content/05.Predictive Model.md:107:Softmax
-content/05.Predictive Model.md:112:Conv
-content/05.Predictive Model.md:113:MaxPool
-content/05.Predictive Model.md:114:Conv
-content/05.Predictive Model.md:115:MaxPool
-content/05.Predictive Model.md:119:softmax
-content/05.Predictive Model.md:122:Softmax
-content/05.Predictive Model.md:124:dataset
-content/05.Predictive Model.md:124:dataset
-content/05.Predictive Model.md:126:Convolutional
-content/05.Predictive Model.md:128:Convolutional
-content/05.Predictive Model.md:130:dataset
-content/05.Predictive Model.md:131:DCNN
-content/05.Predictive Model.md:131:DCNN
-content/05.Predictive Model.md:133:dataset
-content/05.Predictive Model.md:133:dataset
-content/05.Predictive Model.md:135:dataset
-content/05.Predictive Model.md:137:Convolutional
-content/05.Predictive Model.md:139:dataset
-content/05.Predictive Model.md:140:DCNN
-content/05.Predictive Model.md:142:dataset
-content/05.Predictive Model.md:146:dataset
-content/05.Predictive Model.md:146:dataset
-content/05.Predictive Model.md:146:Datasets
-content/05.Predictive Model.md:146:DT
-content/05.Predictive Model.md:148:Convolutional
-content/05.Predictive Model.md:148:dataset
-content/05.Predictive Model.md:148:dataset
-content/05.Predictive Model.md:148:dataset
-content/05.Predictive Model.md:148:dataset
-content/05.Predictive Model.md:148:datasets
+content/01.Introduction.md:3:Safarpour
+content/01.Introduction.md:5:occurence
+content/01.Introduction.md:5:occuring
+content/01.Introduction.md:5:Yu
+content/01.Introduction.md:9:allert
+content/01.Introduction.md:9:IDOT
+content/01.Introduction.md:13:CSV
+content/01.Introduction.md:13:IDOT
+content/01.Introduction.md:13:IDOT's
+content/01.Introduction.md:21:APIs
+content/01.Introduction.md:21:datasets
+content/01.Introduction.md:21:datasets
+content/01.Introduction.md:21:IDOT
+content/01.Introduction.md:21:IDOT
+content/01.Introduction.md:29:Unkown
+content/01.Introduction.md:35:CSV
+content/01.Introduction.md:35:datasets
+content/01.Introduction.md:35:IDOT
+content/01.Introduction.md:35:IDOT's
+content/01.Introduction.md:37:idot
+content/02.Exploratory Data Analysis.md:3:Abu
+content/02.Exploratory Data Analysis.md:3:COVID
+content/02.Exploratory Data Analysis.md:3:CSV
+content/02.Exploratory Data Analysis.md:3:dataset
+content/02.Exploratory Data Analysis.md:3:dataset
+content/02.Exploratory Data Analysis.md:3:dataset
+content/02.Exploratory Data Analysis.md:3:datasets
+content/02.Exploratory Data Analysis.md:3:datasets
+content/02.Exploratory Data Analysis.md:3:Grivna
+content/02.Exploratory Data Analysis.md:3:IDOT
+content/02.Exploratory Data Analysis.md:3:IDOT
+content/02.Exploratory Data Analysis.md:3:IDOT
+content/02.Exploratory Data Analysis.md:3:occurence
+content/02.Exploratory Data Analysis.md:3:Yasin
+content/02.Exploratory Data Analysis.md:3:Zidan
+content/02.Exploratory Data Analysis.md:8:CSV
+content/02.Exploratory Data Analysis.md:8:datasets
+content/02.Exploratory Data Analysis.md:8:datasets
+content/02.Exploratory Data Analysis.md:12:dataset
+content/02.Exploratory Data Analysis.md:12:datasets
+content/02.Exploratory Data Analysis.md:14:dataset
+content/02.Exploratory Data Analysis.md:14:Hakkert
+content/02.Exploratory Data Analysis.md:14:Hauer
+content/02.Exploratory Data Analysis.md:14:inexistent
+content/02.Exploratory Data Analysis.md:14:Quek
+content/02.Exploratory Data Analysis.md:37:englobes
+content/02.Exploratory Data Analysis.md:61:dataset
+content/02.Exploratory Data Analysis.md:61:hotspots
+content/02.Exploratory Data Analysis.md:71:dataset
+content/02.Exploratory Data Analysis.md:71:dataset
+content/02.Exploratory Data Analysis.md:91:dataset
+content/02.Exploratory Data Analysis.md:97:dataset
+content/02.Exploratory Data Analysis.md:98:Cramer’s
+content/02.Exploratory Data Analysis.md:98:Cramer’s
+content/02.Exploratory Data Analysis.md:100:CrashSeverity
+content/02.Exploratory Data Analysis.md:100:dataset
+content/02.Exploratory Data Analysis.md:104:CrashSeverity
+content/02.Exploratory Data Analysis.md:106:CrashYr
+content/02.Exploratory Data Analysis.md:107:CrashMonth
+content/02.Exploratory Data Analysis.md:108:CrashDay
+content/02.Exploratory Data Analysis.md:109:NumberOfVehicles
+content/02.Exploratory Data Analysis.md:110:DayOfWeekCode
+content/02.Exploratory Data Analysis.md:111:CrashHour
+content/02.Exploratory Data Analysis.md:112:CollisionTypeCode
+content/02.Exploratory Data Analysis.md:113:TotalFatals
+content/02.Exploratory Data Analysis.md:114:TotalInjured
+content/02.Exploratory Data Analysis.md:115:NoInjuries
+content/02.Exploratory Data Analysis.md:116:CrashSeverity
+content/02.Exploratory Data Analysis.md:117:IntersectionRelated
+content/02.Exploratory Data Analysis.md:118:RoadwayFunctionalClassCode
+content/02.Exploratory Data Analysis.md:119:WorkZoneRelated
+content/02.Exploratory Data Analysis.md:120:TypeOfFirstCrash
+content/02.Exploratory Data Analysis.md:121:CityName
+content/02.Exploratory Data Analysis.md:122:ClassOfTrafficWay
+content/02.Exploratory Data Analysis.md:124:TrafficControlDevice
+content/02.Exploratory Data Analysis.md:125:TrafficControlDeviceCond
+content/02.Exploratory Data Analysis.md:126:RoadSurfaceCond
+content/02.Exploratory Data Analysis.md:127:RoadDefects
+content/02.Exploratory Data Analysis.md:128:LightingCond
+content/02.Exploratory Data Analysis.md:129:WeatherCond
+content/02.Exploratory Data Analysis.md:131:ClassOfTrafficWay
+content/02.Exploratory Data Analysis.md:131:IntersectionRelated
+content/02.Exploratory Data Analysis.md:131:LightingCond
+content/02.Exploratory Data Analysis.md:131:RoadDefects
+content/02.Exploratory Data Analysis.md:131:RoadSurfaceCond
+content/02.Exploratory Data Analysis.md:131:RoadwayFunctionClassCode
+content/02.Exploratory Data Analysis.md:131:TotalFatals
+content/02.Exploratory Data Analysis.md:131:TrafficControlDevice
+content/02.Exploratory Data Analysis.md:131:TrafficControlDeviceCond
+content/02.Exploratory Data Analysis.md:131:WeatherCond
+content/02.Exploratory Data Analysis.md:131:WorkZoneRelated
+content/02.Exploratory Data Analysis.md:132:Comapring
+content/02.Exploratory Data Analysis.md:132:workzone
+content/02.Exploratory Data Analysis.md:133:dataset
+content/02.Exploratory Data Analysis.md:143:meaningul
+content/02.Exploratory Data Analysis.md:145:througout
+content/03.Predictive Model.md:7:Convolutional
+content/03.Predictive Model.md:9:csv
+content/03.Predictive Model.md:9:dataset
+content/03.Predictive Model.md:9:dataset
+content/03.Predictive Model.md:9:dataset
+content/03.Predictive Model.md:9:dataset
+content/03.Predictive Model.md:9:datasets
+content/03.Predictive Model.md:9:datasets
+content/03.Predictive Model.md:9:IDOT
+content/03.Predictive Model.md:9:IDOT's
+content/03.Predictive Model.md:11:CrashSeverity
+content/03.Predictive Model.md:11:LightingCond
+content/03.Predictive Model.md:11:RoadDefects
+content/03.Predictive Model.md:11:RoadSurfaceCond
+content/03.Predictive Model.md:11:WeatherCond
+content/03.Predictive Model.md:15:Buitinck
+content/03.Predictive Model.md:15:colum
+content/03.Predictive Model.md:15:LightingCond
+content/03.Predictive Model.md:26:preprocess
+content/03.Predictive Model.md:33:datasets
+content/03.Predictive Model.md:33:DT
+content/03.Predictive Model.md:35:DecisionTree
+content/03.Predictive Model.md:35:DecisionTreeClassifier
+content/03.Predictive Model.md:35:hyperparameters
+content/03.Predictive Model.md:35:jl
+content/03.Predictive Model.md:43:rng
+content/03.Predictive Model.md:46:dataset
+content/03.Predictive Model.md:46:dataset
+content/03.Predictive Model.md:50:DecisionTreeClassifier
+content/03.Predictive Model.md:50:jl
+content/03.Predictive Model.md:53:dataset
+content/03.Predictive Model.md:55:datasets
+content/03.Predictive Model.md:55:DT
+content/03.Predictive Model.md:59:DT
+content/03.Predictive Model.md:59:DTs
+content/03.Predictive Model.md:59:DTs
+content/03.Predictive Model.md:59:RandomForestClassifier
+content/03.Predictive Model.md:61:DT
+content/03.Predictive Model.md:67:LightingCond
+content/03.Predictive Model.md:67:RoadDefects
+content/03.Predictive Model.md:67:RoadSurfaceCond
+content/03.Predictive Model.md:67:WeatherCond
+content/03.Predictive Model.md:67:WeatherCond
+content/03.Predictive Model.md:67:WeatherCond
+content/03.Predictive Model.md:70:LightingCond
+content/03.Predictive Model.md:70:RoadDefects
+content/03.Predictive Model.md:70:RoadSurfaceCond
+content/03.Predictive Model.md:70:WeatherCond
+content/03.Predictive Model.md:90:dataset
+content/03.Predictive Model.md:90:modelling
+content/03.Predictive Model.md:93:dataset
+content/03.Predictive Model.md:93:dataset
+content/03.Predictive Model.md:94:dataset
+content/03.Predictive Model.md:97:coditions
+content/03.Predictive Model.md:97:dataset
+content/03.Predictive Model.md:97:defcts
+content/03.Predictive Model.md:99:Convolutional
+content/03.Predictive Model.md:101:Brunton
+content/03.Predictive Model.md:101:Convolutional
+content/03.Predictive Model.md:101:DCNN
+content/03.Predictive Model.md:101:Kutz
+content/03.Predictive Model.md:103:Convolutional
+content/03.Predictive Model.md:105:dataset
+content/03.Predictive Model.md:107:convolutional
+content/03.Predictive Model.md:107:dimensionality
+content/03.Predictive Model.md:107:ouput
+content/03.Predictive Model.md:107:overfitting
+content/03.Predictive Model.md:107:overfitting
+content/03.Predictive Model.md:107:ReLU
+content/03.Predictive Model.md:107:Softmax
+content/03.Predictive Model.md:112:Conv
+content/03.Predictive Model.md:113:MaxPool
+content/03.Predictive Model.md:114:Conv
+content/03.Predictive Model.md:115:MaxPool
+content/03.Predictive Model.md:119:softmax
+content/03.Predictive Model.md:122:Softmax
+content/03.Predictive Model.md:124:dataset
+content/03.Predictive Model.md:124:dataset
+content/03.Predictive Model.md:126:Convolutional
+content/03.Predictive Model.md:128:Convolutional
+content/03.Predictive Model.md:130:dataset
+content/03.Predictive Model.md:131:DCNN
+content/03.Predictive Model.md:131:DCNN
+content/03.Predictive Model.md:133:dataset
+content/03.Predictive Model.md:133:dataset
+content/03.Predictive Model.md:135:dataset
+content/03.Predictive Model.md:137:Convolutional
+content/03.Predictive Model.md:139:dataset
+content/03.Predictive Model.md:140:DCNN
+content/03.Predictive Model.md:142:dataset
+content/03.Predictive Model.md:146:dataset
+content/03.Predictive Model.md:146:dataset
+content/03.Predictive Model.md:146:Datasets
+content/03.Predictive Model.md:146:DT
+content/03.Predictive Model.md:148:Convolutional
+content/03.Predictive Model.md:148:dataset
+content/03.Predictive Model.md:148:dataset
+content/03.Predictive Model.md:148:dataset
+content/03.Predictive Model.md:148:dataset
+content/03.Predictive Model.md:148:datasets
 content/90.back-matter.md:5:Abdulhafedh
 content/90.back-matter.md:7:Crashworthiness
 content/90.back-matter.md:7:Danesh

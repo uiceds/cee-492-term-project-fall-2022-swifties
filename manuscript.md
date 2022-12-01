@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-21'
+date-meta: '2022-12-01'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-11-21" />
-  <meta name="citation_publication_date" content="2022-11-21" />
+  <meta name="dc.date" content="2022-12-01" />
+  <meta name="citation_publication_date" content="2022-12-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/78437c191934e7027f030253b5b22e1063fc9a06/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@78437c1](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/78437c191934e7027f030253b5b22e1063fc9a06)
-on November 21, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@131b47f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/131b47f7e1333770fdda53729c879eb843e90054)
+on December 1, 2022.
 </em></small>
 
 ## Authors
@@ -466,6 +466,10 @@ When the dataset was sampled to make the number of entries corresponding to ever
 
 
 
+
+## Discussion {.page_break_before}
+
+Were you able to answer your research question or support/refute your hypothesis? If not, why not? What would be your next steps if you were to continue this line of inquiry after the semester is over? (There can always be next steps, regardless of whether you have been able to answer your question or not.)
 
 ## References {.page_break_before}
 
