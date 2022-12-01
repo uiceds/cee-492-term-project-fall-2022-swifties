@@ -9,8 +9,8 @@ date-meta: '2022-12-01'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
-- Farid Saud
-- Johann J Cardenas Huaman
+- Gonzalo Farid Saud Medina
+- Johann Jhanpiere Cardenas Huaman
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -30,18 +30,20 @@ header-includes: |-
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Lara Diab" />
-  <meta name="citation_author_institution" content="Illinois Center for Transportation (ICT)" />
+  <meta name="citation_author_institution" content="Illinois Center for Transportation" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="0000-0001-8489-2015" />
   <meta name="citation_author" content="Renan Santos Maia" />
-  <meta name="citation_author_institution" content="Illinois Center for Transportation (ICT)" />
+  <meta name="citation_author_institution" content="Illinois Center for Transportation" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="0000-0002-0877-4006" />
-  <meta name="citation_author" content="Farid Saud" />
+  <meta name="twitter:creator" content="@resim__" />
+  <meta name="citation_author" content="Gonzalo Farid Saud Medina" />
+  <meta name="citation_author_institution" content="Illinois Center for Transportation" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="citation_author" content="Johann J Cardenas Huaman" />
-  <meta name="citation_author_institution" content="Illinois Center for Transportation (ICT)" />
+  <meta name="citation_author_orcid" content="0000-0001-0001-0001" />
+  <meta name="citation_author" content="Johann Jhanpiere Cardenas Huaman" />
+  <meta name="citation_author_institution" content="Illinois Center for Transportation" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="0000-0002-4695-7639" />
   <meta name="twitter:creator" content="@transporter_pe" />
@@ -51,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e0ae3075fbda270619529c9179899852679f501d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e0ae3075fbda270619529c9179899852679f501d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e0ae3075fbda270619529c9179899852679f501d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/131b47f7e1333770fdda53729c879eb843e90054/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/e0ae3075fbda270619529c9179899852679f501d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@131b47f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/131b47f7e1333770fdda53729c879eb843e90054)
+from [uiceds/cee-492-term-project-fall-2022-swifties@e0ae307](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/e0ae3075fbda270619529c9179899852679f501d)
 on December 1, 2022.
 </em></small>
 
@@ -91,7 +93,7 @@ on December 1, 2022.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [diablara](https://github.com/diablara)<br>
   <small>
-     Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+     Illinois Center for Transportation; Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
      · Funded by The Grainger College of Engineering
   </small>
 
@@ -99,23 +101,25 @@ on December 1, 2022.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0877-4006](https://orcid.org/0000-0002-0877-4006)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [renanssmaia](https://github.com/renanssmaia)<br>
+    [renanssmaia](https://github.com/renanssmaia)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [resim__](https://twitter.com/resim__)<br>
   <small>
-     Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+     Illinois Center for Transportation; Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
      · Funded by The Grainger College of Engineering
   </small>
 
-+ **Farid Saud**<br>
++ **Gonzalo Farid Saud Medina**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-0001-0001](https://orcid.org/0000-0001-0001-0001)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [fsaudm](https://github.com/fsaudm)<br>
   <small>
-     Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+     Illinois Center for Transportation; Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
      · Funded by The Grainger College of Engineering
   </small>
 
-+ **Johann J Cardenas Huaman**<br>
++ **Johann Jhanpiere Cardenas Huaman**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-4695-7639](https://orcid.org/0000-0002-4695-7639)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -123,7 +127,7 @@ on December 1, 2022.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [transporter_pe](https://twitter.com/transporter_pe)<br>
   <small>
-     Illinois Center for Transportation (ICT); Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
+     Illinois Center for Transportation; Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
      · Funded by The Grainger College of Engineering
   </small>
 

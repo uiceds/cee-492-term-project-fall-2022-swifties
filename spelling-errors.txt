@@ -25,10 +25,10 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-csv
+CSV
 Danesh
 dataset
-Datasets
+datasets
 DayOfWeekCode
 DCNN
 DecisionTree
@@ -60,13 +60,13 @@ hotspots
 Huaman
 hyperparameters
 IATSS
-ICT
 IDOT
 IDOTAdmin
 IDOT’s
 inexistent
 IntersectionRelated
 ISSN
+Jhanpiere
 jl
 Keshavarz
 Khorasani
@@ -102,6 +102,7 @@ Rashidi
 ReLU
 Renan
 renanssmaia
+resim
 rng
 RoadDefects
 RoadSurfaceCond
@@ -131,7 +132,6 @@ Varoquaux
 WeatherCond
 workzone
 WorkZoneRelated
-XXXX
 Yasin
 ython
 Yu
