@@ -20,7 +20,7 @@ cond
 ConDT
 ConRF
 Conv
-convolutional
+Convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -126,7 +126,7 @@ Samimi
 Saud
 Scikit
 Similarily
-softmax
+Softmax
 Soheil
 subfeatures
 Thirion
@@ -140,7 +140,6 @@ traumatology
 TypeOfFirstCrash
 Unkown
 Urbana
-vahicle
 Vanderplas
 Varoquaux
 WeatherCond
