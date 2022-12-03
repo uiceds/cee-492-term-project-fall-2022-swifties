@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e7cce94abc36852078059454c5718c102de4819/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e7cce94abc36852078059454c5718c102de4819/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e7cce94abc36852078059454c5718c102de4819/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/072839d509a0cb4df1c2f301860c5b3a70bfee4c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/072839d509a0cb4df1c2f301860c5b3a70bfee4c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/072839d509a0cb4df1c2f301860c5b3a70bfee4c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/5e7cce94abc36852078059454c5718c102de4819/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/072839d509a0cb4df1c2f301860c5b3a70bfee4c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@5e7cce9](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/5e7cce94abc36852078059454c5718c102de4819)
+from [uiceds/cee-492-term-project-fall-2022-swifties@072839d](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/072839d509a0cb4df1c2f301860c5b3a70bfee4c)
 on December 3, 2022.
 </em></small>
 
@@ -218,7 +218,7 @@ The plots are presented here to display visually the findings and trends, as a p
 A visual representation of the number of crashes throughout time can be seen in Figure @fig:Figure_1. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to better understand the number of crashes through time (Figures @fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
 
 ![
-**Distribution of accidents over time.**
+**Distribution of crashes over time.**
 IDOT's Crash Data from 2017, 2018 and 2019.
 ](https://user-images.githubusercontent.com/112973190/198916592-12348b8d-af9f-47f6-8bad-c0deb7819bec.jpeg "Figure_1"){#fig:Figure_1}
 
@@ -321,7 +321,7 @@ For this data that has 24 columns, running this function for every pair of varia
 | LightingCond                  | 0.028         | 
 | WeatherCond                   | 0.031         | 
 
-__Table 1__: Correlation table (association with :CrashSeverity). 
+__Table 1__: Correlation table (association with "CrashSeverity"). 
 
 From Table 1, it can be observed that the best-correlated factor in relation to crash severity is the "TotalFatals" column, which indicates the number of fatalities for each crash, with a value of 0.707. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond". Comapring these, it can be seen that presence of intersections has the highest correlation with the severity of the crash followed by the traffic control device. In addition, the characteristics of the workzone seem to have the least correlation with the severity of the crash. This observation can be useful to understand the dataset and get an idea about which variables are important for making predictions. This was done to get a general idea about the data, but for performing predictions additional details should be considered.
 

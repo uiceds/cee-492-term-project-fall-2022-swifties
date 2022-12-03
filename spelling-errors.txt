@@ -20,7 +20,7 @@ cond
 ConDT
 ConRF
 Conv
-Convolutional
+convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -126,7 +126,7 @@ Samimi
 Saud
 Scikit
 Similarily
-softmax
+Softmax
 Soheil
 subfeatures
 Thirion
