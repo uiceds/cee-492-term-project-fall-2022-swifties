@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6000882f37d966a67e5d8452891d97a69a876798/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6000882f37d966a67e5d8452891d97a69a876798/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6000882f37d966a67e5d8452891d97a69a876798/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca2d0bbe66d4366c124a54590516748283a721e2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca2d0bbe66d4366c124a54590516748283a721e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca2d0bbe66d4366c124a54590516748283a721e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6000882f37d966a67e5d8452891d97a69a876798/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ca2d0bbe66d4366c124a54590516748283a721e2/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@6000882](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/6000882f37d966a67e5d8452891d97a69a876798)
+from [uiceds/cee-492-term-project-fall-2022-swifties@ca2d0bb](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ca2d0bbe66d4366c124a54590516748283a721e2)
 on December 3, 2022.
 </em></small>
 
@@ -274,7 +274,7 @@ The chart in Figure @fig:surf-cond summarizes the analysis performed on the data
 ![
 **Distribution of accidents by Road Surface Condition.**
 From 2017 to 2019.
-]( https://user-images.githubusercontent.com/112973190/198915863-f53ee251-18bb-4c60-8c64-8315ef08ee9f.png "surf-cond"){#fig:surf-cond}
+]( https://user-images.githubusercontent.com/63623246/205432303-cc25ce17-5dcc-4b15-9357-e50141640d80.png "surf-cond"){#fig:surf-cond height=3in}
 
 
 #### Pie Chart | Road Defects
