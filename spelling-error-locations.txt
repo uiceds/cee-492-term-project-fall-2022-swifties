@@ -53,6 +53,7 @@ content/02.Exploratory Data Analysis.md:68:dataset
 content/02.Exploratory Data Analysis.md:68:ihna
 content/02.Exploratory Data Analysis.md:73:ihna
 content/02.Exploratory Data Analysis.md:75:hotspots
+content/02.Exploratory Data Analysis.md:75:vahicle
 content/02.Exploratory Data Analysis.md:80:cond
 content/02.Exploratory Data Analysis.md:80:dataset
 content/02.Exploratory Data Analysis.md:80:dataset

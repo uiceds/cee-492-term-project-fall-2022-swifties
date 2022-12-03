@@ -126,7 +126,7 @@ Samimi
 Saud
 Scikit
 Similarily
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion
@@ -140,6 +140,7 @@ traumatology
 TypeOfFirstCrash
 Unkown
 Urbana
+vahicle
 Vanderplas
 Varoquaux
 WeatherCond
