@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d1f0a552548911482f29e50b7cf936cd8201a996/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d1f0a552548911482f29e50b7cf936cd8201a996/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d1f0a552548911482f29e50b7cf936cd8201a996/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d1f0a552548911482f29e50b7cf936cd8201a996/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@d1f0a55](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/d1f0a552548911482f29e50b7cf936cd8201a996)
+from [uiceds/cee-492-term-project-fall-2022-swifties@c534ca4](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6)
 on December 3, 2022.
 </em></small>
 
@@ -215,7 +215,7 @@ The plots are presented here to display visually the findings and trends, as a p
 
 ### Crash Data Distribution
 
-A visual representation of the number of crashes throughout time can be seen in Figure @fig:Figure_1. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to get a quick glance of the number of crashes throughout time (Figures @fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
+A visual representation of the number of crashes throughout time can be seen in __Figure__ @fig:Figure_1. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to get a quick glance of the number of crashes throughout time (__Figures__ @fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
 
 ![
 **Distribution of crashes over time.**
@@ -228,21 +228,21 @@ IDOT's Crash Data from 2017, 2018 and 2019.
 Crash reports from 2017 in the state of Illinois, USA.
 ]( https://user-images.githubusercontent.com/112973190/198912087-2713cf8e-9bff-48d8-92c9-4eaa55ab5f13.png "crash_2017"){#fig:crash-2017}
 
-For 2017, the month with most incidents is December (“_12_”), with __28,032__ crashes (out of __295,651__ for that year), and the month with the least crashes is February (“_2_”), with __20,049__ incidents that month. These findings reflect the effect of weather conditions as well, given that during the very first and the last months of the year, the number of accidents increases. These months correspond to the winter season and englobes certain holidays where people might be very active and more accidents are likely to occur. The "_February effect_", as we would call it, where a decrease in the number of accidents can be observed, is not necessarily unexpected, because although it's still part of the winter, this is the month with the least number of days. 
+For 2017, the month with most incidents is December (“12”), with __28,032__ crashes (out of __295,651__ for that year), and the month with the least crashes is February (“2”), with __20,049__ incidents that month. These findings reflect the effect of weather conditions as well, given that during the very first and the last months of the year, the number of accidents increases. These months correspond to the winter season and englobes certain holidays where people might be very active and more accidents are likely to occur. The "_February effect_", as we would call it, where a decrease in the number of accidents can be observed, is not necessarily unexpected, because although it's still part of the winter, this is the month with the least number of days. 
 
 ![
 **Bar Plot Historical Crashes.**
 Crash reports from 2018 in the state of Illinois, USA.
 ]( https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png "crash_2018"){#fig:crash-2018}
 
-Now, for 2018, different from the previous year, the month with the largest count of crashes is November (“_11_”), with __28,743__ recorded crashes (out of __304,196__). The month with the least number of accidents is March (“_3_”), with __22,200__ crashes. For this year, just like for 2017, the months where peaks happen can be associated with the worst seasons for a driver (winter).
+Now, for 2018, different from the previous year, the month with the largest count of crashes is November (“11”), with __28,743__ recorded crashes (out of __304,196__). The month with the least number of accidents is March (“3”), with __22,200__ crashes. For this year, just like for 2017, the months where peaks happen can be associated with the worst seasons for a driver (winter).
 
 ![
 **Bar Plot Historical Crashes.**
 Crash reports from 2019 in the state of Illinois, USA.
 ]( https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png "crash_2019"){#fig:crash-2019}
 
-For the year 2019, the month with the most number of crash records is November (“_11_”), with __26,964__ recorded crashes (out of __283,946__), and the month with the least number of accidents is March (“_3_”), with __20,569__ incidents. in a similar way to the years 2017 and 2018, the months with the highest records belong to the same season. 
+For the year 2019, the month with the most number of crash records is November (“11”), with __26,964__ recorded crashes (out of __283,946__), and the month with the least number of accidents is March (“3”), with __20,569__ incidents. in a similar way to the years 2017 and 2018, the months with the highest records belong to the same season. 
 
 
 ### Crash Data Location
@@ -259,7 +259,7 @@ In this figure, as in a heat map, the red regions represent clusters of points, 
 
 ### Categorical Data Distribution 
 
-The Figure @fig:lightning-cond displays the different percentages of the different lighting conditions presented in the dataset. The condition with the most crashes associated with it is “Daylight”, representing 66% of the crashes in the dataset. This might be an effect of the traffic being more concentrated from early morning until evening. During the night time, “Darkness/Lighted Road” accounts for 18% of the crashes, and “Darkness”, for 11%. Eaxh of the conditions “Dawn” and “Dusk” account for 2% of the recorded crashes.
+__Figure__ @fig:lightning-cond displays the different percentages of the different lighting conditions presented in the dataset. The condition with the most crashes associated with it is “Daylight”, representing 66% of the crashes in the dataset. This might be an effect of the traffic being more concentrated from early morning until evening. During the night time, “Darkness/Lighted Road” accounts for __18%__ of the crashes, and “Darkness”, for __11%__. Eaxh of the conditions “Dawn” and “Dusk” account for __2%__ of the recorded crashes.
 
 ![
 **Distribution of accidents by Lighting Condition.**
@@ -268,7 +268,7 @@ From 2017 to 2019.
 
 
 
-The chart in Figure @fig:surf-cond summarizes the analysis performed on the data on the influence of road surface conditions on the number of crashes. It was found that 76% of the recorded crashes correspond to a “dry” road surface, which can be thought of as the least dangerous condition. For the not-too-favorable road surface conditions, 16% of the crashes analyzed correspond to a “wet” road surface, 5% to “snow”, 2% to “ice” and other “unknown” road surface conditions. Again, this can be interpreted as a reflex of the fact that rainy/snowy days are less frequent than "dry" days. 
+The chart in __Figure__ @fig:surf-cond summarizes the analysis performed on the data on the influence of road surface conditions on the number of crashes. It was found that __76%__ of the recorded crashes correspond to a “dry” road surface, which can be thought of as the least dangerous condition. For the not-too-favorable road surface conditions, __16%__ of the crashes analyzed correspond to a “wet” road surface, __5%__ to “snow”, __2%__ to “ice” and other “unknown” road surface conditions. Again, this can be interpreted as a reflex of the fact that rainy/snowy days are less frequent than "dry" days. 
 
 ![
 **Distribution of accidents by Road Surface Condition.**
@@ -277,7 +277,7 @@ From 2017 to 2019.
 
 
 
-When it comes to the distribution of crashes by road defects (Figure @fig:road-excl), the vast majority of the occurences (808,835 out of 883,793 observations, which accounts for 91.52%) happened were “no defects” were present in the location. Given that a great number of crashes happened without any road defects, it might be interesting to account for the likelihood of road defects being associated with a car crash. By observing the different percentages of the road defects accounted for in the dataset, “unknown” represents 78% of the data, followed by 6% for “worn surfaces”, “debris on the roadway” and “other” road defects, and 2% for “ruts and holes” and “shoulder” defects. 
+When it comes to the distribution of crashes by road defects (__Figure__ @fig:road-excl), the vast majority of the occurences (__808,835__ out of __883,793__ observations, which accounts for __91.52%__) happened were “no defects” were present in the location. Given that a great number of crashes happened without any road defects, it might be interesting to account for the likelihood of road defects being associated with a car crash. By observing the different percentages of the road defects accounted for in the dataset, “unknown” represents __78%__ of the data, followed by 6% for “worn surfaces”, “debris on the roadway” and “other” road defects, and __2%__ for “ruts and holes” and “shoulder” defects. 
 
 ![
 **Distribution of accidents by Road Defects,**
@@ -321,7 +321,7 @@ For this data that has 24 columns, running this function for every pair of varia
 
 __Table 1__: Correlation table (association with "CrashSeverity"). 
 
-From Table 1, it can be observed that the best-correlated factor in relation to crash severity is the "TotalFatals" column, which indicates the number of fatalities for each crash, with a value of 0.707. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond". Comapring these, it can be seen that presence of intersections has the highest correlation with the severity of the crash followed by the traffic control device. In addition, the characteristics of the workzone seem to have the least correlation with the severity of the crash. This observation can be useful to understand the dataset and get an idea about which variables are important for making predictions. This was done to get a general idea about the data, but for performing predictions additional details should be considered.
+From __Table 1__, it can be observed that the best-correlated factor in relation to crash severity is the "TotalFatals" column, which indicates the number of fatalities for each crash, with a value of 0.707. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond". Comapring these, it can be seen that presence of intersections has the highest correlation with the severity of the crash followed by the traffic control device. In addition, the characteristics of the workzone seem to have the least correlation with the severity of the crash. This observation can be useful to understand the dataset and get an idea about which variables are important for making predictions. This was done to get a general idea about the data, but for performing predictions additional details should be considered.
 
 ### Trends
 
@@ -333,7 +333,7 @@ Given that not all the variables have to be present for a crash to occur, it can
 As long as the number of entries containing a value for an independent variable overcomes by large any other value for the same independent variable, it can be expected that the analysis will potentially experience problems related to "imbalanced data", due to the uneven distribution of observations. Similarly, it can be seen that most of the independent variables are "classifications", and therefore their entries do not provide meaningul numerical values to be analyzed or correlated. For some of them, it is possible to replace the text values by boolean variables, but for some others a rating system may be needed if a numerical interpretation is required. It can be noticed that most of the attributes are subjective observations trying to describe the potential causes of a crash, and may be dependent on the observer itself. However, the casualties are a meaningful numerical observation that will be thoroughly used througout this report.
 
 
-## Predictive Model {.page_break_before}
+# Predictive Model {.page_break_before}
 
 Given the nature of the database and the primary established goal of predicting the severity of crashes according to different combinations of scenarios, a classification problem is faced, for which the following models will be tested:
 
@@ -345,7 +345,7 @@ The dataset in this study is large enough (with hundreds of thousands of entries
 
 Since machine learning algorithms are generally unable to work with categorical data when fed directly into the model, there is a need to convert our independent variables (inputs):RoadSurfaceCond,:RoadDefects,:LightingCond and :WeatherCond into numbers, and the same will be required for our output variable since it will also be categorical (:CrashSeverity). The task of assigning numerical values to make use of them has to be handled with the aim of avoiding undesired biases in the assignment process. If we assigned a float or a integer value, our machine learning model may wrongly allocate a higher weight to variables with higher values, affecting the accuracy of the prediction model. To avoid this issue, we will encode our categorical features as one-hot numeric arrays, a technique that is presented hereafter.
 
-#### One Hot Encoding
+### One Hot Encoding
 
 The one-hot encoding scheme, also known as ‘one-of-K’ or ‘dummy’ creates a binary colum for each category, and returns a sparse matrix or dense array (depending on the sparse parameters).Our inputs to this transform will be strings, denoting the values taken on by our categorical (discrete) features and our output will be a binary feature for each possible category with the value of 1 to the feature of each sample that belongs to the category, and a value of 0 for any other feature (Buitinck et al, 2013). An example is shown below for the variable *:LightingCond*:
 
@@ -362,6 +362,9 @@ Although, the One Hot Encoding technique will be useful to transform and preproc
 
 Once the data has been transformed, we can use it to train our proposed models.
 The description, adequacy, results, and conclusions from every model tested is discussed in the following sections.
+
+
+## Models
 
 ### a) Decision Tree Model
 
