@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@c534ca4](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/c534ca4fa7d53a94d7486d1897b52e5c5338dbe6)
+from [uiceds/cee-492-term-project-fall-2022-swifties@db922dd](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/db922dd9d037d5fdca54fe2f0574c400113a9018)
 on December 3, 2022.
 </em></small>
 
@@ -215,7 +215,7 @@ The plots are presented here to display visually the findings and trends, as a p
 
 ### Crash Data Distribution
 
-A visual representation of the number of crashes throughout time can be seen in __Figure__ @fig:Figure_1. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to get a quick glance of the number of crashes throughout time (__Figures__ @fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
+A visual representation of the number of crashes throughout time can be seen in __Figure__ @fig:Figure_1. This served as a foundational step for the later-developed visuals. Here, the data is subdivided by year, and then by month to get a quick glance of the number of crashes throughout time (__Figures__ @fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
 
 ![
 **Distribution of crashes over time.**
