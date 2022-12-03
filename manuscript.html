@@ -8,7 +8,7 @@
   <meta name="author" content="Renan Santos Maia" />
   <meta name="author" content="Gonzalo Farid Saud Medina" />
   <meta name="author" content="Johann Jhanpiere Cardenas Huaman" />
-  <meta name="dcterms.date" content="2022-12-01" />
+  <meta name="dcterms.date" content="2022-12-03" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Crash Risk Prediction Model using Data Science</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-12-01" />
-  <meta name="citation_publication_date" content="2022-12-01" />
+  <meta name="dc.date" content="2022-12-03" />
+  <meta name="citation_publication_date" content="2022-12-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -63,9 +63,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/40f176b0455d3bd0f6d97c7a42c811c6786b37c9/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/40f176b0455d3bd0f6d97c7a42c811c6786b37c9">uiceds/cee-492-term-project-fall-2022-swifties@40f176b</a>
-on December 1, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/bb227c98bc984f987c7f7ff7942377abb01e990d">uiceds/cee-492-term-project-fall-2022-swifties@bb227c9</a>
+on December 3, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -164,8 +164,7 @@ The prediction model will take categorical data as inputs and will yield the lik
 <p>The datasets for different years are available for download as .CSV files at the IDOT’s website:</p>
 <p><strong><span class="center">https://gis-idot.opendata.arcgis.com/search?groupIds=6d2862031a6d47c7a8c211e38e423e05</span></strong></p>
 <h1 class="page_break_before" id="exploratory-data-analysis">Exploratory Data Analysis</h1>
-<p>Open-source crash data is published by the Illinois Department of Transportation (<strong>IDOT</strong>) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each crash occurence. Each dataset is filled out with observations according to the <strong>IDOT</strong> Traffic Crash Report SR 1050 Instruction Manual (2019), where every entry represents an observation. The dataset for each year is available online in .CSV format on the <strong>IDOT</strong> website, and they contain observations arranged in rows and attributes organized in columns. The datasets from 2017, 2018, and 2019 were included in the Exploratory Data Analysis <strong>(EDA)</strong>. The datasets from 2020 and 2021 were discarded in this analysis due to the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna &amp; Abu-Zidan, 2021). Regarding the dataset size, each of them had originally over 300,000 entries (944,328 in total, once combined).
-The <strong>EDA</strong> will be carried out following the steps described in the next sections.</p>
+<p>Open-source crash data is published by the Illinois Department of Transportation (<strong>IDOT</strong>) yearly. Each crash report was found to have extensive entries with up to 85 attributes, which include several independent variables to describe each crash occurence. Each dataset is filled out with observations according to the <strong>IDOT</strong> Traffic Crash Report SR 1050 Instruction Manual (2019), in which each entry represents an observation. The dataset for each year is available online in .CSV format on the <strong>IDOT</strong> website, and they contain observations arranged in rows and attributes organized in columns. The datasets from 2017, 2018, and 2019 were included in the Exploratory Data Analysis <strong>(EDA)</strong>. The datasets from 2020 and 2021 were discarded in this analysis due to the COVID-19 pandemic outbreak, which altered drastically the dynamics of traffic worldwide, and thus crash-related data (Yasin, Grivna &amp; Abu-Zidan, 2021). Regarding the dataset size, each of them had originally over 300,000 entries (944,328 in total, once combined). The <strong>EDA</strong> will be carried out following the steps described in the following sections.</p>
 <h2 id="reading-data">Reading Data</h2>
 <p>The selected datasets were imported to the widely-used Integrated Development Environment (<strong>IDE</strong>) and code editor <strong>Visual Studio Code</strong> using its CSV library. It was found that the latest report (2019) contained the following 5 additional attributes that could not be used since it was not included in any of the previous reports.</p>
 <ol type="1">
@@ -175,25 +174,24 @@ The <strong>EDA</strong> will be carried out following the steps described in th
 <li>Urban Rural</li>
 <li>Toll</li>
 </ol>
-<p>It was later verified that any other attribute was arranged in the same order for each of the datasets, thus it was decided to discard the aforementioned additional information for the sake of compatibility between the datasets.</p>
-<p>After deleting these attributes, all 03 datasets were merged into a unified file, which contains 80 variables (columns) and 944,328 observations (rows). This final database served as the baseline to start with the following step: the cleaning process.</p>
+<p>It was later verified that any other attribute was arranged in the same order for each of the datasets, thus it was decided to discard the aforementioned additional information for the sake of compatibility between the datasets. After deleting these attributes, all 03 datasets were merged into a unified file, which contains 80 variables (columns) and 944,328 observations (rows). This final database served as the initial point to start with the following step: the cleaning process.</p>
 <h2 id="cleaning-process">Cleaning Process</h2>
 <p>It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each of the attributes. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude &amp; longitude, or X &amp; Y coordinates) has not been taken into account. A map plot was initially produced just to check that the entries corresponded to several locations within the state of Illinois, but no further use was needed. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included in the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the “Railroad Crossing Number” variable contained around 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that won’t be utilized for this analysis, the number of independent variables went down from 80 to 21.</p>
-<p>When it comes to crash reports, several inconsistencies are unfortunately frequent. In the literature, for instance, it is mentioned that “investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records”, and that is why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer &amp; Hakkert, 1989; Chin &amp; Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, any observation labeled as “blank”, “unknown”, or “other” needs to be handled, by either replacing the original value for a more meaningful lable or by deleting it. For all variables, the “blank” observations were immediately removed from the dataset.</p>
+<p>When it comes to crash reports, several inconsistencies are unfortunately frequent. In the literature, for instance, it is mentioned that “investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records”, and that is why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer &amp; Hakkert, 1989; Chin &amp; Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, any observation labeled as “blank”, “unknown”, or “other” needs to be handled, by either replacing the original value for a more meaningful lable or by deleting it. For all variables, the rows having “blank” observations were immediately removed from the dataset.</p>
 <h2 id="analysis-and-visualization">Analysis and Visualization</h2>
 <p>In this section, a set of plots, charts, and visuals were developed using the following tools:</p>
 <ol type="1">
-<li>Julia Programming Language</li>
+<li>Julia Programming Language.</li>
 <li>Python Programming Language.</li>
-<li>Microsoft Power BI</li>
+<li>Microsoft Power BI.</li>
 </ol>
-<p>The plots are presented here to display visually the findings and trends, as a product of the <strong>EDA</strong>. The visualization include distributions of car crashes over time and for the identified variables discussed in this section of the report.</p>
+<p>The plots are presented here to display visually the findings and trends, as a product of the <strong>EDA</strong>. The visualization include distributions of vehicle crashes over time, and for the identified variables discussed in this section of the report.</p>
 <h3 id="bar-plot-crashes">Bar Plot Crashes</h3>
-<p>A visual representation of the number of car crashes throughout time can be seen in <a href="#fig:Figure_1">1</a>. This served as a foundational step for the later-developed visuals. Below, the data is subdivided by year, and then by month to better understand the number of car crashes through time.</p>
+<p>A visual representation of the number of car crashes throughout time can be seen in <a href="#fig:Figure_1">1</a>. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to better understand the number of car crashes through time (<a href="#fig:crash-2017">2</a>, <a href="#fig:crash-2018">3</a>, <a href="#fig:crash-2019">4</a>).</p>
 <div id="fig:Figure_1" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/198916592-12348b8d-af9f-47f6-8bad-c0deb7819bec.jpeg" alt="Figure 1: Distribution of accidents over time. IDOT’s Crash Data from 2017, 2018 and 2019." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Distribution of accidents over time.</strong>
-<strong>IDOT’s</strong> Crash Data from 2017, 2018 and 2019.</figcaption>
+IDOT’s Crash Data from 2017, 2018 and 2019.</figcaption>
 </figure>
 </div>
 <div id="fig:crash-2017" class="fignos">
@@ -202,14 +200,14 @@ The <strong>EDA</strong> will be carried out following the steps described in th
 Crash reports from 2017 in the state of Illinois, USA.</figcaption>
 </figure>
 </div>
-<p>For 2017, the month with the most incidents is December (“12”), with 28032 car crashes (out of 295651 for that year), and the month with the least car crashes is February (“2”), with 20049 incidents that month. These findings can represent the effect of weather conditions as well, given that during the very first and the later years of the year, the amount of accidents increases. These months correspond to the winter season and englobes certain holidays where people might be very active and potentially more car crashes might happen.</p>
+<p>For 2017, the month with the most incidents is December (“12”), with 28032 car crashes (out of 295651 for that year), and the month with the least car crashes is February (“2”), with 20049 incidents that month. These findings can represent the effect of weather conditions as well, given that during the very first and the later months of the year, the amount of accidents increases. These months correspond to the winter season and englobes certain holidays where people might be very active and potentially more car crashes might happen. The “February effect” is not necessarily unexpected, given that, although in the winter season, this is the month with the least amount of days.</p>
 <div id="fig:crash-2018" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png" alt="Figure 3: Bar Plot Historical Crashes. Crash reports from 2018 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Bar Plot Historical Crashes.</strong>
 Crash reports from 2018 in the state of Illinois, USA.</figcaption>
 </figure>
 </div>
-<p>Now, for 2018, different from the previous year, the month with the largest count of accidents is November (“11”), with 28743 recorded crashes (out of 304196). The month with the least amount of crashes is March (“3”), with 22200 crashes. For this year, just like for 2017, the months where peaks happen can be associated with the worse seasons for a driver.</p>
+<p>Now, for 2018, different from the previous year, the month with the largest count of accidents is November (“11”), with 28743 recorded crashes (out of 304196). The month with the least amount of crashes is March (“3”), with 22200 crashes. For this year, just like for 2017, the months where peaks happen can be associated with the worse seasons for a driver (winter).</p>
 <div id="fig:crash-2019" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png" alt="Figure 4: Bar Plot Historical Crashes. Crash reports from 2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 4:</span> <strong>Bar Plot Historical Crashes.</strong>
@@ -218,21 +216,22 @@ Crash reports from 2019 in the state of Illinois, USA.</figcaption>
 </div>
 <p>For the year 2019, the month with the most accidents is November (“11”), with 26964 recorded crashes (out of 283946), and the month with the least accidents is March (“3”), with 20569 incidents. in a similar way to the years 2017 and 2018, the months with the highest count happen in the same season.</p>
 <h4 id="map">Map</h4>
+<p>The location data contained in the dataset was discarded for the modeling purposes. However, this can provide an idea about the distribution of crashes over the state of Illinois, giving insights in terms of the nature of the data and potential contributing factors. Using the “X” and “Y” information present in the dataset, a visual distribution of the location of the recorded car crashes is illustrated in Figure @#fig:map-ihna.</p>
 <div id="fig:map-ihna" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 5: Distribution of crash occurrences. Crash reports from 2017,2018,2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Distribution of crash occurrences.</strong>
-Crash reports from 2017,2018,2019 in the state of Illinois, USA.</figcaption>
+<img src="https://user-images.githubusercontent.com/63623246/198847704-2128a33e-4ecb-4155-a802-e60878d1f137.png" alt="Figure 5: Distribution of crash occurrences. Crash reports from 2017, 2018, and 2019 in the state of Illinois, USA." /><figcaption aria-hidden="true"><span>Figure 5:</span> <strong>Distribution of crash occurrences.</strong>
+Crash reports from 2017, 2018, and 2019 in the state of Illinois, USA.</figcaption>
 </figure>
 </div>
-<p>Using the “X” and “Y” information present in the dataset, a visual distribution of the location of the recorded car crashes is illustrated in the map Figure. In the map of Illinois, the red dots represent a pair of “X” and “Y” coordinates, being the location where a car crash happened. The majority of car crashes appear to have happened in cities and towns. The best example would be Chicago, where all around the area, the number of occurrences, or red dots, is significantly higher, which may be presumable given that Chicago and the surrounding areas host a big fraction of the state’s population. On a smaller scale, this is also visible in other cities and towns, such as Springfield and Davenport. In other locations, the recorded car crashes are much more spaced out, with certain “hotspots” in some highways and roads.</p>
-<h4 id="pie-chart-lightning-conditions">Pie Chart | Lightning Conditions</h4>
+<p>In the map of Illinois, the red dots represent a pair of “X” and “Y” coordinates, being the location where a car crash happened. The majority of car crashes appear to have happened in cities and towns. The best example would be Chicago, where all around the area, the number of occurrences, or red dots, is significantly higher, which may be presumable given that Chicago and the surrounding areas host a big fraction of the state’s population. On a smaller scale, this is also visible in other cities and towns, such as Springfield and Davenport. In other locations, the recorded car crashes are much more spaced out, with certain “hotspots” in some highways and roads.</p>
+<h4 id="pie-chart-lighting-conditions">Pie Chart | Lighting Conditions</h4>
+<p>The Figure <a href="#fig:lightning-cond">6</a> displays the different percentages of the different lighting conditions presented in the dataset. The condition with the most car crashes associated with it is “Daylight”, representing 66% of the crashes in the dataset. This might be an effect of the traffic being more concentrated from early morning until evening. During the night time, “Darkness/Lighted Road” accounts for 18% of the crashes, and “Darkness”, for 11%. Eaxh of the conditions “Dawn” and “Dusk” account for 2% of the recorded car crashes.</p>
 <div id="fig:lightning-cond" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png" alt="Figure 6: Distribution of accidents by Lightning Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Distribution of accidents by Lightning Condition.</strong>
+<img src="https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png" alt="Figure 6: Distribution of accidents by Lighting Condition. From 2017 to 2019." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Distribution of accidents by Lighting Condition.</strong>
 From 2017 to 2019.</figcaption>
 </figure>
 </div>
-<p>This figure displays the different percentages of the different lighting conditions presented in the dataset. The condition with the most car crashes associated with it is “Daylight”, representing 66% of the crashes in the dataset. During the nighttime, “Darkness/Lighted Road” accounts for 18% of the crashes, and “Darkness”, for 11%. Conditions “Dawn” and “Dusk” account for 2% each of the car crashes recorded.</p>
 <h4 id="pie-chart-road-surface-condition">Pie Chart |Road Surface Condition</h4>
 <div id="fig:surf-cond" class="fignos">
 <figure>
@@ -445,7 +444,7 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 </figure>
 </div>
 <p>Figure 9 below shows the confusion plot for the decision tree model. It can be seen from the plot that model is predicting 691050 accurate values for “Property Damage” and 111 non-accurate values as “Injury” instead of “Property Damage”. The prediction accuracy is much worse for the other two labels. For “Injury”, the model predicted only 185 accurate values and predicted 189752 values for “Property Damage” instead of “Injury”. Similarily, for “Fatal”, the model predicted only 2 accurate values and inaccurately predicted 2692 “Property Damage” instead of “Fatal”. This shows that the model is predicting “Property Damage” for most of the cases.</p>
-<div id="fig:7b4ae8a3-a224-434c-9abb-f2f13ea896a2" class="fignos">
+<div id="fig:dc5dfd9c-189c-4135-9780-3dd98e8bdd44" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png" alt="Figure 10: Confusion plot for the Decision Tree model" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Confusion plot for the Decision Tree model</strong></figcaption>
 </figure>
@@ -456,7 +455,7 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 <p>The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes. Given the presence of multiple Decision Trees (DTs), the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model.</p>
 <p>Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained. Similar to the decision tree model, the accuracy obtained by the Random Forest model was also 78%. Figure 10 below shows the confusion plot for the random forest.
 It can be seen in the figure that the model is working well only for “Property Damage” where it is predicting 691119 accurate values and only 42 non accurate ones. For “Injury”, the model is predicting 117 accurate values and is wrongly prediciting 189821 “Property Damage” instead. In addition, for “Fatal”, the model is only predicting one accurate value and for the remaining ones, it is giving “Property Damage” instead. Comapring the decison tree and the random forest models, the random forest is working even better for “Property Damage” and worse for the other 2, meaning, it is predicting more accurate values as “Property Damage” and less accurate values for “Injury” and “Fatal” keeping the overall accuracy the same at 78%.</p>
-<div id="fig:d059b06d-2909-4be4-8069-a5a1b9f40104" class="fignos">
+<div id="fig:105c380c-fd7c-4ff0-9e57-d8e7f960a955" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png" alt="Figure 11: Confusion plot for the Random Forest model" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Confusion plot for the Random Forest model</strong></figcaption>
 </figure>
@@ -579,7 +578,7 @@ softmax
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:653e7a04-b102-4fb2-aa48-2baf5ce31fb7" class="fignos">
+<div id="fig:2178fdcd-c3a9-4c95-b214-fab17390ecea" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 12: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -587,7 +586,7 @@ softmax
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:e769f2b4-58e1-4e00-a2e5-e0dedc1e61d7" class="fignos">
+<div id="fig:002f0e0f-f1ca-4a1d-8a7b-1b905ed5d789" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 13: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
