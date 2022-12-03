@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0d3c8dc95a67f11d46a68a699808d5ec26c4fb90/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0d3c8dc95a67f11d46a68a699808d5ec26c4fb90/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0d3c8dc95a67f11d46a68a699808d5ec26c4fb90/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/bb227c98bc984f987c7f7ff7942377abb01e990d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0d3c8dc95a67f11d46a68a699808d5ec26c4fb90/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@bb227c9](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/bb227c98bc984f987c7f7ff7942377abb01e990d)
+from [uiceds/cee-492-term-project-fall-2022-swifties@0d3c8dc](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/0d3c8dc95a67f11d46a68a699808d5ec26c4fb90)
 on December 3, 2022.
 </em></small>
 
@@ -198,7 +198,7 @@ It was later verified that any other attribute was arranged in the same order fo
 
 ## Cleaning Process
 
-It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each of the attributes. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude & longitude, or X & Y coordinates) has not been taken into account. A map plot was initially produced just to check that the entries corresponded to several locations within the state of Illinois, but no further use was needed. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included in the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the "Railroad Crossing Number" variable contained around 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that won't be utilized for this analysis, the number of independent variables went down from 80 to 21.
+It was found that several independent variables would not provide fruitful information due to missing, unknown or incomplete data. First, this observation was obtained by visual inspection, and later by analyzing the number of different and unique values present in each of the attributes. Thus, the datasets were processed to filter out irrelevant or incomplete variables. For instance, information pertaining the location (latitude & longitude, or X & Y coordinates) has not been taken into account. A map plot was initially produced just to check that the entries corresponded to several locations within the state of Illinois, but no further use was needed. Columns containing codes describing the city, county or ID of the location where the crash took place have also been excluded. Columns involving duplicate information (e.g. two columns describing the same independent variable with a label and a number), and traffic structures were also removed. For few other independent variables, information that could potentially be useful was found to be significantly incomplete. For instance, this was the case of attributes such as the number of lanes and the type of intersection. As a consequence, these variables were not included in the clean dataset. Finally, additional cleaning was carried out for independent variables with a high number of description labels. For example, the "Railroad Crossing Number" variable contained around 100 different values which would have not been handy information for the end-user. After filtering out all the attributes that won't be utilized for this analysis, the number of independent variables went down from 80 to 24.
 
 When it comes to crash reports, several inconsistencies are unfortunately frequent. In the literature, for instance, it is mentioned that "investigation of traffic safety by means of crash records is a reactive approach, where researchers need to deal with imprecise, incomplete, inconsistent, and, sometimes, inexistent records", and that is why the acquisition of historical series to provide minimal consistency to the analysis of crashes to reduce misinterpretations and misleading conclusions is crucial (Hauer & Hakkert, 1989; Chin & Quek, 1997; Farmer, 2003). This justifies the need of dedicating a considerable amount of time, after filtering the columns (variables) of interest, to the cleaning process of the rows (observations). For each column, any observation labeled as "blank", "unknown", or "other" needs to be handled, by either replacing the original value for a more meaningful lable or by deleting it. For all variables, the rows having "blank" observations were immediately removed from the dataset. 
 
@@ -215,7 +215,7 @@ The plots are presented here to display visually the findings and trends, as a p
 
 ### Bar Plot Crashes
 
-A visual representation of the number of car crashes throughout time can be seen in @fig:Figure_1. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to better understand the number of car crashes through time (@fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
+A visual representation of the number of car crashes throughout time can be seen in Figure @fig:Figure_1. This served as a foundational step for the later-developed visuals. From this, the data is subdivided by year, and then by month to better understand the number of car crashes through time (Figures @fig:crash-2017, @fig:crash-2018, @fig:crash-2019).
 
 ![
 **Distribution of accidents over time.**
@@ -247,7 +247,7 @@ For the year 2019, the month with the most accidents is November (“11”), wit
 
 #### Map
 
-The location data contained in the dataset was discarded for the modeling purposes. However, this can provide an idea about the distribution of crashes over the state of Illinois, giving insights in terms of the nature of the data and potential contributing factors. Using the “X” and “Y” information present in the dataset, a visual distribution of the location of the recorded car crashes is illustrated in Figure @#fig:map-ihna. 
+The location data contained in the dataset was discarded for the modeling purposes. However, this can provide an idea about the distribution of crashes over the state of Illinois, giving insights in terms of the nature of the data and potential contributing factors. Using the “X” and “Y” information present in the dataset, a visual distribution of the location of the recorded car crashes is illustrated in Figure @fig:map-ihna. 
 
 ![
 **Distribution of crash occurrences.**
@@ -267,35 +267,32 @@ From 2017 to 2019.
 ]( https://user-images.githubusercontent.com/112973190/198851767-816066d7-66ee-4aea-acea-d27d3ce12fe7.png "Light_cond"){#fig:lightning-cond}
 
 
-#### Pie Chart |Road Surface Condition
+#### Pie Chart | Road Surface Condition
+
+The chart in Figure @fig:surf-cond summarizes the analysis performed on the data on the influence of road surface conditions on the number of car crashes. It was found that 76% of the recorded crashes correspond to a “dry” road surface, which can be thought of as the least dangerous condition. For the not-too-favorable road surface conditions, 16% of the car crashes analyzed correspond to a “wet” road surface, 5% to “snow”, 2% to “ice” and other “unknown” road surface conditions. Again, this can be interpreted as a reflex of the fact that rainy/snowy days are less frequent than "dry" days. 
 
 ![
 **Distribution of accidents by Road Surface Condition.**
 From 2017 to 2019.
 ]( https://user-images.githubusercontent.com/112973190/198915863-f53ee251-18bb-4c60-8c64-8315ef08ee9f.png "surf-cond"){#fig:surf-cond}
 
-The chart above summarizes the analysis performed on the data on the influence of road surface conditions on the number of car crashes. It was found that 76% of the recorded crashes correspond to a “dry” road surface, which can be thought of as the least dangerous condition. For the not-too-favorable road surface conditions, 16% of the car crashes analyzed correspond to a “wet” road surface, 5% to “snow”, 2% to “ice” and other “unknown” road surface conditions.
-
 
 #### Pie Chart | Road Defects
 
+When it comes to the distribution of crashes by road defects (Figure @fig:road-excl), the vast majority of the occurences (808,835 out of 883,793 observations, which accounts for 91.52%) happened were “no defects” were present in the location. Given that a great number of crashes happened without any road defects, it might be interesting to account for the likelihood of road defects being associated with a car crash. By observing the different percentages of the road defects accounted for in the dataset, “unknown” represents 78% of the data, followed by 6% for “worn surfaces”, “debris on the roadway” and “other” road defects, and 2% for “ruts and holes” and “shoulder” defects. 
+
 ![
 **Distribution of accidents by Road Defects,**
-excluding No Defects condition
+From 2017 to 2019, excluding "No Defects" condition.
 ](https://user-images.githubusercontent.com/112973190/198915622-972e8402-da22-4a13-99fe-6995ee936c70.png "road_def_excl"){#fig:road-excl}
-
-While analyzing the distribution of accidents by road defects, it was found that the vast majority of the incidents (808,835 out of 883,793 observations, which accounts for 91.52%) happened were “no defects” were present in the location. Given that a great number of crashes happened without any road defects, it might be interesting to account for the likelihood of road defects being associated with a car crash. Figure 6 displays the different percentages of the road defects accounted for in the dataset, where “unknown” represents 78% of the data, followed by 6% for “worn surfaces”, “debris on the roadway” and “other” road defects, and 2% for “ruts and holes” and “shoulder” defects. 
-
 
 
 #### Correlation between Variables
 
-As mentioned earlier, one of the objectives of analyzing this data is understanding how different road and environment conditions would affect crashes and their severity. This can be obtained by finding the associations between the different variables (columns) in the dataset, meaning how one variable is affected another variable.
-However, most of the variables are of categorical type, i.e., variables that are identified based on names or labels given to them and not based on numbers. This makes the built-in correlation functions in Python or Julia not helpful. One very commonly used method to measure the correlation between two categorical variables is Cramer’s V statistic. Cramer’s V is based on a nominal variation of Pearson’s Chi-Square Test. Like correlation, the output takes values between 0 and 1 (inclusive), with 0 corresponding to no association between the variables and 1 corresponding to one variable being completely determined by the other. On the other hand, and unlike the usual correlation, there are no negative values.
+As mentioned before, one of the objectives of analyzing this data is understanding how different road and environment conditions would affect crashes and their severity. This can be obtained by finding the associations between the different variables (columns) in the dataset, meaning how one variable is affected another variable. However, most of the variables are of categorical type, i.e., variables that are identified based on names or labels given to them and not based on numbers. This makes the built-in correlation functions in Python or Julia not helpful. One very commonly used method to measure the correlation between two categorical variables is Cramer’s V statistic. Cramer’s V is based on a nominal variation of Pearson’s Chi-Square Test. Like correlation, the output takes values between 0 and 1 (inclusive), with 0 corresponding to no association between the variables and 1 corresponding to one variable being completely determined by the other. On the other hand, and unlike the usual correlation, there are no negative values.
 For this project, a function was created in Python that calculates the association between any 2 categorical columns using confusion matrix which can be obtained via built-in pandas method for categorical columns.
-For this data that has 24 columns, running this function for every pair of variables would take a long time and may not give many insights. Therefore, the function was used to find how the column “CrashSeverity” is correlated with every other column. This column was chosen because finding how different conditions affect the severity of the crash is one of the most important outcomes of studying this dataset, and this would give an idea about the variables that have a significant impact on the crashes.
 
-The output is described in the table below:
+For this data that has 24 columns, running this function for every pair of variables would take a long time and may not give many insights. Therefore, the function was used to find how the column “CrashSeverity” is correlated with every other column. This column was chosen because finding how different conditions affect the severity of the crash is one of the most important outcomes of studying this dataset, and this would give an idea about the variables that have a significant impact on the crashes. The output is described in Table 1:
 
 |                               | Association with CrashSeverity         
 |:------------------------------|:-------------:|
@@ -324,21 +321,18 @@ The output is described in the table below:
 | LightingCond                  | 0.028         | 
 | WeatherCond                   | 0.031         | 
 
-From the table above, it can be observed that the the factor that is the most correlated to the crash severity is the "TotalFatals" column which indicates the number of fatalities for each crash, with a  value of 0.707. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond".
-Comapring these, it can be seen that presence of intersections has the highest correlation with the severity of the crash followed by the traffic control device. In addition, the characteristics of the workzone seem to have the least correlation with the severity of the crash.
-This observation can be useful to understand the dataset and get an idea about which variables are important for making predictions. This was done to get a general idea about the data but for performing predictions, this will be handled in detail.
+__Table 1__: Correlation table (association with :CrashSeverity). 
+
+From Table 1, it can be observed that the best-correlated factor in relation to crash severity is the "TotalFatals" column, which indicates the number of fatalities for each crash, with a value of 0.707. Similar observations can be made for the number of injuries. This makes sense because it is expected that the higher the severity of the crash, the higher the number of fatalities and injuries is expected to be. However, this is not very helpful for understanding how different conditions affect the severity of the crash. For this purpose, the columns that can be compared are: "IntersectionRelated", "RoadwayFunctionClassCode", "WorkZoneRelated", "ClassOfTrafficWay", "TrafficControlDevice", "TrafficControlDeviceCond", "RoadSurfaceCond", "RoadDefects", "LightingCond" and "WeatherCond". Comapring these, it can be seen that presence of intersections has the highest correlation with the severity of the crash followed by the traffic control device. In addition, the characteristics of the workzone seem to have the least correlation with the severity of the crash. This observation can be useful to understand the dataset and get an idea about which variables are important for making predictions. This was done to get a general idea about the data, but for performing predictions additional details should be considered.
 
 ### Trends
 
-Since not all the variables have to be present for an accident to occur, it can be seen that most accidents happen in the absence of adverse conditions. However, we should take into account that this reflects the fact that adverse conditions are exceptions, and accidents happen on a daily basis with other factors as underlying reasons such as human behavior. However, adverse conditions do increase the likelihood of accidents and it can be observed an increase in the overall number of occurrences in specific hours (evening), days (weekends), and months (winter).The road type is also found to be directly correlated with the maximum speed limit, and as a consequence is tied to the number of accidents per day.
+Given that not all the variables have to be present for a crash to occur, it can be seen that most accidents happen in the absence of adverse conditions. However, it should be taken into account that this reflects the fact that adverse conditions are exceptions, and accidents happen on a daily basis with other factors as underlying reasons such as the human behavior itself. However, adverse conditions do increase the likelihood of accidents and it can be observed an increase in the overall number of occurrences in specific hours (evening), days (weekends), and months (winter). The road type is also found to be directly correlated with the maximum speed limit, and as a consequence it is potentially tied to the number of accidents per day.
 
 
-### Potential Issues
+### Potential Issues for Modeling
 
-As long as the number of entries containing a value for an independent variable overcome by large any other value for the same independent variable, we may experience problems related to "imbalanced data" due to the uneven distribution of observations.
-Similarly, it can be seen that most of the independent variables are "classifications", and therefore their entries don't provide meaningul numerical values to be analyzed or correlated. For some of them we could replace the text values by boolean variables, but for some others a rating system may be needed if a numerical interpretation is required. 
-
-It can be noticed that most of the attributes are subjective observations trying to describe the potential causes of an accident, and may be dependent on the observer itself. However, the casualties are a meaningful numerical observation that will be thoroughly used througout this report.
+As long as the number of entries containing a value for an independent variable overcomes by large any other value for the same independent variable, it can be expected that the analysis will potentially experience problems related to "imbalanced data", due to the uneven distribution of observations. Similarly, it can be seen that most of the independent variables are "classifications", and therefore their entries do not provide meaningul numerical values to be analyzed or correlated. For some of them, it is possible to replace the text values by boolean variables, but for some others a rating system may be needed if a numerical interpretation is required. It can be noticed that most of the attributes are subjective observations trying to describe the potential causes of a crash, and may be dependent on the observer itself. However, the casualties are a meaningful numerical observation that will be thoroughly used througout this report.
 
 
 ## Predictive Model {.page_break_before}
