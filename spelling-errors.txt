@@ -20,7 +20,6 @@ Comapring
 cond
 ConDT
 ConRF
-Conv
 convolutional
 Cournapeau
 COVID
@@ -85,7 +84,6 @@ lable
 LightingCond
 Liu
 Maia
-MaxPool
 meaningul
 Mehrdad
 metaheuristic

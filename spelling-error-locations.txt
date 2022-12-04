@@ -188,10 +188,6 @@ content/03.Predictive Model.md:141:overfitting
 content/03.Predictive Model.md:141:overfitting
 content/03.Predictive Model.md:141:ReLU
 content/03.Predictive Model.md:141:Softmax
-content/03.Predictive Model.md:146:Conv
-content/03.Predictive Model.md:147:MaxPool
-content/03.Predictive Model.md:148:Conv
-content/03.Predictive Model.md:149:MaxPool
 content/03.Predictive Model.md:153:softmax
 content/03.Predictive Model.md:156:Softmax
 content/03.Predictive Model.md:158:dataset
