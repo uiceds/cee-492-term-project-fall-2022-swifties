@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7d767957918e7e35e20d47bb6f068d4c545e468b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7d767957918e7e35e20d47bb6f068d4c545e468b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7d767957918e7e35e20d47bb6f068d4c545e468b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d21608dbc9966b3e0e96af0b131653886b0b8bd0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d21608dbc9966b3e0e96af0b131653886b0b8bd0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d21608dbc9966b3e0e96af0b131653886b0b8bd0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7d767957918e7e35e20d47bb6f068d4c545e468b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d21608dbc9966b3e0e96af0b131653886b0b8bd0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@7d76795](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7d767957918e7e35e20d47bb6f068d4c545e468b)
+from [uiceds/cee-492-term-project-fall-2022-swifties@d21608d](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/d21608dbc9966b3e0e96af0b131653886b0b8bd0)
 on December 4, 2022.
 </em></small>
 
@@ -437,13 +437,13 @@ Table 3: Different values for each of the attributes chosen for the predictive m
 After removing these rows, performing one-hot encoding again and running the decision tree/random forest models again, the same level of accuracy of 78% was achieved. This indicated that the higher number of one-hot encoded columns is not impacting the prediction. Figure 12 below shows the confusion matrix after implementing the first approach. It can be seen from the plot why the accuracy stayed at 78%. The model predicted accurate values in some cases but at the same predicted inaccurate ones in other cases.
 
 ![
-**Confusion plot for the Random Forest model**
+**Confusion plot after implementing the first approach**
 ](https://user-images.githubusercontent.com/112972950/205471191-a5a9a576-62ff-480f-add2-90e1b82da68a.png "approach1"){#fig: approach1}
 
 
 
 #### 2- Taking into consideration another indepdent variable 
-It was also decided to try considering one more column in the dataset and that could maybe increase the accuracy. The reason behind this reasoning is if the model was offered more insight about the data, other than the surface road conditions, road defects, weather conditions and lighting conditions, this would probably help the model notice more relationships between the features and the dependent variable and thus increasing the accuracy. Therefore, and  based on the previous analysis of correlations between the columns, it was found that the presence or absence of road intersections was relatively highly correlated with crash severity, it was re-considered as one of the features for modelling. This attribute has 2 values: Yes or No. One-hot encoding was performed again and the decision tree model was applied again. However, the accuracy was also 78%. This showed that increasing the number of attributes is not the solution to low accuracy, in this case.
+It was also decided to try considering one more column in the dataset and that could probably increase the accuracy. The reason behind this reasoning is if the model was offered more insight about the data, other than the surface road conditions, road defects, weather conditions and lighting conditions, this would probably help the model notice more relationships between the features and the dependent variable and thus increasing the accuracy. Therefore, and  based on the previous analysis of correlations between the columns, it was found that the presence or absence of road intersections was relatively highly correlated with crash severity, it was re-considered as one of the features for modelling. This attribute has 2 values: Yes or No. One-hot encoding was performed again and the decision tree model was applied again. However, the accuracy was also 78%. This showed that increasing the number of attributes is not the solution to low accuracy, in this case.
 
 #### 3- Addressing the issue of imbalanced data
 Because the problem was not the presence of several values for each column, dealing with the imbalanced dataset was another approach that was implemented by the team. This model is trying to predict the crash severity level which has three label options: "Property Damage", "Injury" and "Fatal". "Property Damage" constitutes roughly 80% of the data; 627706 rows out 809824 total rows (after cleaning the dataset), This imbalance is causing the model to predict "Property Damage" most of the time, decreasing the accuracy of the model. One way of addressing this is running the model with the same number of rows for each label.

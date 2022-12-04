@@ -20,7 +20,7 @@ cond
 ConDT
 ConRF
 Conv
-Convolutional
+convolutional
 Cournapeau
 COVID
 Cramer’s
