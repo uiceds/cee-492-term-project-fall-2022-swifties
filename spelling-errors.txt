@@ -31,7 +31,7 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-csv
+CSV
 Danesh
 dataset
 datasets
@@ -127,7 +127,7 @@ Samimi
 Saud
 Scikit
 Similarily
-softmax
+Softmax
 Soheil
 subfeatures
 Thirion

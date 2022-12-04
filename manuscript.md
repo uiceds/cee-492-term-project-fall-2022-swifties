@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@b589e4f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b589e4f248039717b256c0162bb33b01c7c70122)
+from [uiceds/cee-492-term-project-fall-2022-swifties@ad67995](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ad67995655f2efa5107352a88fa0138b8316d320)
 on December 4, 2022.
 </em></small>
 
@@ -459,7 +459,11 @@ Because the problem was not the presence of several values for each column, deal
 ](https://user-images.githubusercontent.com/112972950/205474474-433aaf2a-1923-4f69-a214-9f7fe055c9a2.png "approach3"){#fig: approach3}
 
 #### 4- Removing "perfect" conditions
-Another way to look at the data imbalance of this dataset is by observing the features rather than the dependent variables. Part of the reason why the data is imbalanced is the fact that most of the time when the crashes happen, the coditions are "perfect", meaning the weather condition is clear, the road has no defcts, the lighting condition is daylight and the road surface condition is dry. Therefore, one approach taken by the team was to remove those conditions and try to run the decision tree model for the remaining cases. This increased the model accuracy, at best, to 85% 
+Another way to look at the data imbalance of this dataset is by observing the features rather than the dependent variables. Part of the reason why the data is imbalanced is the fact that most of the time when the crashes happen, the coditions are "perfect", meaning the weather condition is clear, the road has no defcts, the lighting condition is daylight and the road surface condition is dry. Therefore, one approach taken by the team was to remove those conditions and try to run the decision tree model for the remaining cases. This increased the model accuracy, at best, to 85%. This can be seen is Figure 15 below. The fraction of accurate predictions increased, compared to previous models and approaches, but this is still low for a training set.
+
+![
+**Confusion plot after implementing the fourth approach**
+](https://user-images.githubusercontent.com/112972950/205475445-76d4ebad-288a-496a-bfd7-477122bc9889.png "approach4"){#fig: approach4}
 
 ### c) Convolutional Neural Network (CNN)
 
