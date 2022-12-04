@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b589e4f248039717b256c0162bb33b01c7c70122/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@082329a](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/082329a800e5288dcdc4e54e8ce8c270b2421645)
+from [uiceds/cee-492-term-project-fall-2022-swifties@b589e4f](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b589e4f248039717b256c0162bb33b01c7c70122)
 on December 4, 2022.
 </em></small>
 
@@ -520,7 +520,7 @@ When the dataset was sampled to make the number of entries corresponding to ever
 
 ## Suggestions for Improvements in Crash Record Methods
 
-When it is talked about road safety and the technology needs for this area of the transportation engineering, it should be thought about how it is possible to induce drivers to proactively adopt measures for avoiding crashes (reducing speeds, turning on the headlights, opting to travel on a road with less defects, for example). In this work, models were developed to be potentially incorporated into navigation systems (such as Google Maps), in a way that these would give alerts to the driver to proceed with more caution when specific combinations of road surface conditions, road defects presence, lighting conditions, and weather conditions are present. However, because of factors such as the imbalance of data and the low correlation between the features and the labels (among others), the models developed were not able to do it in a satisfactory way, ending up predicting “low-severity” crashes in a frequency much higher than what happens in the real data. The limitations observed in the models are also derived from the limitations of the databases itself. 
+When addressing road safety and the technology needs for this area of the transportation engineering, it should be thought about how it is possible to induce drivers to proactively adopt measures for avoiding crashes (reducing speeds, turning on the headlights, opting to travel on a road with less defects, for example). In this work, models were developed to be potentially incorporated into navigation systems (such as Google Maps), in a way that these would give alerts to the driver to proceed with more caution when specific combinations of road surface conditions, road defects presence, lighting conditions, and weather conditions are present. However, because of factors such as the imbalance of data and the low correlation between the features and the labels (among others), the models developed were not able to achieve this in a satisfactory way, ending up predicting “low-severity” crashes in a frequency much higher than what happens in the real data. The limitations observed in the models were also caused by the limitations of the databases itself. 
 
 Aiming to improve the development of models like these in the future, more information (i.e., columns) could be added to the features’ data frame. Besides capturing information that can potentially be better correlated with the expected outputs, acquiring quantitative data could help on avoid relying on the one-hot encoding for the modeling. As a suggestion, the IDOT dataset could be improved by adding information such as:
 
