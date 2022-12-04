@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7e8e126c6e9d197e87c86f0e88fe65caa04fc241/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7e8e126c6e9d197e87c86f0e88fe65caa04fc241/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7e8e126c6e9d197e87c86f0e88fe65caa04fc241/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/ad67995655f2efa5107352a88fa0138b8316d320/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/7e8e126c6e9d197e87c86f0e88fe65caa04fc241/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@ad67995](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/ad67995655f2efa5107352a88fa0138b8316d320)
+from [uiceds/cee-492-term-project-fall-2022-swifties@7e8e126](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/7e8e126c6e9d197e87c86f0e88fe65caa04fc241)
 on December 4, 2022.
 </em></small>
 
@@ -463,7 +463,7 @@ Another way to look at the data imbalance of this dataset is by observing the fe
 
 ![
 **Confusion plot after implementing the fourth approach**
-](https://user-images.githubusercontent.com/112972950/205475445-76d4ebad-288a-496a-bfd7-477122bc9889.png "approach4"){#fig: approach4}
+](https://user-images.githubusercontent.com/112972950/205475750-4d45214e-7f69-4a4a-8d7f-ef4813fb0580.png "approach4"){#fig: approach4}
 
 ### c) Convolutional Neural Network (CNN)
 
