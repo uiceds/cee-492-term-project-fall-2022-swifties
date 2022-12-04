@@ -32,7 +32,7 @@ Crashworthiness
 CrashYr
 CSV
 Danesh
-Dataset
+dataset
 datasets
 DayOfWeekCode
 DCNN
@@ -72,6 +72,7 @@ IDOT
 IDOTAdmin
 IDOT’s
 ihna
+indepdent
 inexistent
 IntersectionRelated
 ISSN
@@ -126,7 +127,7 @@ Samimi
 Saud
 Scikit
 Similarily
-softmax
+Softmax
 Soheil
 subfeatures
 Thirion
