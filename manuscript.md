@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@3d1320e](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/3d1320e8c197ceed1aec08a40290a17ef213d3a0)
+from [uiceds/cee-492-term-project-fall-2022-swifties@6038a23](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/6038a23d8bff624f45b81e79d6356dc641c1c956)
 on December 4, 2022.
 </em></small>
 
@@ -477,15 +477,15 @@ During the training phase, the model included convolutional layers, dense layers
 
 The architecture of the Neural Network used is as follows:
 
-```model =Chain(
-    Conv((3,), 1=>2, pad=(1,)),
-    MaxPool((2,)),
-    Conv((3,), 2=>4, pad=(1,)),
-    MaxPool((2,)),
-    x -> reshape(x, :, size(x, 3)),
-    Dropout(1),
-    Dense(28,3),
-    softmax
+```model =Chain(  
+    Conv((3,), 1=>2, pad=(1,)),  
+    MaxPool((2,)),  
+    Conv((3,), 2=>4, pad=(1,)),  
+    MaxPool((2,)),  
+    x -> reshape(x, :, size(x, 3)),  
+    Dropout(1),  
+    Dense(28,3),  
+    softmax  
 )```
 
 The error metric used for training this Neural Network was the logistical cross entropy loss function. This function matches the “Softmax” function output, and works as a generalized version of cross entropy loss functions used for “more-than-two” classes classification problems.
