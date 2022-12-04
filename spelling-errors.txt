@@ -20,7 +20,7 @@ Comapring
 cond
 ConDT
 ConRF
-convolutional
+Convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -30,9 +30,9 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-csv
+CSV
 Danesh
-dataset
+Dataset
 datasets
 DayOfWeekCode
 DCNN
@@ -57,6 +57,7 @@ Feudale
 fsaudm
 Grainger
 Gramfort
+gridded
 Grisel
 Grivna
 Hakkert

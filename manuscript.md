@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d2e4ff46bd0fd60b15b347c099b50d207246ec3a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d2e4ff46bd0fd60b15b347c099b50d207246ec3a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d2e4ff46bd0fd60b15b347c099b50d207246ec3a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/d2e4ff46bd0fd60b15b347c099b50d207246ec3a/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/3d1320e8c197ceed1aec08a40290a17ef213d3a0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@d2e4ff4](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/d2e4ff46bd0fd60b15b347c099b50d207246ec3a)
+from [uiceds/cee-492-term-project-fall-2022-swifties@3d1320e](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/3d1320e8c197ceed1aec08a40290a17ef213d3a0)
 on December 4, 2022.
 </em></small>
 
@@ -473,7 +473,7 @@ The Deep Convolutional Neural Network was constructed using the Julia Machine Le
 
 For this model, as a first attempt, the entire dataset was used. An important consideration to account for when using the Flux library is that the neural network expects a very specific structure of the data: a 3 dimensional matrix of the input data that contains the observations divided into vectors, and one-hot encoded variables.
 
-During the training phase, the model included convolutional layers, dense layers (to reduce the dimensionality of the ouput), the “ReLU” activation function (one of the more popular activation functions), pooling layers (for a more efficient computation and reduce overfitting), a dropout layer (to specifically target overfitting), and a “Softmax” function (a generalized version of the functions used for classification problems). These functions where all put together using a “Chain” function. In the testing phase, the Dropout functions is disabled. 
+During the training phase, the model included convolutional layers, dense layers (to reduce the dimensionality of the ouput), the “ReLU” activation function (one of the more popular activation functions), pooling layers (for a more efficient computation and reduce overfitting), a dropout layer (to specifically target overfitting), and a “Softmax” function (a generalized version of the functions used for classification problems). These functions where all put together using a “Chain” function. In the testing phase, the Dropout function is disabled. 
 
 The architecture of the Neural Network used is as follows:
 
@@ -508,7 +508,12 @@ With this “worst case scenario” dataset, the accuracy achieved reached 85.1%
 **Using a reduced dataset**
 ]( https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png "DCNN2"){#fig: DCNN -reduced}
 
-The results obtained using this predictive model may not be able to improve any further given the nature of the dataset used to train the predicted models. Since the amount of “Property Damage” as one of the possible “Crash Severity” is overwhelmingly greater than the other 2 possible classes, the models tend to learn that the majority of combinations of the selected parameters would lead to a “Property Damage” prediction.
+The results obtained using this predictive model may not be able to improve any further given the nature of the Convolutional Neural Networks and the dataset used to train the predictive models. It is relevant to note that: 
+
+1. Convolutional Neural Networks are designed to pick up spatial patterns in "gridded" data, which is not one of the characteristics of the data analyzed in this project. Hence, this predictive model's effectiveness may be limited by the lack of spatial patterns in the data. 
+
+2. Since the amount of “Property Damage” as one of the possible “Crash Severity” is overwhelmingly greater than the other 2 possible classes, the models tend to learn that the majority of combinations of the selected parameters would lead to a “Property Damage” prediction.
+
 
 ## Preliminary Conclusions
 
