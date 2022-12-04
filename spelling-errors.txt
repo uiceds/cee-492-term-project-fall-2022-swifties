@@ -4,6 +4,7 @@ Abu
 Amir
 analize
 APIs
+approcimately
 Brucher
 Brunton
 Buitinck
@@ -33,7 +34,7 @@ CrashYr
 CSV
 Danesh
 dataset
-Datasets
+datasets
 DayOfWeekCode
 DCNN
 DecisionTree
@@ -72,7 +73,6 @@ IDOT
 IDOTAdmin
 IDOT’s
 ihna
-indepdent
 inexistent
 IntersectionRelated
 ISSN

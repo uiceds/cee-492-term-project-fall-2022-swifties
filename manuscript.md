@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/32df8e11b9af81f18beb04963fb36c3d963a7da4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/32df8e11b9af81f18beb04963fb36c3d963a7da4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/32df8e11b9af81f18beb04963fb36c3d963a7da4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/32df8e11b9af81f18beb04963fb36c3d963a7da4/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/082329a800e5288dcdc4e54e8ce8c270b2421645/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@32df8e1](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/32df8e11b9af81f18beb04963fb36c3d963a7da4)
+from [uiceds/cee-492-term-project-fall-2022-swifties@082329a](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/082329a800e5288dcdc4e54e8ce8c270b2421645)
 on December 4, 2022.
 </em></small>
 
@@ -442,8 +442,8 @@ After removing these rows, performing one-hot encoding again and running the dec
 
 
 
-#### 2- Taking into consideration another indepdent variable 
-It was also decided to try considering one more column in the dataset and that could probably increase the accuracy. The reason behind this reasoning is if the model was offered more insight about the data, other than the surface road conditions, road defects, weather conditions and lighting conditions, this would probably help the model notice more relationships between the features and the dependent variable and thus increasing the accuracy. Therefore, and  based on the previous analysis of correlations between the columns, it was found that the presence or absence of road intersections was relatively highly correlated with crash severity, it was re-considered as one of the features for modelling. This attribute has 2 values: Yes or No. One-hot encoding was performed again and the decision tree model was applied again. However, the accuracy was also 78%. This showed that increasing the number of attributes is not the solution to low accuracy, in this case.
+#### 2- Taking into consideration another independent variable 
+It was also decided to try considering one more column in the dataset and that could probably increase the accuracy. The reason behind this reasoning is if the model was offered more insight about the data, other than the surface road conditions, road defects, weather conditions and lighting conditions, this would probably help the model notice more relationships between the features and the dependent variable and thus increasing the accuracy. Therefore, and  based on the previous analysis of correlations between the columns, it was found that the presence or absence of road intersections was relatively highly correlated with crash severity, it was re-considered as one of the features for modelling. This attribute has 2 values: Yes or No. One-hot encoding was performed again and the decision tree model was applied again. However, the accuracy was also 78%. This showed that increasing the number of attributes is not the solution to low accuracy, in this case. Figure 13 below shows the confusion plot for the model after implementing approach 2, which is adding one the "IntersectionRelated" attribute. It can be seen that did not help make better predictions.
 
 ![
 **Confusion plot after implementing the second approach**
@@ -452,7 +452,11 @@ It was also decided to try considering one more column in the dataset and that c
 
 #### 3- Addressing the issue of imbalanced data
 Because the problem was not the presence of several values for each column, dealing with the imbalanced dataset was another approach that was implemented by the team. This model is trying to predict the crash severity level which has three label options: "Property Damage", "Injury" and "Fatal". "Property Damage" constitutes roughly 80% of the data; 627706 rows out 809824 total rows (after cleaning the dataset), This imbalance is causing the model to predict "Property Damage" most of the time, decreasing the accuracy of the model. One way of addressing this is running the model with the same number of rows for each label.
-"Fatal" had the lowest number of rows in the data which was around 3,000. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. However, this decreased the accuracy of te decision tree and random forest to around 40%. The reason for this may be referred to the low number of rows that the dataset was modified to have as compared to the initial data, which, although was imbalanced, had much more rows and that gave a better accuracy. 
+"Fatal" had the lowest number of rows in the data which was 2694. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. This approach also yielded approcimately the same accuracy on the training data which is 80%. This can be noticed by observing the confusion plot for this model. (Figure 14)
+
+![
+**Confusion plot after implementing the third approach**
+](https://user-images.githubusercontent.com/112972950/205474474-433aaf2a-1923-4f69-a214-9f7fe055c9a2.png "approach3"){#fig: approach3}
 
 #### 4- Removing "perfect" conditions
 Another way to look at the data imbalance of this dataset is by observing the features rather than the dependent variables. Part of the reason why the data is imbalanced is the fact that most of the time when the crashes happen, the coditions are "perfect", meaning the weather condition is clear, the road has no defcts, the lighting condition is daylight and the road surface condition is dry. Therefore, one approach taken by the team was to remove those conditions and try to run the decision tree model for the remaining cases. This increased the model accuracy, at best, to 85% 
