@@ -32,7 +32,7 @@ Crashworthiness
 CrashYr
 CSV
 Danesh
-dataset
+Dataset
 datasets
 DayOfWeekCode
 DCNN
@@ -126,7 +126,7 @@ Samimi
 Saud
 Scikit
 Similarily
-Softmax
+softmax
 Soheil
 subfeatures
 Thirion

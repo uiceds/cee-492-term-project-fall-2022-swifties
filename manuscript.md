@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-03'
+date-meta: '2022-12-04'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-12-03" />
-  <meta name="citation_publication_date" content="2022-12-03" />
+  <meta name="dc.date" content="2022-12-04" />
+  <meta name="citation_publication_date" content="2022-12-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a447d74bc1aa333da857c5441573e3f9c5707bb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a447d74bc1aa333da857c5441573e3f9c5707bb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a447d74bc1aa333da857c5441573e3f9c5707bb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,10 +77,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/db922dd9d037d5fdca54fe2f0574c400113a9018/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/0a447d74bc1aa333da857c5441573e3f9c5707bb/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@db922dd](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/db922dd9d037d5fdca54fe2f0574c400113a9018)
-on December 3, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@0a447d7](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/0a447d74bc1aa333da857c5441573e3f9c5707bb)
+on December 4, 2022.
 </em></small>
 
 ## Authors
@@ -388,7 +388,7 @@ The first proposed model (Decision Tree) resulted in limited accuracy (78%) on t
 Using package: DecisionTreeClassifier.jl.
 ]( https://user-images.githubusercontent.com/63623246/202955035-4e2c3ee6-60ab-4d00-a1e8-95dd54139032.png "DT_Structure"){#fig:DT_Structure}
 
-Figure 9 below shows the confusion plot for the decision tree model. It can be seen from the plot that model is predicting 691050 accurate values for "Property Damage" and 111 non-accurate values as "Injury" instead of "Property Damage". The prediction accuracy is much worse for the other two labels. For  "Injury", the model predicted only 185 accurate values and predicted 189752 values for "Property Damage" instead of "Injury". Similarily, for "Fatal", the model predicted only 2 accurate values and inaccurately predicted 2692 "Property Damage" instead of "Fatal". This shows that the model is predicting "Property Damage" for most of the cases.
+Figure 10 below shows the confusion plot for the decision tree model. It can be seen from the plot that model is predicting 691050 accurate values for "Property Damage" and 111 non-accurate values as "Injury" instead of "Property Damage". The prediction accuracy is much worse for the other two labels. For  "Injury", the model predicted only 185 accurate values and predicted 189752 values for "Property Damage" instead of "Injury". Similarily, for "Fatal", the model predicted only 2 accurate values and inaccurately predicted 2692 "Property Damage" instead of "Fatal". This shows that the model is predicting "Property Damage" for most of the cases.
 
 
 ![
@@ -397,14 +397,14 @@ Figure 9 below shows the confusion plot for the decision tree model. It can be s
 
 This issue can be summarized by stating that one of the possible outputs (“Property Damage”), the lowest severity crash type, dominates the dataset, accounting for almost 78% of the total number of cases. Consequently, a simple model that only predicts “Property Damage”, independently of the entries, would have 78% accuracy. This imposes a huge bias in the criteria being used by the model to predict an output. As seen in the previous figure, most of the leaves of the decision tree get the right output just because the likelihood of predicting one of them is enormously higher than the likelihood of any of the other two.
 
-Alternative strategies were brainstormed to overcome the imbalanced data issue. Firstly, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. As this test didn’t bring a considerable change either, a Random Forest (RF) model was also run for both datasets (full and reduced, equally sampled). 
+Alternative strategies were brainstormed to overcome the imbalanced data issue. First, the DT models were re-trained using a database comprised of a sample of equal numbers of observations for the 3 different classes in the expected output vector. As this test didn’t bring a considerable change either, a Random Forest (RF) model was also run for both datasets (full and reduced, equally sampled). 
 
 ### b) Random Forest
 
-The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes.  Given the presence of multiple Decision Trees (DTs), the RF models using the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model. 
+The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes.  Given the presence of multiple Decision Trees (DTs), the RF models use the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model. 
 
-Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained. Similar to the decision tree model, the accuracy obtained by the Random Forest model was also 78%. Figure 10 below shows the confusion plot for the random forest.
-It can be seen in the figure that the model is working well only for "Property Damage" where it is predicting 691119 accurate values and only 42 non accurate ones. For "Injury", the model is predicting 117 accurate values and is wrongly prediciting 189821 "Property Damage" instead. In addition, for "Fatal", the model is only predicting one accurate value and for the remaining ones, it is giving "Property Damage" instead. Comapring the decison tree and the random forest models, the random forest is working even better for "Property Damage" and worse for the other 2, meaning, it is predicting more accurate values as "Property Damage" and less accurate values for "Injury" and "Fatal" keeping the overall accuracy the same at 78%.
+Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained. However, the accuracy obtained by the Random Forest model was also 78%. Figure 11 below shows the confusion plot for the random forest model.
+It can be seen in the figure that the model is working well only for "Property Damage" where it is predicting 691119 accurate values and only 42 non accurate ones. For "Injury", the model is predicting 117 accurate values and is wrongly prediciting 189821 "Property Damage" values instead. In addition, for "Fatal", the model is only predicting one accurate value and for the remaining ones, it is predicting "Property Damage" instead. Comapring the decison tree and the random forest models, the random forest is working even better for "Property Damage" and worse for the other 2, meaning, it is predicting more accurate values as "Property Damage" and less accurate values for "Injury" and "Fatal" keeping the overall accuracy the same at 78%.
 
 ![
 **Confusion plot for the Random Forest model**
