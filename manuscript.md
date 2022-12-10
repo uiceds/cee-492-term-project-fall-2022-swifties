@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@25f90e4](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0)
+from [uiceds/cee-492-term-project-fall-2022-swifties@b520d8b](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb)
 on December 10, 2022.
 </em></small>
 
@@ -438,7 +438,7 @@ After removing these rows, performing one-hot encoding again and running the dec
 
 ![
 **Confusion plot after implementing the first approach**
-](https://user-images.githubusercontent.com/112972950/205471191-a5a9a576-62ff-480f-add2-90e1b82da68a.png "approach1"){#fig: approach1}
+](https://user-images.githubusercontent.com/112972950/206821396-4fbc0d1f-11de-447c-8629-7c7e3c039945.png "approach1"){#fig: approach1}
 
 
 
