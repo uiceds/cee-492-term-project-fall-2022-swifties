@@ -63,9 +63,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0">uiceds/cee-492-term-project-fall-2022-swifties@25f90e4</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/b520d8bdf5f036d8cd2f7b18e63f7fd58d5a6ecb">uiceds/cee-492-term-project-fall-2022-swifties@b520d8b</a>
 on December 10, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -438,7 +438,7 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 </figure>
 </div>
 <p>Figure 10 below shows the confusion plot for the decision tree model. It can be seen from the plot that model is predicting 691050 accurate values for “Property Damage” and 111 non-accurate values as “Injury” instead of “Property Damage”. The prediction accuracy is much worse for the other two labels. For “Injury”, the model predicted only 185 accurate values and predicted 189752 values for “Property Damage” instead of “Injury”. Similarily, for “Fatal”, the model predicted only 2 accurate values and inaccurately predicted 2692 “Property Damage” instead of “Fatal”. This shows that the model is predicting “Property Damage” for most of the cases.</p>
-<div id="fig:f2cc5920-fade-4f78-aa07-08957d39a3bf" class="fignos">
+<div id="fig:786230f2-d3b9-4c4c-bbe4-5dfb19f59096" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204965595-4ffaac2b-ff2b-4450-9829-ae2e5e6e7b58.png" alt="Figure 10: Confusion plot for the Decision Tree model" /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Confusion plot for the Decision Tree model</strong></figcaption>
 </figure>
@@ -449,7 +449,7 @@ Using package: DecisionTreeClassifier.jl.</figcaption>
 <p>The Random Forest (RF) models are used to predict both categorical and continuous outputs. The background of the RF concept recalls for the presence of multiple classification trees, which partition the data using a sequence of binary splits on individual variables. The non-split nodes are called terminal nodes. Given the presence of multiple Decision Trees (DTs), the RF models use the bagging method to build decision trees as parallel estimators, which are finally averaged to give rise to the mean predictive model. It should be noted that improved RF estimations can be obtained by taking into account uncorrelated and difference between DTs, otherwise the final accuracy of the RF and DT models would be similar. In Julia, the so-called “RandomForestClassifier” object can be used to build a RF model.</p>
 <p>Given the limitations of the obtained DT results, a Random Forest (RF) model was implemented in order to evaluate if any increase in the model accuracy could be obtained. However, the accuracy obtained by the Random Forest model was also 78%. Figure 11 below shows the confusion plot for the random forest model.
 It can be seen in the figure that the model is working well only for “Property Damage” where it is predicting 691119 accurate values and only 42 non accurate ones. For “Injury”, the model is predicting 117 accurate values and is wrongly prediciting 189821 “Property Damage” values instead. In addition, for “Fatal”, the model is only predicting one accurate value and for the remaining ones, it is predicting “Property Damage” instead. Comapring the decison tree and the random forest models, the random forest is working even better for “Property Damage” and worse for the other 2, meaning, it is predicting more accurate values as “Property Damage” and less accurate values for “Injury” and “Fatal” keeping the overall accuracy the same at 78%.</p>
-<div id="fig:99dd389d-f0e8-47b9-8a24-a8b6fd12b9e5" class="fignos">
+<div id="fig:e4556cc7-bf75-41e4-a6bc-9f84e3be044e" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/204968729-0acd38b3-028d-4289-a41c-e06183024271.png" alt="Figure 11: Confusion plot for the Random Forest model" /><figcaption aria-hidden="true"><span>Figure 11:</span> <strong>Confusion plot for the Random Forest model</strong></figcaption>
 </figure>
@@ -545,14 +545,14 @@ Thus, it was decided to delete those rows including the label “Other” or “
 </table>
 <p>Table 3: Different values for each of the attributes chosen for the predictive model</p>
 <p>After removing these rows, performing one-hot encoding again and running the decision tree/random forest models again, the same level of accuracy of 78% was achieved. This indicated that the higher number of one-hot encoded columns is not impacting the prediction. Figure 12 below shows the confusion matrix after implementing the first approach. It can be seen from the plot why the accuracy stayed at 78%. The model predicted accurate values in some cases but at the same predicted inaccurate ones in other cases.</p>
-<div id="fig:5842daa2-aa63-4214-86ff-5a9d21efb78c" class="fignos">
+<div id="fig:3c164dab-088f-4197-b7d0-bd26df4570bf" class="fignos">
 <figure>
-<img src="https://user-images.githubusercontent.com/112972950/205471191-a5a9a576-62ff-480f-add2-90e1b82da68a.png" alt="Figure 12: Confusion plot after implementing the first approach" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Confusion plot after implementing the first approach</strong></figcaption>
+<img src="https://user-images.githubusercontent.com/112972950/206821396-4fbc0d1f-11de-447c-8629-7c7e3c039945.png" alt="Figure 12: Confusion plot after implementing the first approach" /><figcaption aria-hidden="true"><span>Figure 12:</span> <strong>Confusion plot after implementing the first approach</strong></figcaption>
 </figure>
 </div>
 <h4 id="taking-into-consideration-another-independent-variable">2- Taking into consideration another independent variable</h4>
 <p>It was also decided to try considering one more column in the dataset and that could probably increase the accuracy. The reason behind this reasoning is if the model was offered more insight about the data, other than the surface road conditions, road defects, weather conditions and lighting conditions, this would probably help the model notice more relationships between the features and the dependent variable and thus increasing the accuracy. Therefore, and based on the previous analysis of correlations between the columns, it was found that the presence or absence of road intersections was relatively highly correlated with crash severity, it was re-considered as one of the features for modelling. This attribute has 2 values: Yes or No. One-hot encoding was performed again and the decision tree model was applied again. However, the accuracy was also 78%. This showed that increasing the number of attributes is not the solution to low accuracy, in this case. Figure 13 below shows the confusion plot for the model after implementing approach 2, which is adding one the “IntersectionRelated” attribute. It can be seen that did not help make better predictions.</p>
-<div id="fig:043c5cde-b65a-4c5a-9a60-207c8889b350" class="fignos">
+<div id="fig:781e5650-9ee6-4c87-882b-caa32bcd2686" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/205472284-edfd1e0c-af22-4e8b-8ebf-237f18b9e146.png" alt="Figure 13: Confusion plot after implementing the second approach" /><figcaption aria-hidden="true"><span>Figure 13:</span> <strong>Confusion plot after implementing the second approach</strong></figcaption>
 </figure>
@@ -560,14 +560,14 @@ Thus, it was decided to delete those rows including the label “Other” or “
 <h4 id="addressing-the-issue-of-imbalanced-data">3- Addressing the issue of imbalanced data</h4>
 <p>Because the problem was not the presence of several values for each column, dealing with the imbalanced dataset was another approach that was implemented by the team. This model is trying to predict the crash severity level which has three label options: “Property Damage”, “Injury” and “Fatal”. “Property Damage” constitutes roughly 80% of the data; 627706 rows out 809824 total rows (after cleaning the dataset), This imbalance is causing the model to predict “Property Damage” most of the time, decreasing the accuracy of the model. One way of addressing this is running the model with the same number of rows for each label.
 “Fatal” had the lowest number of rows in the data which was 2694. Therefore, the same number of rows was randomly selected from each of the other two labels: Property Damage and Injury. This approach also yielded approcimately the same accuracy on the training data which is 80%. This can be noticed by observing the confusion plot for this model. (Figure 14)</p>
-<div id="fig:43ac141c-785e-46a3-8e7a-01ca8770bea6" class="fignos">
+<div id="fig:a6e9d987-78c5-4c47-b492-2b0f682a0979" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/205474474-433aaf2a-1923-4f69-a214-9f7fe055c9a2.png" alt="Figure 14: Confusion plot after implementing the third approach" /><figcaption aria-hidden="true"><span>Figure 14:</span> <strong>Confusion plot after implementing the third approach</strong></figcaption>
 </figure>
 </div>
 <h4 id="removing-perfect-conditions">4- Removing “perfect” conditions</h4>
 <p>Another way to look at the data imbalance of this dataset is by observing the features rather than the dependent variables. Part of the reason why the data is imbalanced is the fact that most of the time when the crashes happen, the coditions are “perfect”, meaning the weather condition is clear, the road has no defcts, the lighting condition is daylight and the road surface condition is dry. Therefore, one approach taken by the team was to remove those conditions and try to run the decision tree model for the remaining cases. This increased the model accuracy, at best, to 85%. This can be seen is Figure 15 below. The fraction of accurate predictions increased, compared to previous models and approaches, but this is still low for a training set.</p>
-<div id="fig:093e64c6-7884-4f25-bef8-a9b1c9c7140b" class="fignos">
+<div id="fig:d04634fe-d291-49b4-bdc4-87af7f45f140" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112972950/205475750-4d45214e-7f69-4a4a-8d7f-ef4813fb0580.png" alt="Figure 15: Confusion plot after implementing the fourth approach" /><figcaption aria-hidden="true"><span>Figure 15:</span> <strong>Confusion plot after implementing the fourth approach</strong></figcaption>
 </figure>
@@ -583,7 +583,7 @@ Thus, it was decided to delete those rows including the label “Other” or “
 <p>The hyper parameters used to train the neural network consisted of a batch size of approximately one third of the length of the original dataset (300000 observations), which is consistent with the amount of observations collected in one year (as described previously, the dataset consist of a compilation of data from 3 different years). The number of steps or “epochs” for training was chosen empirically, with 100 steps consistently showing a plateau in the accuracy improvement. Finally, the learning rate was defined as 0.01.</p>
 <p>Similarly to the other predictive models used, the Convolutional Neural Network achieved an accuracy of 78.3%. The training process is illustrated in figure 10:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training">Convolutional Neural Network Training</h4>
-<div id="fig:c1bbb176-6c65-46ce-9c93-8a858989d6b4" class="fignos">
+<div id="fig:ddc23acd-10c3-4f4f-9fb4-4feceb5f34a1" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202952710-056bd39e-6cab-4de5-a95f-d853c18e52a2.png" alt="Figure 16: Using the complete dataset" /><figcaption aria-hidden="true"><span>Figure 16:</span> <strong>Using the complete dataset</strong></figcaption>
 </figure>
@@ -591,7 +591,7 @@ Thus, it was decided to delete those rows including the label “Other” or “
 <p>Given that the results did not show a significant improvement compared to the Decision Tree predictive models, a “worst-case scenario” of the data was generated and used to train this model. In an attempt to reduce the outstanding difference of “Crash Severity” conditions, this new dataset excluded the “Clear” weather condition, “No defects” road defect condition, and “Dry” road surface condition. Since the dataset reduce its size to approximately 20000 observations, the batch size was reduced respectively to train the model.</p>
 <p>With this “worst case scenario” dataset, the accuracy achieved reached 85.1%. The progress of training the Neural Network with this data are shown in figure 11:</p>
 <h4 class="page_break_before" id="convolutional-neural-network-training-1">Convolutional Neural Network Training</h4>
-<div id="fig:c8e2f1a8-28c2-492e-95f2-41d562114f98" class="fignos">
+<div id="fig:6f8bd8ee-c9c7-4b73-92c4-e3e073883116" class="fignos">
 <figure>
 <img src="https://user-images.githubusercontent.com/112973190/202955768-b7fd5a48-6668-4564-82cc-d6a6da5ea847.png" alt="Figure 17: Using a reduced dataset" /><figcaption aria-hidden="true"><span>Figure 17:</span> <strong>Using a reduced dataset</strong></figcaption>
 </figure>
