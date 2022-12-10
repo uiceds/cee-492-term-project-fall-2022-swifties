@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-04'
+date-meta: '2022-12-10'
 author-meta:
 - Lara Diab
 - Renan Santos Maia
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="og:title" content="Crash Risk Prediction Model using Data Science" />
   <meta property="twitter:title" content="Crash Risk Prediction Model using Data Science" />
-  <meta name="dc.date" content="2022-12-04" />
-  <meta name="citation_publication_date" content="2022-12-04" />
+  <meta name="dc.date" content="2022-12-10" />
+  <meta name="citation_publication_date" content="2022-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,10 +77,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/6038a23d8bff624f45b81e79d6356dc641c1c956/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@6038a23](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/6038a23d8bff624f45b81e79d6356dc641c1c956)
-on December 4, 2022.
+from [uiceds/cee-492-term-project-fall-2022-swifties@402dcd6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/402dcd61cbf08629219360b4b315e76223297d01)
+on December 10, 2022.
 </em></small>
 
 ## Authors
@@ -226,7 +226,7 @@ IDOT's Crash Data from 2017, 2018 and 2019.
 ![
 **Bar Plot Historical Crashes.**
 Crash reports from 2017 in the state of Illinois, USA.
-]( https://user-images.githubusercontent.com/112973190/198912087-2713cf8e-9bff-48d8-92c9-4eaa55ab5f13.png "crash_2017"){#fig:crash-2017}
+](https://user-images.githubusercontent.com/112972950/206819370-0efde64b-d6eb-476e-b303-e1442ab71129.png "crash_2017"){#fig:crash-2017}
 
 For 2017, the month with most incidents is December (“12”), with __28,032__ crashes (out of __295,651__ for that year), and the month with the least crashes is February (“2”), with __20,049__ incidents that month. These findings reflect the effect of weather conditions as well, given that during the very first and the last months of the year, the number of accidents increases. These months correspond to the winter season and englobes certain holidays where people might be very active and more accidents are likely to occur. The "_February effect_", as we would call it, where a decrease in the number of accidents can be observed, is not necessarily unexpected, because although it's still part of the winter, this is the month with the least number of days. 
 
