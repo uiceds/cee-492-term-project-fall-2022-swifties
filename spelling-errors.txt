@@ -20,7 +20,7 @@ Comapring
 cond
 ConDT
 ConRF
-convolutional
+Convolutional
 Cournapeau
 COVID
 Cramer’s
@@ -30,7 +30,7 @@ CrashMonth
 CrashSeverity
 Crashworthiness
 CrashYr
-CSV
+csv
 Danesh
 dataset
 datasets

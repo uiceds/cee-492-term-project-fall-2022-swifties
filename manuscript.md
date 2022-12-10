@@ -53,9 +53,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +77,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/402dcd61cbf08629219360b4b315e76223297d01/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-swifties/v/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-swifties@402dcd6](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/402dcd61cbf08629219360b4b315e76223297d01)
+from [uiceds/cee-492-term-project-fall-2022-swifties@25f90e4](https://github.com/uiceds/cee-492-term-project-fall-2022-swifties/tree/25f90e4beb4bbcf641ba0d1117e8993bc2bc0db0)
 on December 10, 2022.
 </em></small>
 
@@ -233,14 +233,14 @@ For 2017, the month with most incidents is December (“12”), with __28,032__ 
 ![
 **Bar Plot Historical Crashes.**
 Crash reports from 2018 in the state of Illinois, USA.
-]( https://user-images.githubusercontent.com/112973190/198912109-91307e17-fc48-4708-b7db-594f47e67e57.png "crash_2018"){#fig:crash-2018}
+]( https://user-images.githubusercontent.com/112972950/206819722-8e5a50c1-7b7d-45ea-9aba-26c9208506d1.png "crash_2018"){#fig:crash-2018}
 
 Now, for 2018, different from the previous year, the month with the largest count of crashes is November (“11”), with __28,743__ recorded crashes (out of __304,196__). The month with the least number of accidents is March (“3”), with __22,200__ crashes. For this year, just like for 2017, the months where peaks happen can be associated with the worst seasons for a driver (winter).
 
 ![
 **Bar Plot Historical Crashes.**
 Crash reports from 2019 in the state of Illinois, USA.
-]( https://user-images.githubusercontent.com/112973190/198912124-1cba7a7a-5429-475b-9f49-93e684e18740.png "crash_2019"){#fig:crash-2019}
+]( https://user-images.githubusercontent.com/112972950/206819871-2e45d516-fdba-4246-bd35-f97ff6255b09.png "crash_2019"){#fig:crash-2019}
 
 For the year 2019, the month with the most number of crash records is November (“11”), with __26,964__ recorded crashes (out of __283,946__), and the month with the least number of accidents is March (“3”), with __20,569__ incidents. in a similar way to the years 2017 and 2018, the months with the highest records belong to the same season. 
 
